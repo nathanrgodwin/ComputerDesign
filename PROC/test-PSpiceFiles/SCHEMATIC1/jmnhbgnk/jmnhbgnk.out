@@ -1,0 +1,422 @@
+
+**** 02/21/17 16:42:15 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-jmnhbgnk"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\jmnhbgnk.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "jmnhbgnk.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Nathan\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10us 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST
+V_V4         B 0  
++PULSE 0 5 1us .001us .001us 2us 4.002us
+V_V1         A 0  
++PULSE 0 5 0 .001us .001us 2us 4.002us
+X_U1A         B A G $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1B         B G N06488 $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1C         G A N06481 $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1D         N06488 N06481 N08943 $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         P C N09157 $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2B         B B N08115 $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2C         A A N08108 $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2D         N08115 N08108 P $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3A         N09157 G COUT $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4D         N08720 N08710 S $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3B         N08943 C N08692 $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4C         N08692 C N08710 $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4B         N08943 N08692 N08720 $G_DPWR $G_DGND 74HC00 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+C_C2         0 COUT  1p  TC=0,0 
+C_C3         0 S  1p  TC=0,0 
+V_V5         C 0  
++PULSE 0 5 .5us .001us .001us 2us 4.002us
+
+**** RESUMING jmnhbgnk.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node B
+*
+* Moving X_U2B.U1:IN2 from analog node B to new digital node B$AtoD
+X$B_AtoD1
++ B
++ B$AtoD
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+* Moving X_U2B.U1:IN1 from analog node B to new digital node B$AtoD2
+X$B_AtoD2
++ B
++ B$AtoD2
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+* Moving X_U1B.U1:IN1 from analog node B to new digital node B$AtoD3
+X$B_AtoD3
++ B
++ B$AtoD3
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+* Moving X_U1A.U1:IN1 from analog node B to new digital node B$AtoD4
+X$B_AtoD4
++ B
++ B$AtoD4
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+*
+* Analog/Digital interface for node A
+*
+* Moving X_U2C.U1:IN2 from analog node A to new digital node A$AtoD
+X$A_AtoD1
++ A
++ A$AtoD
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+* Moving X_U2C.U1:IN1 from analog node A to new digital node A$AtoD2
+X$A_AtoD2
++ A
++ A$AtoD2
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+* Moving X_U1C.U1:IN2 from analog node A to new digital node A$AtoD3
+X$A_AtoD3
++ A
++ A$AtoD3
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+* Moving X_U1A.U1:IN2 from analog node A to new digital node A$AtoD4
+X$A_AtoD4
++ A
++ A$AtoD4
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+*
+* Analog/Digital interface for node COUT
+*
+* Moving X_U3A.U1:OUT1 from analog node COUT to new digital node COUT$DtoA
+X$COUT_DtoA1
++ COUT$DtoA
++ COUT
++ $G_DPWR
++ $G_DGND
++ DtoA_HC
++       PARAMS: DRVH=  87     DRVL=  87     CAPACITANCE=   0     
+*
+* Analog/Digital interface for node S
+*
+* Moving X_U4D.U1:OUT1 from analog node S to new digital node S$DtoA
+X$S_DtoA1
++ S$DtoA
++ S
++ $G_DPWR
++ $G_DGND
++ DtoA_HC
++       PARAMS: DRVH=  87     DRVL=  87     CAPACITANCE=   0     
+*
+* Analog/Digital interface for node C
+*
+* Moving X_U4C.U1:IN2 from analog node C to new digital node C$AtoD
+X$C_AtoD1
++ C
++ C$AtoD
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+* Moving X_U3B.U1:IN2 from analog node C to new digital node C$AtoD2
+X$C_AtoD2
++ C
++ C$AtoD2
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+* Moving X_U2A.U1:IN2 from analog node C to new digital node C$AtoD3
+X$C_AtoD3
++ C
++ C$AtoD3
++ $G_DPWR
++ $G_DGND
++ AtoD_HC
++       PARAMS: CAPACITANCE=   3.5000E-12
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+**** 02/21/17 16:42:15 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-jmnhbgnk"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\jmnhbgnk.sim ] 
+
+
+ ****     Digital Input MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DIN74HC         
+      S0NAME 0               
+       S0TSW    5.000000E-09 
+       S0RLO    1            
+       S0RHI  100.000000E+03 
+      S1NAME 1               
+       S1TSW    5.000000E-09 
+       S1RLO  100.000000E+03 
+       S1RHI    1            
+      S2NAME X               
+       S2TSW    5.000000E-09 
+       S2RLO  110            
+       S2RHI  100            
+      S3NAME R               
+       S3TSW    5.000000E-09 
+       S3RLO  110            
+       S3RHI  100            
+      S4NAME F               
+       S4TSW    5.000000E-09 
+       S4RLO  110            
+       S4RHI  100            
+      S5NAME Z               
+       S5TSW    5.000000E-09 
+       S5RLO  200.000000E+03 
+       S5RHI  200.000000E+03 
+
+
+**** 02/21/17 16:42:15 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-jmnhbgnk"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\jmnhbgnk.sim ] 
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO74HC          
+    TIMESTEP  100.000000E-12 
+      S0NAME X               
+       S0VHI     .7          
+       S0VLO     .2          
+      S1NAME 0               
+       S1VHI     .2          
+       S1VLO    -.3          
+      S2NAME R               
+       S2VHI     .55         
+       S2VLO     .2          
+      S3NAME R               
+       S3VHI     .7          
+       S3VLO     .45         
+      S4NAME X               
+       S4VHI     .7          
+       S4VLO     .2          
+      S5NAME 1               
+       S5VHI    1.3          
+       S5VLO     .7          
+      S6NAME F               
+       S6VHI     .7          
+       S6VLO     .45         
+      S7NAME F               
+       S7VHI     .55         
+       S7VLO     .2          
+
+
+**** 02/21/17 16:42:15 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-jmnhbgnk"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\jmnhbgnk.sim ] 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_HC00          
+      TPLHMN    3.600000E-09 
+      TPLHTY    9.000000E-09 
+      TPLHMX   23.000000E-09 
+      TPHLMN    3.600000E-09 
+      TPHLTY    9.000000E-09 
+      TPHLMX   23.000000E-09 
+
+
+**** 02/21/17 16:42:15 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-jmnhbgnk"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\jmnhbgnk.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_HC           IO_HC_DTOA      
+        INLD    3.500000E-12                 
+        DRVL   87                            
+        DRVH   87                            
+       AtoD1 AtoD_HC                         
+       AtoD2 AtoD_HC_NX                      
+       AtoD3 AtoD_HC                         
+       AtoD4 AtoD_HC_NX                      
+       DtoA1 DtoA_HC                         
+       DtoA2 DtoA_HC                         
+       DtoA3 DtoA_HC_E                       
+       DtoA4 DtoA_HC_E                       
+      TSWHL1    2.742000E-09                 
+      TSWHL2    2.742000E-09                 
+      TSWHL3    2.751000E-09                 
+      TSWHL4    2.751000E-09                 
+      TSWLH1    2.758000E-09                 
+      TSWLH2    2.758000E-09                 
+      TSWLH3    2.763000E-09                 
+      TSWLH4    2.763000E-09                 
+       TPWRT    2.000000E-09  100.000000E+03 
+
+
+**** 02/21/17 16:42:15 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-jmnhbgnk"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\jmnhbgnk.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    A)    0.0000  (    B)    0.0000  (    C)    0.0000  (    S)     .0022      
+
+( COUT)     .0022  ($G_DGND)    0.0000                   ($G_DPWR)    5.0000    
+
+(X$A_AtoD1.NORM)    0.0000            (X$A_AtoD2.NORM)    0.0000                
+
+(X$A_AtoD3.NORM)    0.0000            (X$A_AtoD4.NORM)    0.0000                
+
+(X$B_AtoD1.NORM)    0.0000            (X$B_AtoD2.NORM)    0.0000                
+
+(X$B_AtoD3.NORM)    0.0000            (X$B_AtoD4.NORM)    0.0000                
+
+(X$C_AtoD1.NORM)    0.0000            (X$C_AtoD2.NORM)    0.0000                
+
+(X$C_AtoD3.NORM)    0.0000            (X$S_DtoA1.DGND_OL)     .0022             
+
+(X$S_DtoA1.DPWR_OH)    4.9975         (X$COUT_DtoA1.DGND_OL)     .0022          
+
+(X$COUT_DtoA1.DPWR_OH)    4.9975      
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(  N08943) : 0     ( A$AtoD4) : 0     ( A$AtoD2) : 0     (  B$AtoD) : 0         
+
+(  S$DtoA) : 0     ( B$AtoD4) : 0     ( B$AtoD2) : 0     (  N08720) : 1         
+
+(  N06481) : 1     (  C$AtoD) : 0     ( A$AtoD3) : 0     (  N08710) : 1         
+
+(       P) : 0     ( C$AtoD2) : 0     (  N09157) : 1     (  N06488) : 1         
+
+(  N08115) : 1     (       G) : 1     ( B$AtoD3) : 0     (  N08108) : 1         
+
+(COUT$DtoA) : 0    ( C$AtoD3) : 0     (  N08692) : 1     (  A$AtoD) : 0     
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V4         2.000E-11
+    V_V1         2.000E-11
+    V_V5         1.500E-11
+    X$DIGIFPWR.VDPWR  -1.049E-04
+    X$DIGIFPWR.VDGND  -5.000E-06
+
+    TOTAL POWER DISSIPATION   5.24E-04  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/21/17 16:42:15 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-jmnhbgnk"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\jmnhbgnk.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .16
+

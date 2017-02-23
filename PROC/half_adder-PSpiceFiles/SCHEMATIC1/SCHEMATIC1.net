@@ -1,0 +1,13 @@
+* source HALF_ADDER
+R_R2         0 S 1k
+V_V1         A 0  
++PULSE 0 1 0 .001us .001us 2us 4.002us
+R_R1         0 C 1k
+V_V3         N03121 N03149 7
+V_V4         B 0  
++PULSE 0 1 1us .001us .001us 2us 4.002us
+M_M1         N02833 A 0 0 MbreakN           
+M_M2         S B A A MbreakN           
+M_M3         N03121 A N02833 N02833 MbreakP           
+M_M4         N02833 B S S MbreakP           
+M_M5         B A C C MbreakP           

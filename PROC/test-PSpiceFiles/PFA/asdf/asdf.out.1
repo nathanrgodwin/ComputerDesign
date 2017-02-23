@@ -1,0 +1,52 @@
+
+**** 02/02/17 16:48:37 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-asdf"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\asdf.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "asdf.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Nathan\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST
+M_M1         N03834 A 0 0 MbreakN           
+M_M2         N03834 A N04457 N04457 MbreakP           
+V_V5         B 0 1
+V_V6         A 0 0
+M_M3         F B N03834 N03834 MbreakP           
+M_M4         0 B F F MbreakN           
+V_V7         N04457 0 5
+M_M7         F N09112 N08838 N08838 MbreakP           
+M_M8         0 N09112 F F MbreakN           
+R_R2         0 F  1G TC=0,0 
+V_V10         N08986 0 5
+M_M6         N08838 C N08986 N08986 MbreakP           
+M_M5         N08838 C 0 0 MbreakN           
+V_V9         C 0 0
+
+**** RESUMING asdf.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N09112 is floating
+

@@ -1,0 +1,16 @@
+.ALIASES
+R_R2            R2(A=0 B=S ) CN @HALF_ADDER.SCHEMATIC1(sch_1):INS2951@EVALAA.RESISTOR.Normal(chips)
+V_V1            V1(+=A -=0 ) CN @HALF_ADDER.SCHEMATIC1(sch_1):INS3015@SOURCE.VPULSE.Normal(chips)
+R_R1            R1(A=0 B=C ) CN @HALF_ADDER.SCHEMATIC1(sch_1):INS2931@EVALAA.RESISTOR.Normal(chips)
+V_V3            V3(+=N03121 -=N03149 ) CN @HALF_ADDER.SCHEMATIC1(sch_1):INS3123@SOURCE.VDC.Normal(chips)
+V_V4            V4(+=B -=0 ) CN @HALF_ADDER.SCHEMATIC1(sch_1):INS3155@SOURCE.VPULSE.Normal(chips)
+M_M1            M1(d=N02833 g=A s=0 b=0 ) CN @HALF_ADDER.SCHEMATIC1(sch_1):INS3515@BREAKOUT.MbreakN.Normal(chips)
+M_M2            M2(d=S g=B s=A b=A ) CN @HALF_ADDER.SCHEMATIC1(sch_1):INS3610@BREAKOUT.MbreakN.Normal(chips)
+M_M3            M3(d=N03121 g=A s=N02833 b=N02833 ) CN @HALF_ADDER.SCHEMATIC1(sch_1):INS4225@BREAKOUT.MbreakP.Normal(chips)
+M_M4            M4(d=N02833 g=B s=S b=S ) CN @HALF_ADDER.SCHEMATIC1(sch_1):INS4393@BREAKOUT.MbreakP.Normal(chips)
+M_M5            M5(d=B g=A s=C b=C ) CN @HALF_ADDER.SCHEMATIC1(sch_1):INS4566@BREAKOUT.MbreakP.Normal(chips)
+_    _(A=A)
+_    _(B=B)
+_    _(C=C)
+_    _(S=S)
+.ENDALIASES

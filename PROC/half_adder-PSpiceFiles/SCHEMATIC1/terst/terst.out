@@ -1,0 +1,143 @@
+
+**** 02/02/17 11:25:53 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-terst"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\half_adder-PSpiceFiles\SCHEMATIC1\terst.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "terst.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Nathan\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 4us 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source HALF_ADDER
+R_R2         0 S 1k
+V_V1         A 0  
++PULSE 0 1 0 .001us .001us 2us 4.002us
+R_R1         0 C 1k
+V_V3         N03121 N03149 7
+V_V4         B 0  
++PULSE 0 1 1us .001us .001us 2us 4.002us
+M_M1         N02833 A 0 0 MbreakN           
+M_M2         S B A A MbreakN           
+M_M3         N03121 A N02833 N02833 MbreakP           
+M_M4         N02833 B S S MbreakP           
+M_M5         B A C C MbreakP           
+
+**** RESUMING terst.cir ****
+.END
+
+**** 02/02/17 11:25:53 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-terst"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\half_adder-PSpiceFiles\SCHEMATIC1\terst.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MbreakN         MbreakP         
+               NMOS            PMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    0               0            
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    0               0            
+        CGDO    0               0            
+        CGBO    0               0            
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+**** 02/02/17 11:25:53 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-terst"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\half_adder-PSpiceFiles\SCHEMATIC1\terst.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    A)    0.0000  (    B)    0.0000  (    C)    0.0000  (    S)-4.500E-24      
+
+(N02833)-360.6E-18 (N03121) 543.6E-09 (N03149)   -7.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         4.000E-27
+    V_V3         0.000E+00
+    V_V4         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/02/17 11:25:53 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-terst"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\half_adder-PSpiceFiles\SCHEMATIC1\terst.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

@@ -1,0 +1,110 @@
+
+**** 02/21/17 14:21:13 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-jmnhbgnk"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\jmnhbgnk.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "jmnhbgnk.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Nathan\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10us 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST
+V_V4         B 0  
++PULSE 0 1 1us .001us .001us 2us 4.002us
+V_V1         A 0  
++PULSE 0 1 0 .001us .001us 2us 4.002us
+X_U1A         B A N06444 $G_CD4000_VDD $G_CD4000_VSS CD4011A PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1B         B N06444 N06488 $G_CD4000_VDD $G_CD4000_VSS CD4011A PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1C         N06444 A N06481 $G_CD4000_VDD $G_CD4000_VSS CD4011A PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1D         N06488 N06481 F $G_CD4000_VDD $G_CD4000_VSS CD4011A PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+R_R1         N06641 F  1k TC=0,0 
+
+**** RESUMING jmnhbgnk.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node B
+*
+* Moving X_U1B.U1:IN1 from analog node B to new digital node B$AtoD
+X$B_AtoD1
++ B
++ B$AtoD
++ $G_CD4000_VDD
++ $G_CD4000_VSS
++ AtoD_4000A
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U1A.U1:IN1 from analog node B to new digital node B$AtoD2
+X$B_AtoD2
++ B
++ B$AtoD2
++ $G_CD4000_VDD
++ $G_CD4000_VSS
++ AtoD_4000A
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node A
+*
+* Moving X_U1C.U1:IN2 from analog node A to new digital node A$AtoD
+X$A_AtoD1
++ A
++ A$AtoD
++ $G_CD4000_VDD
++ $G_CD4000_VSS
++ AtoD_4000A
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U1A.U1:IN2 from analog node A to new digital node A$AtoD2
+X$A_AtoD2
++ A
++ A$AtoD2
++ $G_CD4000_VDD
++ $G_CD4000_VSS
++ AtoD_4000A
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node F
+*
+* Moving X_U1D.U1:OUT1 from analog node F to new digital node F$DtoA
+X$F_DtoA1
++ F$DtoA
++ F
++ $G_CD4000_VDD
++ $G_CD4000_VSS
++ DtoA_4000A
++       PARAMS: DRVH=   1.6490E+03 DRVL=   1.6490E+03 CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$CD4000_PWR 0 CD4000_PWR
+
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N06641.
+

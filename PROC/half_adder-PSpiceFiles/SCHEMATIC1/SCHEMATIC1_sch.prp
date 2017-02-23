@@ -1,0 +1,537 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("RESISTOR"
+            ("info"
+                ("spice_dsg"	"R")
+                ("port_order"
+                    ("A")
+                    ("B")
+                )
+            )
+            ("model_params"
+                ("level_0"
+                    ("TC1"
+                        ("value"	"0")
+                    )
+                    ("TC2"
+                        ("value"	"0")
+                    )
+                    ("VALUE"
+                        ("value"	"0")
+                    )
+                )
+            )
+            ("smoke"
+                ("pre_smoke"
+                    ("NODE_VA"	"A")
+                    ("NODE_VB"	"B")
+                    ("DERATE_TYPE"	"RES")
+                )
+                ("max_ops"
+                    ("RV"	"VOLTAGE")
+                    ("PDM"	"POWER")
+                    ("SLP"	"SLOPE")
+                    ("RBA"	"1/SLP")
+                    ("TMAX"	"MAX_TEMP")
+                    ("TB"	"TMAX")
+                    ("RTKNEE"	"TKNEE")
+                    ("RTRISE"	"TRISE")
+                )
+                ("smoke_tests"
+                    ("PDM"
+                        ("test"	"power_test")
+                    )
+                    ("RV"
+                        ("test"	"abs_voltage_test")
+                        ("nodes"
+                            ("NODE_VA")
+                            ("NODE_VB")
+                        )
+                    )
+                    ("TB"
+                        ("test"	"temp_null_test")
+                    )
+                )
+                ("device_max_ops")
+            )
+        )
+        ("VPULSE")
+        ("VDC")
+        ("MbreakN")
+        ("MbreakP")
+    )
+    ("instances"
+        ("R2"
+            ("device_name"	"RESISTOR")
+            ("pspice_path"	"R_R2")
+            ("level"	"0")
+            ("tol_on_off"	"ON")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"1k")
+                    ("pspice_param"	"VALUE")
+                    ("postol"	"RTOL%")
+                    ("negtol"	"RTOL%")
+                    ("distrib"	"FLAT")
+                )
+                ("TOL_ON_OFF"
+                    ("value"	"ON")
+                    ("pspice_param"	"TOL_ON_OFF")
+                )
+                ("POSTOL"
+                    ("value"	"RTOL%")
+                    ("pspice_param"	"POSTOL")
+                )
+                ("NEGTOL"
+                    ("value"	"RTOL%")
+                    ("pspice_param"	"NEGTOL")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("TC1"
+                    ("value"	"RTMPL")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"RTMPQ")
+                    ("pspice_param"	"TC2")
+                )
+            )
+            ("smoke_vars"
+                ("POWER"	"0.25")
+                ("SLOPE"	"0.005")
+                ("MAX_TEMP"	"200.0")
+            )
+        )
+        ("V1"
+            ("device_name"	"VPULSE")
+            ("pspice_path"	"V_V1")
+            ("level"	"0")
+            ("model_params"
+                ("PW"
+                    ("value"	"2us")
+                    ("pspice_param"	"PW")
+                )
+                ("TF"
+                    ("value"	".001us")
+                    ("pspice_param"	"TF")
+                )
+                ("V2"
+                    ("value"	"1")
+                    ("pspice_param"	"V2")
+                )
+                ("V1"
+                    ("value"	"0")
+                    ("pspice_param"	"V1")
+                )
+                ("TD"
+                    ("value"	"0")
+                    ("pspice_param"	"TD")
+                )
+                ("TR"
+                    ("value"	".001us")
+                    ("pspice_param"	"TR")
+                )
+                ("PER"
+                    ("value"	"4.002us")
+                    ("pspice_param"	"PER")
+                )
+                ("DC"
+                    ("value"	"")
+                    ("pspice_param"	"DC")
+                )
+                ("AC"
+                    ("value"	"")
+                    ("pspice_param"	"AC")
+                )
+            )
+        )
+        ("R1"
+            ("device_name"	"RESISTOR")
+            ("pspice_path"	"R_R1")
+            ("level"	"0")
+            ("tol_on_off"	"ON")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"1k")
+                    ("pspice_param"	"VALUE")
+                    ("postol"	"RTOL%")
+                    ("negtol"	"RTOL%")
+                    ("distrib"	"FLAT")
+                )
+                ("TOL_ON_OFF"
+                    ("value"	"ON")
+                    ("pspice_param"	"TOL_ON_OFF")
+                )
+                ("POSTOL"
+                    ("value"	"RTOL%")
+                    ("pspice_param"	"POSTOL")
+                )
+                ("NEGTOL"
+                    ("value"	"RTOL%")
+                    ("pspice_param"	"NEGTOL")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("TC1"
+                    ("value"	"RTMPL")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"RTMPQ")
+                    ("pspice_param"	"TC2")
+                )
+            )
+            ("smoke_vars"
+                ("POWER"	"0.25")
+                ("SLOPE"	"0.005")
+                ("MAX_TEMP"	"200.0")
+            )
+        )
+        ("V3"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V3")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"7")
+                    ("pspice_param"	"DC")
+                )
+            )
+        )
+        ("V4"
+            ("device_name"	"VPULSE")
+            ("pspice_path"	"V_V4")
+            ("level"	"0")
+            ("model_params"
+                ("PER"
+                    ("value"	"4.002us")
+                    ("pspice_param"	"PER")
+                )
+                ("TR"
+                    ("value"	".001us")
+                    ("pspice_param"	"TR")
+                )
+                ("TD"
+                    ("value"	"1us")
+                    ("pspice_param"	"TD")
+                )
+                ("V1"
+                    ("value"	"0")
+                    ("pspice_param"	"V1")
+                )
+                ("V2"
+                    ("value"	"1")
+                    ("pspice_param"	"V2")
+                )
+                ("TF"
+                    ("value"	".001us")
+                    ("pspice_param"	"TF")
+                )
+                ("PW"
+                    ("value"	"2us")
+                    ("pspice_param"	"PW")
+                )
+                ("DC"
+                    ("value"	"")
+                    ("pspice_param"	"DC")
+                )
+                ("AC"
+                    ("value"	"")
+                    ("pspice_param"	"AC")
+                )
+            )
+        )
+        ("M1"
+            ("device_name"	"MbreakN")
+            ("pspice_path"	"M_M1")
+            ("level"	"0")
+            ("model_params"
+                ("L"
+                    ("value"	"")
+                    ("pspice_param"	"L")
+                )
+                ("W"
+                    ("value"	"")
+                    ("pspice_param"	"W")
+                )
+                ("AD"
+                    ("value"	"")
+                    ("pspice_param"	"AD")
+                )
+                ("AS"
+                    ("value"	"")
+                    ("pspice_param"	"AS")
+                )
+                ("PD"
+                    ("value"	"")
+                    ("pspice_param"	"PD")
+                )
+                ("PS"
+                    ("value"	"")
+                    ("pspice_param"	"PS")
+                )
+                ("NRD"
+                    ("value"	"")
+                    ("pspice_param"	"NRD")
+                )
+                ("NRS"
+                    ("value"	"")
+                    ("pspice_param"	"NRS")
+                )
+                ("NRG"
+                    ("value"	"")
+                    ("pspice_param"	"NRG")
+                )
+                ("NRB"
+                    ("value"	"")
+                    ("pspice_param"	"NRB")
+                )
+                ("M"
+                    ("value"	"")
+                    ("pspice_param"	"M")
+                )
+            )
+        )
+        ("M2"
+            ("device_name"	"MbreakN")
+            ("pspice_path"	"M_M2")
+            ("level"	"0")
+            ("model_params"
+                ("L"
+                    ("value"	"")
+                    ("pspice_param"	"L")
+                )
+                ("W"
+                    ("value"	"")
+                    ("pspice_param"	"W")
+                )
+                ("AD"
+                    ("value"	"")
+                    ("pspice_param"	"AD")
+                )
+                ("AS"
+                    ("value"	"")
+                    ("pspice_param"	"AS")
+                )
+                ("PD"
+                    ("value"	"")
+                    ("pspice_param"	"PD")
+                )
+                ("PS"
+                    ("value"	"")
+                    ("pspice_param"	"PS")
+                )
+                ("NRD"
+                    ("value"	"")
+                    ("pspice_param"	"NRD")
+                )
+                ("NRS"
+                    ("value"	"")
+                    ("pspice_param"	"NRS")
+                )
+                ("NRG"
+                    ("value"	"")
+                    ("pspice_param"	"NRG")
+                )
+                ("NRB"
+                    ("value"	"")
+                    ("pspice_param"	"NRB")
+                )
+                ("M"
+                    ("value"	"")
+                    ("pspice_param"	"M")
+                )
+            )
+        )
+        ("M3"
+            ("device_name"	"MbreakP")
+            ("pspice_path"	"M_M3")
+            ("level"	"0")
+            ("model_params"
+                ("L"
+                    ("value"	"")
+                    ("pspice_param"	"L")
+                )
+                ("W"
+                    ("value"	"")
+                    ("pspice_param"	"W")
+                )
+                ("AD"
+                    ("value"	"")
+                    ("pspice_param"	"AD")
+                )
+                ("AS"
+                    ("value"	"")
+                    ("pspice_param"	"AS")
+                )
+                ("PD"
+                    ("value"	"")
+                    ("pspice_param"	"PD")
+                )
+                ("PS"
+                    ("value"	"")
+                    ("pspice_param"	"PS")
+                )
+                ("NRD"
+                    ("value"	"")
+                    ("pspice_param"	"NRD")
+                )
+                ("NRS"
+                    ("value"	"")
+                    ("pspice_param"	"NRS")
+                )
+                ("NRG"
+                    ("value"	"")
+                    ("pspice_param"	"NRG")
+                )
+                ("NRB"
+                    ("value"	"")
+                    ("pspice_param"	"NRB")
+                )
+                ("M"
+                    ("value"	"")
+                    ("pspice_param"	"M")
+                )
+            )
+        )
+        ("M4"
+            ("device_name"	"MbreakP")
+            ("pspice_path"	"M_M4")
+            ("level"	"0")
+            ("model_params"
+                ("L"
+                    ("value"	"")
+                    ("pspice_param"	"L")
+                )
+                ("W"
+                    ("value"	"")
+                    ("pspice_param"	"W")
+                )
+                ("AD"
+                    ("value"	"")
+                    ("pspice_param"	"AD")
+                )
+                ("AS"
+                    ("value"	"")
+                    ("pspice_param"	"AS")
+                )
+                ("PD"
+                    ("value"	"")
+                    ("pspice_param"	"PD")
+                )
+                ("PS"
+                    ("value"	"")
+                    ("pspice_param"	"PS")
+                )
+                ("NRD"
+                    ("value"	"")
+                    ("pspice_param"	"NRD")
+                )
+                ("NRS"
+                    ("value"	"")
+                    ("pspice_param"	"NRS")
+                )
+                ("NRG"
+                    ("value"	"")
+                    ("pspice_param"	"NRG")
+                )
+                ("NRB"
+                    ("value"	"")
+                    ("pspice_param"	"NRB")
+                )
+                ("M"
+                    ("value"	"")
+                    ("pspice_param"	"M")
+                )
+            )
+        )
+        ("M5"
+            ("device_name"	"MbreakP")
+            ("pspice_path"	"M_M5")
+            ("level"	"0")
+            ("model_params"
+                ("L"
+                    ("value"	"")
+                    ("pspice_param"	"L")
+                )
+                ("W"
+                    ("value"	"")
+                    ("pspice_param"	"W")
+                )
+                ("AD"
+                    ("value"	"")
+                    ("pspice_param"	"AD")
+                )
+                ("AS"
+                    ("value"	"")
+                    ("pspice_param"	"AS")
+                )
+                ("PD"
+                    ("value"	"")
+                    ("pspice_param"	"PD")
+                )
+                ("PS"
+                    ("value"	"")
+                    ("pspice_param"	"PS")
+                )
+                ("NRD"
+                    ("value"	"")
+                    ("pspice_param"	"NRD")
+                )
+                ("NRS"
+                    ("value"	"")
+                    ("pspice_param"	"NRS")
+                )
+                ("NRG"
+                    ("value"	"")
+                    ("pspice_param"	"NRG")
+                )
+                ("NRB"
+                    ("value"	"")
+                    ("pspice_param"	"NRB")
+                )
+                ("M"
+                    ("value"	"")
+                    ("pspice_param"	"M")
+                )
+            )
+        )
+    )
+)

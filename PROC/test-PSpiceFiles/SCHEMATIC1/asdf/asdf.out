@@ -1,0 +1,146 @@
+
+**** 02/02/17 16:50:41 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-asdf"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\asdf.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "asdf.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Nathan\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST
+M_M1         N03834 A 0 0 MbreakN           
+M_M2         N03834 A N04457 N04457 MbreakP           
+V_V5         B 0 5
+V_V6         A 0 .1
+M_M3         F B N03834 N03834 MbreakP           
+M_M4         0 B F F MbreakN           
+V_V7         N04457 0 5
+M_M7         F F N08838 N08838 MbreakP           
+M_M8         0 F F F MbreakN           
+R_R2         0 F  1G TC=0,0 
+V_V10         N08986 0 5
+M_M6         N08838 C N08986 N08986 MbreakP           
+M_M5         N08838 C 0 0 MbreakN           
+V_V9         C 0 1
+
+**** RESUMING asdf.cir ****
+.END
+
+**** 02/02/17 16:50:41 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-asdf"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\asdf.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MbreakN         MbreakP         
+               NMOS            PMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    0               0            
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    0               0            
+        CGDO    0               0            
+        CGBO    0               0            
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+**** 02/02/17 16:50:41 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-asdf"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\asdf.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    A)     .1000  (    B)    5.0000  (    C)    1.0000  (    F)     .5485      
+
+(N03834)    4.9990 (N04457)    5.0000 (N08838)    3.5036 (N08986)    5.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V5         0.000E+00
+    V_V6         0.000E+00
+    V_V7        -1.000E-07
+    V_V10       -9.732E-05
+    V_V9         0.000E+00
+
+    TOTAL POWER DISSIPATION   4.87E-04  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/02/17 16:50:41 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-asdf"  [ C:\USERS\NATHAN\DOCUMENTS\PROC\test-PSpiceFiles\SCHEMATIC1\asdf.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+
