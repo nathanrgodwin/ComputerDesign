@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vCLA
+Z0 !s110 1487912214
+!i10b 1
+!s100 H`=OciJ`BV64BN2R4:IgA0
+I9Y[IbFGGHFFe[<7XHOCAa0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Stuff/ComputerDesign/VerilogDesign
+w1487912199
+8D:\Stuff\ComputerDesign\VerilogDesign\CLA.v
+FD:\Stuff\ComputerDesign\VerilogDesign\CLA.v
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1487912214.000000
+!s107 D:\Stuff\ComputerDesign\VerilogDesign\CLA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Stuff\ComputerDesign\VerilogDesign\CLA.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@c@l@a
+vCLA8_TB
+R0
+!i10b 1
+!s100 dAYEd_H?8e[^c5XPao4RH2
+IlO0a1:J34D7NzEL`kWC8i2
+R1
+R2
+w1487902578
+8D:/Stuff/ComputerDesign/VerilogDesign/CLA8_TB.v
+FD:/Stuff/ComputerDesign/VerilogDesign/CLA8_TB.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Stuff/ComputerDesign/VerilogDesign/CLA8_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Stuff/ComputerDesign/VerilogDesign/CLA8_TB.v|
+!s101 -O0
+!i113 1
+R5
+n@c@l@a8_@t@b
+vCLU
+R0
+!i10b 1
+!s100 1c>G]>]^clKAklOH:ZBQ^1
+IgT1anHC5S;PDNB_d>8FV83
+R1
+R2
+w1487903472
+8D:/Stuff/ComputerDesign/VerilogDesign/CLU.v
+FD:/Stuff/ComputerDesign/VerilogDesign/CLU.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Stuff/ComputerDesign/VerilogDesign/CLU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Stuff/ComputerDesign/VerilogDesign/CLU.v|
+!s101 -O0
+!i113 1
+R5
+n@c@l@u
+vPFA
+!s110 1487912987
+!i10b 1
+!s100 YKSU]JTSZcJ53aQf6O2M03
+InL6f]Chj?M]n_oDlhe6d:1
+R1
+R2
+w1487912937
+8D:/Stuff/ComputerDesign/VerilogDesign/PFA.v
+FD:/Stuff/ComputerDesign/VerilogDesign/PFA.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1487912987.000000
+!s107 D:/Stuff/ComputerDesign/VerilogDesign/PFA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Stuff/ComputerDesign/VerilogDesign/PFA.v|
+!s101 -O0
+!i113 1
+R5
+n@p@f@a

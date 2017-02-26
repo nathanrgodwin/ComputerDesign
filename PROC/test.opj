@@ -76,8 +76,7 @@
       (Path "Design Resources" "C:\USERS\NATHAN\DOCUMENTS\PROC\test.dsn"
          "SCHEMATIC2")
       (Path "Outputs")
-      (Select "Design Resources" "C:\USERS\NATHAN\DOCUMENTS\PROC\test.dsn"
-         "SCHEMATIC2"))
+      (Select "Design Resources" "C:\USERS\NATHAN\DOCUMENTS\PROC\test.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

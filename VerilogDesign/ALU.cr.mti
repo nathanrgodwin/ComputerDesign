@@ -1,0 +1,29 @@
+D:/Stuff/ComputerDesign/VerilogDesign/PFA.v {1 {vlog -work work -stats=none D:/Stuff/ComputerDesign/VerilogDesign/PFA.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PFA
+
+Top level modules:
+	PFA
+
+} {} {}} D:/Stuff/ComputerDesign/VerilogDesign/CLA.v {1 {vlog -work work -stats=none {D:\Stuff\ComputerDesign\VerilogDesign\CLA.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CLA
+
+Top level modules:
+	CLA
+
+} {} {}} D:/Stuff/ComputerDesign/VerilogDesign/CLU.v {1 {vlog -work work -stats=none D:/Stuff/ComputerDesign/VerilogDesign/CLU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CLU
+
+Top level modules:
+	CLU
+
+} {} {}} D:/Stuff/ComputerDesign/VerilogDesign/CLA8_TB.v {1 {vlog -work work -stats=none D:/Stuff/ComputerDesign/VerilogDesign/CLA8_TB.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CLA8_TB
+
+Top level modules:
+	CLA8_TB
+
+} {} {}}
