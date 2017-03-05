@@ -6,7 +6,5 @@ module MULT_TB;
   MULT mult
     (.a,
     .b,
-    .c0,
-    .s,
-    .c_out);
+    .prod);
 endmodule

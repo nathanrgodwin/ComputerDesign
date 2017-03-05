@@ -1,29 +1,85 @@
-D:/Stuff/ComputerDesign/VerilogDesign/PFA.v {1 {vlog -work work -stats=none D:/Stuff/ComputerDesign/VerilogDesign/PFA.v
+D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT_TB.v {1 {vlog -work work -stats=none D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT_TB.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MULT_TB
+
+Top level modules:
+	MULT_TB
+
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v {1 {vlog -work work -stats=none {D:\Stuff\Projects\ComputerDesign\VerilogDesign\CLA0.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CLA0
+
+Top level modules:
+	CLA0
+
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/BOOTH_ENC.v {1 {vlog -work work -stats=none D:/Stuff/Projects/ComputerDesign/VerilogDesign/BOOTH_ENC.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module BOOTH_ENC
+
+Top level modules:
+	BOOTH_ENC
+
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLU0.v {1 {vlog -work work -stats=none {D:\Stuff\Projects\ComputerDesign\VerilogDesign\CLU0.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CLU0
+
+Top level modules:
+	CLU0
+
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/FA.v {1 {vlog -work work -stats=none D:/Stuff/Projects/ComputerDesign/VerilogDesign/FA.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v {1 {vlog -work work -stats=none D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module PFA
 
 Top level modules:
 	PFA
 
-} {} {}} D:/Stuff/ComputerDesign/VerilogDesign/CLA.v {1 {vlog -work work -stats=none {D:\Stuff\ComputerDesign\VerilogDesign\CLA.v}
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v {1 {vlog -work work -stats=none D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module CLA
+-- Compiling module CSA0
 
 Top level modules:
-	CLA
+	CSA0
 
-} {} {}} D:/Stuff/ComputerDesign/VerilogDesign/CLU.v {1 {vlog -work work -stats=none D:/Stuff/ComputerDesign/VerilogDesign/CLU.v
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/BOOTH_SEL.v {1 {vlog -work work -stats=none D:/Stuff/Projects/ComputerDesign/VerilogDesign/BOOTH_SEL.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module CLU
+-- Compiling module BOOTH_SEL
 
 Top level modules:
-	CLU
+	BOOTH_SEL
 
-} {} {}} D:/Stuff/ComputerDesign/VerilogDesign/CLA8_TB.v {1 {vlog -work work -stats=none D:/Stuff/ComputerDesign/VerilogDesign/CLA8_TB.v
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v {1 {vlog -work work -stats=none {D:\Stuff\Projects\ComputerDesign\VerilogDesign\CSA1.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module CLA8_TB
+-- Compiling module CSA1
 
 Top level modules:
-	CLA8_TB
+	CSA1
+
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/HA.v {1 {vlog -work work -stats=none D:/Stuff/Projects/ComputerDesign/VerilogDesign/HA.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module HA
+
+Top level modules:
+	HA
+
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/PHA.v {1 {vlog -work work -stats=none D:/Stuff/Projects/ComputerDesign/VerilogDesign/PHA.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PHA
+
+Top level modules:
+	PHA
+
+} {} {}} D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT.v {1 {vlog -work work -stats=none {D:\Stuff\Projects\ComputerDesign\VerilogDesign\MULT.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MULT
+
+Top level modules:
+	MULT
 
 } {} {}}
