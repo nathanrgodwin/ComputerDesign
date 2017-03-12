@@ -12,6 +12,5 @@ module HA
   nand(xor_mid_a, ab_n, a);
   nand(xor_mid_b, ab_n, b);
   nand(s, xor_mid_a, xor_mid_b);
-
-  assign c_out = ab_n;
+  nand(c_out, ab_n, ab_n);
 endmodule

@@ -1,42 +1,4 @@
-# Reading C:/Program Files/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
-# OpenFile D:/Stuff/Projects/ComputerDesign/VerilogDesign/ALU.mpf
-# Loading project ALU
-# Compile of CLU0.v failed with 1 errors.
-# Compile of CSA0.v was successful.
-# Compile of CSA1.v failed with 1 errors.
-# Compile of MULT.v failed with 4 errors.
-# Compile of CLA0.v failed with 5 errors.
-# 5 compiles, 8 failed with 11 errors.
-# could not find interpreter "ScintillaTk"
-# could not find interpreter "ScintillaTk"
-# Compile of CLU0.v was successful.
-# Compile of CSA1.v failed with 1 errors.
-# could not find interpreter "ScintillaTk"
-# Compile of CSA1.v was successful.
-# Compile of CLU0.v was successful.
-# Compile of CSA0.v was successful.
-# Compile of CSA1.v was successful.
-# Compile of MULT.v failed with 4 errors.
-# Compile of CLA0.v failed with 5 errors.
-# 5 compiles, 2 failed with 9 errors.
-# could not find interpreter "ScintillaTk"
-# Compile of MULT.v failed with 1 errors.
-# could not find interpreter "ScintillaTk"
-# Compile of MULT.v failed with 1 errors.
-# Compile of MULT.v failed with 1 errors.
-# Compile of MULT.v failed with 3 errors.
-# Compile of MULT.v was successful.
-# Compile of CLA0.v failed with 3 errors.
-# Compile of CLA0.v failed with 1 errors.
-# Compile of CLU0.v was successful.
-# Compile of CSA0.v was successful.
-# Compile of CSA1.v was successful.
-# Compile of MULT.v failed with 1 errors.
-# Compile of CLA0.v was successful.
-# 5 compiles, 1 failed with 1 error.
-# Compile of MULT.v was successful.
-# Compile of MULT_TB.v was successful.
-vsim -gui work.MULT_TB
+vsim -gui work.MULT
 # //  ModelSim PE Student Edition 10.4a Apr  7 2015 
 # //
 # //  Copyright 1991-2015 Mentor Graphics Corporation
@@ -55,258 +17,258 @@ vsim -gui work.MULT_TB
 # // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
 # // FOR HIGHER EDUCATION PURPOSES ONLY
 # //
-# vsim -gui D:\Stuff\Projects\ComputerDesign\VerilogDesign\ALU.mpf 
-# Start time: 11:52:26 on Mar 03,2017
-# Loading work.MULT_TB
-# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT_TB.v(6): Instantiation of 'MULT' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT_TB.v
-#         Searched libraries:
-#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
-# Error loading design
-# Compile of CLU0.v was successful.
-# Compile of CSA0.v was successful.
-# Compile of CSA1.v was successful.
-# Compile of MULT.v was successful.
-# Compile of CLA0.v was successful.
-# Compile of MULT_TB.v was successful.
-# 6 compiles, 0 failed with no errors.
-vsim -gui work.MULT_TB
-# vsim 
-# Start time: 11:53:02 on Mar 03,2017
-# Loading work.MULT_TB
+# vsim -gui 
+# Start time: 14:09:39 on Mar 10,2017
 # Loading work.MULT
-# Loading work.CSA0
-# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v(9): Instantiation of 'HA' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa0 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v
-#         Searched libraries:
-#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
-# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v(15): Instantiation of 'HA' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa0 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v
-#         Searched libraries:
-#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
-# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v(34): Instantiation of 'HA' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa0 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v
-#         Searched libraries:
-#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
-# Loading work.CSA1
-# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v(27): Instantiation of 'HA' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa1 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v
-#         Searched libraries:
-#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
-# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v(33): Instantiation of 'HA' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa1 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v
-#         Searched libraries:
-#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
-# Loading work.CLA0
-# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(12): Instantiation of 'PHA' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v
-#         Searched libraries:
-#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
-# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(32): Instantiation of 'PHA' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v
-#         Searched libraries:
-#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
-# Loading work.CLU0
-# Error loading design
-# Compile of CLU0.v was successful.
-# Compile of CSA0.v was successful.
-# Compile of CSA1.v was successful.
-# Compile of MULT.v was successful.
-# Compile of CLA0.v was successful.
-# Compile of MULT_TB.v was successful.
-# Compile of HA.v was successful.
-# Compile of FA.v was successful.
-# 8 compiles, 0 failed with no errors.
-vsim -gui work.MULT_TB
-# vsim 
-# Start time: 11:53:49 on Mar 03,2017
-# Loading work.MULT_TB
-# Loading work.MULT
-# Loading work.CSA0
-# Loading work.HA
-# Loading work.CSA1
-# Loading work.CLA0
-# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(12): Instantiation of 'PHA' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v
-#         Searched libraries:
-#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
-# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(32): Instantiation of 'PHA' failed. The design unit was not found.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v
-#         Searched libraries:
-#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
-# Loading work.CLU0
-# Error loading design
-# Compile of PFA.v was successful.
-# Compile of PHA.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.MULT_TB
-# vsim 
-# Start time: 11:54:08 on Mar 03,2017
-# Loading work.MULT_TB
-# Loading work.MULT
-# Loading work.CSA0
-# Loading work.HA
-# Loading work.CSA1
-# Loading work.CLA0
-# Loading work.PHA
-# Loading work.CLU0
-# Loading work.FA
-# Loading work.PFA
-# ** Warning: (vsim-3015) D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT.v(12): [PCDPC] - Port size (10) does not match connection size (12) for port 'pp0'. The port definition is at: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v(3).
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa0 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v
-# ** Warning: (vsim-3015) D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT.v(12): [PCDPC] - Port size (9) does not match connection size (11) for port 'pp2'. The port definition is at: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa0 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v
-# ** Warning: (vsim-3015) D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT.v(19): [PCDPC] - Port size (13) does not match connection size (11) for port 'pp3'. The port definition is at: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v(3).
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa1 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[3]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[4]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[5]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[6]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[7]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[8]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[9]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[10]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[11]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[12]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[13]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Too few port connections. Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/cla0/genblk1[14]/pfa File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/PFA.v
-# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA0.v(23): [TFMPC] - Missing connection for port 's'.
-# Trace back: Error QStructure::sort: invalid command name ""
-#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
-#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
-#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
-#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
-#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
-#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
-# Compile of CLU0.v was successful.
-# Compile of CSA0.v was successful.
-# Compile of CSA1.v was successful.
-# Compile of MULT.v was successful.
-# Compile of CLA0.v was successful.
-# Compile of MULT_TB.v was successful.
-# Compile of HA.v was successful.
-# Compile of FA.v was successful.
-# Compile of PFA.v was successful.
-# Compile of PHA.v was successful.
-# 10 compiles, 0 failed with no errors.
-vsim -gui work.MULT_TB
-# vsim 
-# Start time: 12:22:37 on Mar 03,2017
-# Loading work.MULT_TB
-# Loading work.MULT
-# Loading work.CSA0
-# Loading work.HA
-# Loading work.CSA1
-# Loading work.CLA0
-# Loading work.PHA
-# Loading work.CLU0
-# Loading work.FA
-# Loading work.PFA
-# ** Warning: (vsim-3015) D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT.v(14): [PCDPC] - Port size (10) does not match connection size (12) for port 'pp0'. The port definition is at: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v(3).
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa0 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA0.v
-# ** Warning: (vsim-3015) D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT.v(21): [PCDPC] - Port size (13) does not match connection size (10) for port 'pp3'. The port definition is at: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v(3).
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa1 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v
-# Compile of CLU0.v was successful.
-# Compile of CSA0.v was successful.
-# Compile of CSA1.v was successful.
-# Compile of MULT.v was successful.
-# Compile of CLA0.v was successful.
-# Compile of MULT_TB.v was successful.
-# Compile of HA.v was successful.
-# Compile of FA.v was successful.
-# Compile of PFA.v was successful.
-# Compile of PHA.v was successful.
-# 10 compiles, 0 failed with no errors.
-restart
-# Loading work.MULT_TB
-# Loading work.MULT
-# Loading work.CSA0
-# Loading work.HA
-# Loading work.CSA1
-# Loading work.CLA0
-# Loading work.PHA
-# Loading work.CLU0
-# Loading work.FA
-# Loading work.PFA
-# ** Warning: (vsim-3015) D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT.v(21): [PCDPC] - Port size (13) does not match connection size (10) for port 'pp3'. The port definition is at: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v(3).
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa1 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v
-# Compile of CSA1.v was successful.
-# Compile of MULT.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Loading work.MULT
-# Loading work.CSA1
-# ** Warning: (vsim-3015) D:/Stuff/Projects/ComputerDesign/VerilogDesign/MULT.v(21): [PCDPC] - Port size (9) does not match connection size (10) for port 'pp3'. The port definition is at: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /MULT_TB/mult/csa1 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CSA1.v
-# Compile of MULT.v was successful.
-restart
-# Loading work.MULT
-vsim -gui work.MULT_TB
-# vsim 
-# Start time: 12:27:53 on Mar 03,2017
-# Loading work.MULT_TB
-# Loading work.MULT
-# Loading work.CSA0
-# Loading work.HA
-# Loading work.CSA1
-# Loading work.CLA0
-# Loading work.PHA
-# Loading work.CLU0
-# Loading work.FA
-# Loading work.PFA
-# Compile of BOOTH_ENC.v failed with 2 errors.
-# Compile of BOOTH_SEL.v was successful.
-# Compile of BOOTH.v failed with 1 errors.
-# 3 compiles, 2 failed with 3 errors.
-# could not find interpreter "ScintillaTk"
-# Compile of BOOTH_ENC.v was successful.
-# Compile of BOOTH.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.BOOTH
-# vsim 
-# Start time: 15:51:53 on Mar 04,2017
 # Loading work.BOOTH
+# Loading work.BOOTH_ENC0
+# Loading work.BOOTH_SEL_D0
 # Loading work.BOOTH_ENC
+# Loading work.M_STAGE0
+# Loading work.HA
+# Loading work.FA
+# Loading work.HA_1B
+# Loading work.M_STAGE1
+# Loading work.M_STAGE2
+# Loading work.HA_NC
+# Loading work.CLA_MULT
+# Loading work.PHA_NP
+# Loading work.PFA_0B
+# Loading work.FA_NC
+# Loading work.CLU_MULT
 # Loading work.BOOTH_SEL
-add wave -position end  sim:/BOOTH/a
-add wave -position end  sim:/BOOTH/b
-add wave -position end  sim:/BOOTH/pp0
-add wave -position end  sim:/BOOTH/pp1
-add wave -position end  sim:/BOOTH/pp2
-add wave -position end  sim:/BOOTH/pp3
-add wave -position end  sim:/BOOTH/b_2
-add wave -position end  sim:/BOOTH/b_1
-add wave -position end  sim:/BOOTH/sel0
-add wave -position end  sim:/BOOTH/sel1
-add wave -position end  sim:/BOOTH/sel2
-add wave -position end  sim:/BOOTH/sel3
-add wave -position end  sim:/BOOTH/pp0t
-add wave -position end  sim:/BOOTH/pp1t
-add wave -position end  sim:/BOOTH/pp2t
-add wave -position end  sim:/BOOTH/pp3t
-force -freeze sim:/BOOTH/a 8'hAA 0
-force -freeze sim:/BOOTH/b 8'hBB 0
+# Loading work.PFA
+add wave -position end sim:/MULT/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlfts6rye8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfts6rye8
+# 
+force -freeze sim:/MULT/a 8'h00 0
+force -freeze sim:/MULT/b 8'h00 0
 run
+force -freeze sim:/MULT/b 8'h01 0
+run
+force -freeze sim:/MULT/a 8'h01 0
+run
+force -freeze sim:/MULT/a 8'hff 0
+run
+force -freeze sim:/MULT/b 8'hff 0
+run
+force -freeze sim:/MULT/b 8'h7f 0
+run
+force -freeze sim:/MULT/b 8'h00 0
+run
+force -freeze sim:/MULT/a 8'h00 0
+run
+# Compile of M_STAGE1.v was successful.
+# Compile of CLU_MULT.v was successful.
+restart
+# Loading work.M_STAGE1
+# Loading work.CLU_MULT
+# ** Error: (vsim-3063) D:/Stuff/Projects/ComputerDesign/VerilogDesign/M_STAGE1.v(79): Port 'c' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /MULT/ms1/ha10 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/HA_1B.v
+vsim -gui work.MULT
+# Loading work.MULT
+# Loading work.BOOTH
+# Loading work.BOOTH_ENC0
+# Loading work.BOOTH_SEL_D0
+# Loading work.BOOTH_ENC
+# Loading work.M_STAGE0
+# Loading work.HA
+# Loading work.FA
+# Loading work.HA_1B
+# Loading work.M_STAGE1
+# Loading work.M_STAGE2
+# Loading work.HA_NC
+# Loading work.CLA_MULT
+# Loading work.PHA_NP
+# Loading work.PFA_0B
+# Loading work.FA_NC
+# Loading work.CLU_MULT
+# Loading work.BOOTH_SEL
+# Loading work.PFA
+# ** Error: (vsim-3063) D:/Stuff/Projects/ComputerDesign/VerilogDesign/M_STAGE1.v(79): Port 'c' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /MULT/ms1/ha10 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/HA_1B.v
+# Error loading design
+# Load canceled
+# Compile of M_STAGE1.v was successful.
+vsim -gui work.MULT
+# vsim 
+# Start time: 15:18:23 on Mar 10,2017
+# Loading work.MULT
+# Loading work.BOOTH
+# Loading work.BOOTH_ENC0
+# Loading work.BOOTH_SEL_D0
+# Loading work.BOOTH_ENC
+# Loading work.M_STAGE0
+# Loading work.HA
+# Loading work.FA
+# Loading work.HA_1B
+# Loading work.M_STAGE1
+# Loading work.M_STAGE2
+# Loading work.HA_NC
+# Loading work.CLA_MULT
+# Loading work.PHA_NP
+# Loading work.PFA_0B
+# Loading work.FA_NC
+# Loading work.CLU_MULT
+# Loading work.BOOTH_SEL
+# Loading work.PFA
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlft9mac1i".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft9mac1i
+# 
+force -freeze sim:/MULT/a 8'haa 0
+force -freeze sim:/MULT/b 8'haa 0
+run
+# Compile of BOOTH_ENC.v was successful.
+# Compile of BOOTH_SEL_D0.v was successful.
+# Compile of BOOTH.v was successful.
+# Compile of BOOTH_ENC0.v was successful.
+# Compile of BOOTH_SEL.v was successful.
+# Compile of MULT.v was successful.
+# Compile of M_STAGE0.v was successful.
+# Compile of M_STAGE1.v was successful.
+# Compile of M_STAGE2.v was successful.
+# Compile of FA.v was successful.
+# Compile of HA.v was successful.
+# Compile of HA_1B.v was successful.
+# Compile of HA_NC.v was successful.
+# Compile of FA_NC.v was successful.
+# Compile of CLU_MULT.v was successful.
+# Compile of CLA_MULT.v was successful.
+# Compile of PFA_0B.v was successful.
+# Compile of PHA_NP.v was successful.
+# Compile of PFA.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MULT
+# vsim 
+# Start time: 15:41:41 on Mar 10,2017
+# Loading work.MULT
+# Loading work.BOOTH
+# Loading work.BOOTH_ENC0
+# Loading work.BOOTH_SEL_D0
+# Loading work.BOOTH_ENC
+# Loading work.M_STAGE0
+# Loading work.HA
+# Loading work.FA
+# Loading work.HA_1B
+# Loading work.M_STAGE1
+# Loading work.M_STAGE2
+# Loading work.CLA_MULT
+# Loading work.PHA_NP
+# Loading work.PFA_0B
+# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA_MULT.v(59): Instantiation of 'FA_1B_NC' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /MULT/cla_mult File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/CLA_MULT.v
+#         Searched libraries:
+#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/work
+# Loading work.CLU_MULT
+# Error loading design
+# Compile of FA_1B_NC.v was successful.
+vsim -gui work.MULT
+# vsim 
+# Start time: 15:42:18 on Mar 10,2017
+# Loading work.MULT
+# Loading work.BOOTH
+# Loading work.BOOTH_ENC0
+# Loading work.BOOTH_SEL_D0
+# Loading work.BOOTH_ENC
+# Loading work.M_STAGE0
+# Loading work.HA
+# Loading work.FA
+# Loading work.HA_1B
+# Loading work.M_STAGE1
+# Loading work.M_STAGE2
+# Loading work.CLA_MULT
+# Loading work.PHA_NP
+# Loading work.PFA_0B
+# Loading work.FA_1B_NC
+# Loading work.CLU_MULT
+# Loading work.BOOTH_SEL
+# Loading work.PFA
+add wave -position end sim:/MULT/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlftmwrwbc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftmwrwbc
+# 
+force -freeze sim:/MULT/a 8'haa 0
+force -freeze sim:/MULT/b 8'haa 0
+run
+# Compile of BOOTH_ENC.v was successful.
+# Compile of BOOTH_SEL_D0.v was successful.
+# Compile of BOOTH.v was successful.
+# Compile of BOOTH_ENC0.v was successful.
+# Compile of BOOTH_SEL.v was successful.
+# Compile of MULT.v was successful.
+# Compile of M_STAGE0.v was successful.
+# Compile of M_STAGE1.v was successful.
+# Compile of M_STAGE2.v was successful.
+# Compile of FA.v was successful.
+# Compile of HA.v was successful.
+# Compile of HA_1B.v was successful.
+# Compile of HA_NC.v was successful.
+# Compile of FA_NC.v was successful.
+# Compile of CLU_MULT.v was successful.
+# Compile of CLA_MULT.v was successful.
+# Compile of PFA_0B.v was successful.
+# Compile of PHA_NP.v was successful.
+# Compile of PFA.v was successful.
+# Compile of FA_1B_NC.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.MULT
+# vsim 
+# Start time: 15:45:28 on Mar 10,2017
+# Loading work.MULT
+# Loading work.BOOTH
+# Loading work.BOOTH_ENC0
+# Loading work.BOOTH_SEL_D0
+# Loading work.BOOTH_ENC
+# Loading work.M_STAGE0
+# Loading work.HA
+# Loading work.FA
+# Loading work.HA_1B
+# Loading work.M_STAGE1
+# Loading work.M_STAGE2
+# Loading work.CLA_MULT
+# Loading work.PHA_NP
+# Loading work.PFA_0B
+# Loading work.FA_1B_NC
+# Loading work.CLU_MULT
+# Loading work.BOOTH_SEL
+# Loading work.PFA
+add wave -position end sim:/MULT/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlftbvexrt".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftbvexrt
+# 
+force -freeze sim:/MULT/b 8'haa 0
+force -freeze sim:/MULT/a 8'haa 0
+run
+# Compile of MULT.v was successful.
+restart
+# Loading work.MULT
+force -freeze sim:/MULT/a 8'haa 0
+force -freeze sim:/MULT/b 8'haa 0
+run
+# End time: 12:24:51 on Mar 11,2017, Elapsed time: 20:39:23
+# Errors: 0, Warnings: 2
