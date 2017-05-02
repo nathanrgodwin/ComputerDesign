@@ -1,0 +1,542 @@
+vsim -gui work.comp_tb
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 14:50:03 on Mar 17,2017
+# Loading work.comp_tb
+# Loading work.ADD_CARD
+# Loading work.AND
+# Loading work.OR
+# Loading work.NOT
+# Loading work.XOR
+# Loading work.ADD_SUB_CLA
+# Loading work.DFF
+# Loading work.CLU
+# Loading work.COMPARE
+# Loading work.REG8
+# Loading work.MUX28
+# Loading work.ADD_OP_SEL
+# Loading work.ADD_RES_MUX
+# Loading work.PFA_ADD_SUB
+# Loading work.MUX21
+# Loading work.COMB61SEL
+add wave -position end sim:/comp_tb/add_card/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlft51j52n".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft51j52n
+# 
+run
+# ** Note: $finish    : D:/Stuff/Projects/ComputerDesign/VerilogDesign/comp_tb.v(91)
+#    Time: 180 ns  Iteration: 0  Instance: /comp_tb
+# Compile of comp_tb.v was successful.
+# 1
+# Break in Module comp_tb at D:/Stuff/Projects/ComputerDesign/VerilogDesign/comp_tb.v line 91
+# could not find interpreter "ScintillaTk"
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 140 ns.
+# 
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 140 ns.
+# 
+restart
+# Compile of comp_tb.v was successful.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 140 ns.
+# 
+restart
+# Loading work.comp_tb
+run
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 140 ns.
+# 
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+force -freeze sim:/comp_tb/add_card/reg0_res 8'h01 0
+run
+force -freeze sim:/comp_tb/add_card/iosw 1'h0 0
+run
+force -freeze sim:/comp_tb/add_card/iosw_en 1'h1 0
+run
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+run
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+run
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 140 ns.
+# 
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 140 ns.
+# 
+restart
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 140 ns.
+# 
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+run
+restart
+force -freeze sim:/comp_tb/add_card/reg0_res 8'hff 0
+run
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+run
+restart
+force -freeze sim:/comp_tb/add_card/reg0_res 8'hff 0
+run
+add wave -position 18  sim:/comp_tb/add_card/iosw
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+run
+restart
+force -freeze sim:/comp_tb/add_card/reg0_res 8'hff 0
+run
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 140 ns.
+# 
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+add wave -position 4  sim:/comp_tb/add_card/areg1_en
+add wave -position 4  sim:/comp_tb/add_card/test
+force -freeze sim:/comp_tb/add_card/test 1'h1 0
+run
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+# Warning in wave window restart: (vish-4014) No objects found matching '/comp_tb/add_card/test'. 
+run
+# Compile of ADD_CARD.v was successful.
+restart
+# Loading work.ADD_CARD
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 140 ns.
+# 
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 150 ns.
+# 
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+add wave -position end  sim:/comp_tb/add_card/reg_m
+add wave -position end  sim:/comp_tb/add_card/iosw
+add wave -position 15  sim:/comp_tb/add_card/reg0_res
+add wave -position 16  sim:/comp_tb/add_card/reg1_res
+add wave -position 15  sim:/comp_tb/add_card/reg_res
+restart
+run
+run
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+run
+run
+run
+run
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+run
+run
+run
+run
+run
+# Compile of comp_tb.v was successful.
+restart
+# Loading work.comp_tb
+run
+run
+run
+run
+run
+# Compile of VGA_CHAR_COUNT.v failed with 2 errors.
+# Compile of VGA_CHAR_COUNT.v failed with 2 errors.
+# Compile of VGA_CHAR_COUNT.v failed with 2 errors.
+# Compile of VGA_CHAR_COUNT.v failed with 2 errors.
+# could not find interpreter "ScintillaTk"
+# Compile of VGA_CHAR_COUNT.v failed with 2 errors.
+# Compile of VGA_CHAR_COUNT.v failed with 3 errors.
+# could not find interpreter "ScintillaTk"
+# Compile of VGA_CHAR_COUNT.v failed with 2 errors.
+# could not find interpreter "ScintillaTk"
+# could not find interpreter "ScintillaTk"
+# Compile of VGA_CHAR_COUNT.v failed with 1 errors.
+# Compile of VGA_CHAR_COUNT.v failed with 7 errors.
+# could not find interpreter "ScintillaTk"
+# could not find interpreter "ScintillaTk"
+# Compile of VGA_CHAR_COUNT.v was successful.
+vsim -gui work.VGA_CHAR_COUNT
+# vsim 
+# Start time: 15:39:45 on Mar 18,2017
+# Loading work.VGA_CHAR_COUNT
+add wave -position end sim:/VGA_CHAR_COUNT/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlft6g1sjj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft6g1sjj
+# 
+force -freeze sim:/VGA_CHAR_COUNT/clk 1 0, 0 {50 ns} -r 100
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of 4COUNT.v failed with 1 errors.
+# Compile of JKFF.v was successful.
+# Compile of TFF.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of COUNT4.v was successful.
+vsim -gui work.COUNT4
+# vsim 
+# Start time: 22:10:15 on Mar 18,2017
+# Loading work.COUNT4
+# Loading work.TFF
+# Loading work.JKFF
+add wave -position end sim:/COUNT4/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlft2ytema".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft2ytema
+# 
+force -freeze sim:/COUNT4/clk 1 0, 0 {50 ns} -r 100
+run
+add wave -position end sim:/COUNT4/tff/*
+restart
+run
+force -freeze sim:/COUNT4/clk 1 0, 0 {50 ns} -r 100
+run
+force -deposit sim:/COUNT4/tff/l3 1'h0 0
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 200 us.
+# 
+# Compile of TFF.v failed with 1 errors.
+# Compile of TFF.v failed with 1 errors.
+# Compile of TFF.v failed with 1 errors.
+# Compile of TFF.v failed with 1 errors.
+# Compile of TFF.v was successful.
+restart
+# Loading work.TFF
+run
+restart
+force -freeze sim:/COUNT4/clk 1 0, 0 {50 ps} -r 100
+run
+# Compile of TFF.v failed with 1 errors.
+# Compile of TFF.v failed with 1 errors.
+# Compile of TFF.v failed with 2 errors.
+# could not find interpreter "ScintillaTk"
+# Compile of TFF.v was successful.
+restart
+# Loading work.TFF
+# Warning in wave window restart: (vish-4014) No objects found matching '/COUNT4/tff/l0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/COUNT4/tff/l1'. 
+force -freeze sim:/COUNT4/clk 1 0, 0 {50 ps} -r 100
+run
+force -deposit sim:/COUNT4/tff/l3 1'h0 0
+run
+restart
+force -freeze sim:/COUNT4/clk 1 0, 0 {50 ps} -r 100
+force -deposit sim:/COUNT4/tff/t3 1'h0 0
+force -deposit sim:/COUNT4/tff/l3 1'h0 0
+run
+force -deposit sim:/COUNT4/tff/t2 1'h0 0
+force -deposit sim:/COUNT4/tff/l2 1'h0 0
+run
+foreach sig [find signals *] {
+    force $sig -deposit 0
+  }
+run
+vsim -gui work.comp_tb
+# vsim 
+# Start time: 22:25:02 on Mar 18,2017
+# Loading work.comp_tb
+# Loading work.ADD_CARD
+# Loading work.AND
+# Loading work.OR
+# Loading work.NOT
+# Loading work.XOR
+# Loading work.ADD_SUB_CLA
+# Loading work.DFF
+# Loading work.CLU
+# Loading work.COMPARE
+# Loading work.REG8
+# Loading work.MUX28
+# Loading work.ADD_OP_SEL
+# Loading work.ADD_RES_MUX
+# Loading work.PFA_ADD_SUB
+# Loading work.MUX21
+# Loading work.COMB61SEL
+add wave -position end sim:/comp_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlftq3yz7d".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftq3yz7d
+# 
+foreach sig [find signals *] {
+    force $sig -deposit 0
+  }
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 0 ps.
+# 
+restart
+run
+vsim -gui work.COUNT4
+# vsim 
+# Start time: 22:47:24 on Mar 18,2017
+# Loading work.COUNT4
+# Loading work.TFF
+# Loading work.JKFF
+add wave -position end sim:/COUNT4/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlftkb2fc8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftkb2fc8
+# 
+force -freeze sim:/COUNT4/clk 1 0, 0 {50 ps} -r 100
+run
+add wave -position end sim:/COUNT4/tff/*
+run
+restart
+force -freeze sim:/COUNT4/clk 1 0, 0 {50 ps} -r 100
+force -deposit sim:/COUNT4/tff/t3 1'h0 0 -cancel 200ps
+force -deposit sim:/COUNT4/tff/l3 1'h0 0 -cancel 200ps
+run
+# Compile of TFF.v was successful.
+restart
+# Loading work.TFF
+force -freeze sim:/COUNT4/clk 1 0, 0 {50 ps} -r 100
+run
+# Compile of TFF.v failed with 2 errors.
+# Compile of TFF.v failed with 4 errors.
+# Compile of TFF.v was successful.
+restart
+# Loading work.TFF
+run
+restart
+force -freeze sim:/COUNT4/clk 1 0, 0 {50 ps} -r 100
+run
+# Compile of TFF.v was successful.
+restart
+# Loading work.TFF
+force -freeze sim:/COUNT4/clk 1 0, 0 {500 ps} -r 1000
+run
+# Compile of TFF.v failed with 1 errors.
+# Compile of TFF.v was successful.
+restart
+# Loading work.TFF
+# Warning in wave window restart: (vish-4014) No objects found matching '/COUNT4/tff/t3'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/COUNT4/tff/l3'. 
+run
+restart
+force -freeze sim:/COUNT4/clk 1 0, 0 {50 ps} -r 100
+run
+# Compile of TFF.v failed with 1 errors.
+# Compile of TFF.v failed with 3 errors.
+vsim -gui work.COUNT4
+# vsim 
+# Start time: 02:13:30 on Mar 19,2017
+# Loading work.COUNT4
+# Loading work.TFF
+# Loading work.JKFF
+vsim -gui work.VGA_CHAR_COUNT
+# vsim 
+# Start time: 02:13:49 on Mar 19,2017
+# Loading work.VGA_CHAR_COUNT
+add wave -position end sim:/VGA_CHAR_COUNT/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlft2s8z4e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft2s8z4e
+# 
+noforce sim:/VGA_CHAR_COUNT/clk
+force -freeze sim:/VGA_CHAR_COUNT/clk 1 0, 0 {50 ns} -r 100
+run
+#  Trace back: could not find interpreter "ScintillaTk"
+#     while executing
+# "$vsimPriv(windowmgr) ShowWindow $windowobj"
+#     (object "::.srcmgr" method "::vsimwidgets::Srcmgr::OpenFile" body line 123)
+#     invoked from within
+# "$vsimPriv(src_manager) OpenFile $file $lang 1 $drvline"
+#     (procedure "::vsimwidgets::Srcedit::GotoDriver" body line 30)
+#     invoked from within
+# "GotoDriver {sim:/VGA_CHAR_COUNT/#ALWAYS#14 sim:/VGA_CHAR_COUNT/i D:/Stuff/Projects/ComputerDesign/VerilogDesign/VGA_CHAR_COUNT.v 17 1}"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval GotoDriver [list [lindex $DriverList 0]] $args"
+#     (procedure "::vsimwidgets::Srcedit::MultipleDriverDialog" body line 28)
+#     invoked from within
+# "MultipleDriverDialog $sig $DriverList $drivers_or_readers"
+#     (procedure "::vsimwidgets::Srcedit::HandleDrivers" body line 77)
+#     invoked from within
+# "vsimwidgets::Srcedit::HandleDrivers [lindex $sigList 0] $d_or_r"
+#     (procedure "_showDFReadersDrivers" line 41)
+#     invoked from within
+# "_showDFReadersDrivers drivers .main_pane.wave.interior.cs.body.pw.wf 1"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval _showDFReadersDrivers "drivers" $winname $classic $args"
+#     (procedure "Wave::ShowDFDrivers" line 2)
+#     invoked from within
+# "Wave::ShowDFDrivers $top 1"
+#     (procedure "Wave::1Up" line 27)
+#     invoked from within
+# "Wave::1Up $widget $x $y"
+#     (procedure "Wave::SelectUp" line 4)
+#     invoked from within
+# "Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 27 43 758 195 "
+#     (command bound to event)
+#    <2:C:/Program Files/Modeltech_pe_edu_10.4a/win32pe_edu/tk8.5/bgerror.tcl:92: ::tkerror {could not find interpreter "ScintillaTk"}
+# could not find interpreter "ScintillaTk"
+vsim -gui work.comp_tb
+# vsim 
+# Start time: 02:23:50 on Mar 19,2017
+# Loading work.comp_tb
+# Loading work.ADD_CARD
+# Loading work.AND
+# Loading work.OR
+# Loading work.NOT
+# Loading work.XOR
+# Loading work.ADD_SUB_CLA
+# Loading work.DFF
+# Loading work.CLU
+# Loading work.COMPARE
+# Loading work.REG8
+# Loading work.MUX28
+# Loading work.ADD_OP_SEL
+# Loading work.ADD_RES_MUX
+# Loading work.PFA_ADD_SUB
+# Loading work.MUX21
+# Loading work.COMB61SEL
+add wave -position end sim:/comp_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 237364
+# 
+#           Attempting to use alternate WLF file "./wlftwtqarx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftwtqarx
+# 
+run
+# End time: 18:16:48 on Mar 19,2017, Elapsed time: 15:52:58
+# Errors: 0, Warnings: 2

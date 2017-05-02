@@ -1,0 +1,407 @@
+{D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/memory.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/memory.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PC_JMP_MUX.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PC_JMP_MUX.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PC_JMP_MUX
+
+Top level modules:
+	PC_JMP_MUX
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand4_mod.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand4_mod.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module nand4_mod
+
+Top level modules:
+	nand4_mod
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_NP.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_NP.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module FA_NP
+
+Top level modules:
+	FA_NP
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AC_Output_Mux
+
+Top level modules:
+	AC_Output_Mux
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and_k.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and_k.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module and_k
+
+Top level modules:
+	and_k
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux21
+
+Top level modules:
+	mux21
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PFA.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PFA.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PFA
+
+Top level modules:
+	PFA
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_0B.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_0B.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module FA_0B
+
+Top level modules:
+	FA_0B
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PHA
+
+Top level modules:
+	PHA
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AddSub.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AddSub.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AC_AddSub
+
+Top level modules:
+	AC_AddSub
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module nand3_mod
+
+Top level modules:
+	nand3_mod
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/DATA_MUX_BLK.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/DATA_MUX_BLK.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DATA_MUX_BLK
+
+Top level modules:
+	DATA_MUX_BLK
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/muxcomb161.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/muxcomb161.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module muxcomb161
+
+Top level modules:
+	muxcomb161
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA_NP.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA_NP.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PHA_NP
+
+Top level modules:
+	PHA_NP
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_CLU.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_CLU.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module M_CLU
+
+Top level modules:
+	M_CLU
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE2.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE2.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module M_Stage2
+
+Top level modules:
+	M_Stage2
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PC_ADDER.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PC_ADDER.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PC_ADDER
+
+Top level modules:
+	PC_ADDER
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/CLU16.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/CLU16.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CLU16
+
+Top level modules:
+	CLU16
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/main_op_interp_blk.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/main_op_interp_blk.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module main_op_interp_blk
+
+Top level modules:
+	main_op_interp_blk
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Xor.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Xor.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AC_Xor
+
+Top level modules:
+	AC_Xor
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG16.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG16.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module REG16
+
+Top level modules:
+	REG16
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/reg_limit_k.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/reg_limit_k.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module reg_limit_k
+
+Top level modules:
+	reg_limit_k
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Xor_mod.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Xor_mod.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Xor_mod
+
+Top level modules:
+	Xor_mod
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_SEL_BLK.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_SEL_BLK.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module REG_SEL_BLK
+
+Top level modules:
+	REG_SEL_BLK
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/JMP_CTRL.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/JMP_CTRL.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module JMP_CTRL
+
+Top level modules:
+	JMP_CTRL
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Encoder.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Encoder.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Booth_Encoder
+
+Top level modules:
+	Booth_Encoder
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/HA_1B.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/HA_1B.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module HA_1B
+
+Top level modules:
+	HA_1B
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_8.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_8.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux21_8
+
+Top level modules:
+	mux21_8
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_CLA.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_CLA.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module M_CLA
+
+Top level modules:
+	M_CLA
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector_Blk.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector_Blk.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Booth_Selector_Blk
+
+Top level modules:
+	Booth_Selector_Blk
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Booth_Selector
+
+Top level modules:
+	Booth_Selector
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_CLU.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_CLU.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AC_CLU
+
+Top level modules:
+	AC_CLU
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE0.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE0.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module M_Stage0
+
+Top level modules:
+	M_Stage0
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_16.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_16.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux21_16
+
+Top level modules:
+	mux21_16
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And3_mod.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And3_mod.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module and3_mod
+
+Top level modules:
+	and3_mod
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux_Blk.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux_Blk.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AC_Output_Mux_Blk
+
+Top level modules:
+	AC_Output_Mux_Blk
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_WR_SELECT.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_WR_SELECT.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module REG_WR_SELECT
+
+Top level modules:
+	REG_WR_SELECT
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_And.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_And.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AC_And
+
+Top level modules:
+	AC_And
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Multiplier.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Multiplier.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Multiplier
+
+Top level modules:
+	Multiplier
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_1B.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_1B.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module FA_1B
+
+Top level modules:
+	FA_1B
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and16.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and16.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module and16
+
+Top level modules:
+	and16
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And_mod.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And_mod.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module And_mod
+
+Top level modules:
+	And_mod
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Nand3_mod.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Nand3_mod.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module nand3_mod
+
+Top level modules:
+	nand3_mod
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/DATA_MUX.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/DATA_MUX.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DATA_MUX
+
+Top level modules:
+	DATA_MUX
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Not.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Not.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AC_Not
+
+Top level modules:
+	AC_Not
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_RD_SEL.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_RD_SEL.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module REG_RD_SELECT
+
+Top level modules:
+	REG_RD_SELECT
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/compare.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/compare.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module compare
+
+Top level modules:
+	compare
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/HA.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/HA.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module HA
+
+Top level modules:
+	HA
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/main_op_interp.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/main_op_interp.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module main_op_interp
+
+Top level modules:
+	main_op_interp
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector_Blk0.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector_Blk0.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Booth_Selector_Blk0
+
+Top level modules:
+	Booth_Selector_Blk0
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/tri_state_16.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/tri_state_16.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module tri_state_16
+
+Top level modules:
+	tri_state_16
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and5_mod.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and5_mod.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module and5_mod
+
+Top level modules:
+	and5_mod
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE1.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE1.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module M_Stage1
+
+Top level modules:
+	M_Stage1
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/muxcom161blk.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/muxcom161blk.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module muxcomb161blk
+
+Top level modules:
+	muxcomb161blk
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AddCard.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AddCard.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AddCard
+
+Top level modules:
+	AddCard
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Or.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Or.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module AC_Or
+
+Top level modules:
+	AC_Or
+
+} {} {}}
