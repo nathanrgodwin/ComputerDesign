@@ -299,7 +299,7 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	And_mod
 
-} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Nand3_mod.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Nand3_mod.sv}
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Nand3_mod.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module nand3_mod
 

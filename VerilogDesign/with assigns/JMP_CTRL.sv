@@ -2,13 +2,13 @@ module JMP_CTRL
 	#(time NAND_TIME = 7ns)
 	(input [3:0] op,
 	input [3:0] opn,
-	input s, z,
+	input s_n, z,
 	output jmp_en);
 
-	wire z_n, s_n, soz, sozn, lessn, leqn, greatern, geqn, eqn, neqn, unconn;
+	wire z_n, s, soz, sozn, lessn, leqn, greatern, geqn, eqn, neqn, unconn;
 
 	assign #(NAND_TIME) z_n = ~(z & z);
-	assign #(NAND_TIME) s_n = ~(s & s);
+	assign #(NAND_TIME) s = ~(s_n & s_n);
 	assign #(NAND_TIME) soz = ~(z_n & s_n);
 	assign #(NAND_TIME) sozn = ~(soz & soz);
 
@@ -72,10 +72,8 @@ module JMP_CTRL
 	assign #(NAND_TIME) orgreatn = ~(orgreat & orgreat);
 	assign #(NAND_TIME) orequaln = ~(orequal & orequal);
 
-	assign #(NAND_TIME) uncon = ~(unconn & unconn);
-
 	assign #(NAND_TIME) or0 = ~(orlessn & orgreatn);
-	assign #(NAND_TIME) or1 = ~(orequal & unconn);
+	assign #(NAND_TIME) or1 = ~(orequaln & unconn);
 
 	assign #(NAND_TIME) or0n = ~(or0 & or0);
 	assign #(NAND_TIME) or1n = ~(or1 & or1);

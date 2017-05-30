@@ -23,13 +23,7 @@ module mainboard
 
 	wire add_sel_mid00, add_sel_mid01, add_sel_mid, jmp_en_ctrl, jmp_en_n, clkn;
 
-	wire mem_access, mem_accessn;
- 	wire [15:0] mem_addr;
-
- 	wire [7:0] mema_top, memd_top, ctrl_reg;
-
-	assign #(NAND_TIME) mem_access = ~(cmdn[2] & cmdn[3]);
-	assign #(NAND_TIME) mem_accessn = ~(mem_access & mem_access);
+	wire [7:0] ctrl_reg, memd_top;
 
 	PC_JMP_MUX #(NAND_TIME) PC_JMP_MUX
 	(.jmp_en (jmp_en),
@@ -41,11 +35,11 @@ module mainboard
 	.pcq (pc_reg),
 	.pc);
 
-	always @ (posedge clk iff cmd[3] == 1'b0) begin
+	always @ (posedge clk) begin
 		#(REG_TIME) pc_reg = pc;
 	end
 
-	always @ (posedge clk iff cmd[3] == 1'b0) begin
+	always @ (posedge clk) begin
 		#(REG_TIME) op = mem_data;
 	end
 
@@ -57,7 +51,6 @@ module mainboard
 	.en_n ({reg_sel_temp[15:11], mult_n, reg_sel_temp[9:0]}),
 	.clk,
 	.ctrl (ctrl_reg),
-	.mema_top (mema_top),
 	.memd_top (memd_top),
 	.q (reg_data));
 
@@ -149,16 +142,11 @@ module mainboard
  	assign #(NAND_TIME) clkn = ~(clk & clk);
 
  	memory #(MEM_TIME) memory
- 	(.addr (mem_addr),
+ 	(.addr (pc_reg),
  	.clk (clkn),
  	.load (cmdn[3]),
  	.store (cmd[3]),
  	.data (mem_data));
-
- 	tri_state_16 #(BUF_TIME) tri_state_store
- 	(.a ({memd_top, b}),
- 	.b (mem_data),
- 	.en (cmd[3]));
 
  	wire [11:8] mem_datan;
 
@@ -170,25 +158,11 @@ module mainboard
  	JMP_CTRL #(NAND_TIME) JMP_CTRL
  	(.op (mem_data[11:8]),
  	.opn (mem_datan[11:8]),
- 	.s (sign),
+ 	.s_n (sign),
  	.z,
  	.jmp_en (jmp_en_ctrl));
 
  	assign #(NAND_TIME) jmp_en_n = ~(jmp_en_ctrl & cmd[6]);
  	assign #(NAND_TIME) jmp_en = ~(jmp_en_n & jmp_en_n);
-
- 	wire [7:0] mema_low;
-
- 	mux21_8 #(NAND_TIME) mem_addr_mux_low
- 	(.a (op[11:4]),
- 	.b (op[7:0]),
- 	.sel (cmd[3]),
- 	.c  (mema_low));
-
- 	mux21_16 #(NAND_TIME) mem_addr_mux
- 	(.a ({mema_top, mema_low}),
- 	.b (pc_reg),
- 	.sel (mem_access),
- 	.c (mem_addr));
 
 endmodule // mainboard
