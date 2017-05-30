@@ -96,6 +96,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	muxcomb161
 
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mainboard
+
+Top level modules:
+	mainboard
+
 } {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA_NP.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA_NP.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module PHA_NP

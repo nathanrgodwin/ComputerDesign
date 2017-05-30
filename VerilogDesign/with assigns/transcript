@@ -635,3 +635,212 @@ run
 run
 run
 run
+# Compile of ari_shift.sv was successful.
+vsim -gui work.ari_shift
+# vsim 
+# Start time: 02:17:20 on May 30,2017
+# Loading sv_std.std
+# Loading work.ari_shift
+# Loading work.mux21_8
+add wave -position end sim:/ari_shift/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 39608
+# 
+#           Attempting to use alternate WLF file "./wlftjma43e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftjma43e
+# 
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/amt 3'h1 0
+force -freeze sim:/ari_shift/a 8'haa 0
+run
+force -freeze sim:/ari_shift/left 1'h1 0
+run
+# Compile of CLU16.sv was successful.
+# Compile of ari_shift.sv failed with 1 errors.
+# Compile of ari_shift.sv failed with 1 errors.
+# Compile of ari_shift.sv failed with 1 errors.
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+force -freeze sim:/ari_shift/left 1'h1 0
+force -freeze sim:/ari_shift/amt 3'h4 0
+force -freeze sim:/ari_shift/a 8'hff 0
+run
+# Compile of ari_shift.sv failed with 1 errors.
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+force -freeze sim:/ari_shift/a 8'hff 0
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/amt 3'h4 0
+run
+force -freeze sim:/ari_shift/left 1'h1 0
+run
+# Compile of ari_shift.sv failed with 1 errors.
+# Compile of ari_shift.sv failed with 1 errors.
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/amt 3'h4 0
+force -freeze sim:/ari_shift/a 8'hff 0
+run
+force -freeze sim:/ari_shift/left 1'h1 0
+run
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sh2c'. 
+add wave -position end sim:/ari_shift/*
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/a 8'hbb 0
+force -freeze sim:/ari_shift/rotate 1'h0 0
+force -freeze sim:/ari_shift/amt 2'h1 0
+run
+restart
+force -freeze sim:/ari_shift/a 8'haa 0
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/rotate 1'h0 0
+force -freeze sim:/ari_shift/amt 2'h1 0
+run
+force -freeze sim:/ari_shift/rotate 1'h1 0
+run
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/a0rtrn'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/a1rtrn'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/a7rtln'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/a6rtln'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sh0rtr'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sh1rtr'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sh7rtl'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sh6rtl'. 
+force -freeze sim:/ari_shift/a 8'hff 0
+# could not find interpreter "ScintillaTk"
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/rotate 1'h0 0
+force -freeze sim:/ari_shift/amt 2'h2 0
+run
+force -freeze sim:/ari_shift/left 1'h1 0
+run
+# Compile of ari_shift.sv failed with 1 errors.
+restart
+force -freeze sim:/ari_shift/a 8'hff 0
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/amt 2'h2 0
+run
+force -freeze sim:/ari_shift/left 1'h1 0
+run
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+force -freeze sim:/ari_shift/a 8'hff 0
+force -freeze sim:/ari_shift/amt 2'h2 0
+force -freeze sim:/ari_shift/left 1'h0 0
+run
+force -freeze sim:/ari_shift/left 1'h1 0
+run
+force -freeze sim:/ari_shift/amt 2'h3 0
+run
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/se_a7'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/se_a7n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/a0n'. 
+force -freeze sim:/ari_shift/a 8'haa 0
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/rotate 1'h1 0
+force -freeze sim:/ari_shift/amt 2'h2 0
+run
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+force -freeze sim:/ari_shift/a 8'hab 0
+force -freeze sim:/ari_shift/a 8'ha8 0
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/rotate 1'h1 0
+force -freeze sim:/ari_shift/amt 2'h2 0
+run
+force -freeze sim:/ari_shift/a 8'hac 0
+force -freeze sim:/ari_shift/amt 2'h3 0
+run
+force -freeze sim:/ari_shift/rotate 1'h0 0
+run
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+force -freeze sim:/ari_shift/a 8'hac 0
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/rotate 1'h1 0
+force -freeze sim:/ari_shift/amt 2'h3 0
+run
+add wave -position end  sim:/ari_shift/NAND_TIME
+add wave -position end  sim:/ari_shift/a
+add wave -position end  sim:/ari_shift/left
+add wave -position end  sim:/ari_shift/rotate
+add wave -position end  sim:/ari_shift/amt
+add wave -position end  sim:/ari_shift/c
+add wave -position end  sim:/ari_shift/rev0c
+add wave -position end  sim:/ari_shift/sh0c
+add wave -position end  sim:/ari_shift/sh1c
+add wave -position end  sim:/ari_shift/leftn
+add wave -position end  sim:/ari_shift/a7rn_n
+add wave -position end  sim:/ari_shift/rota0_n
+add wave -position end  sim:/ari_shift/rotsh0c0_n
+add wave -position end  sim:/ari_shift/rotsh0c1_n
+add wave -position end  sim:/ari_shift/sshr7n
+add wave -position end  sim:/ari_shift/sshr7
+add wave -position end  sim:/ari_shift/sshr6n
+add wave -position end  sim:/ari_shift/sshr6
+add wave -position end  sim:/ari_shift/rotaten
+add wave -position end  sim:/ari_shift/rotateleft_n
+add wave -position end  sim:/ari_shift/rotateleft
+add wave -position end  sim:/ari_shift/rla7n
+add wave -position end  sim:/ari_shift/rlsh0c7n
+add wave -position end  sim:/ari_shift/rlsh0c6n
+add wave -position end  sim:/ari_shift/a0n
+add wave -position end  sim:/ari_shift/sh0c0n
+add wave -position end  sim:/ari_shift/sh0c1n
+add wave -position end  sim:/ari_shift/rls0
+add wave -position end  sim:/ari_shift/rld0
+add wave -position end  sim:/ari_shift/rld1
+add wave -position end  sim:/ari_shift/sshr7mid0
+add wave -position end  sim:/ari_shift/dshr6mid0
+add wave -position end  sim:/ari_shift/dshr6n
+add wave -position end  sim:/ari_shift/dshr6
+add wave -position end  sim:/ari_shift/dshr7mid0
+add wave -position end  sim:/ari_shift/dshr7n
+add wave -position end  sim:/ari_shift/dshr7
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+force -freeze sim:/ari_shift/a 8'hac 0
+force -freeze sim:/ari_shift/left 1'h0 0
+noforce sim:/ari_shift/rotate
+force -freeze sim:/ari_shift/rotate 1'h1 0
+force -freeze sim:/ari_shift/amt 2'h3 0
+run
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rotateleft_n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rotateleft'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rla7n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rlsh0c7n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rlsh0c6n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/a0n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sh0c0n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sh0c1n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rls0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rld0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rld1'. 
+force -freeze sim:/ari_shift/a 8'hac 0
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/rotate 1'h1 0
+force -freeze sim:/ari_shift/amt 2'h3 0
+run
