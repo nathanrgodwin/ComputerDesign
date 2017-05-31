@@ -21,9 +21,11 @@ module mainboard
 
 	wire csel, sign, z;
 
-	wire add_sel_mid00, add_sel_mid01, add_sel_mid, jmp_en_ctrl, jmp_en_n, clkn;
+	wire add_sel_mid00, add_sel_mid01, add_sel_mid, jmp_en_ctrl, jmp_en_n, clkn, shift_sel;
 
 	wire [7:0] ctrl_reg, memd_top;
+
+	wire [3:0] shift_op;
 
 	PC_JMP_MUX #(NAND_TIME) PC_JMP_MUX
 	(.jmp_en (jmp_en),
@@ -96,13 +98,20 @@ module mainboard
 
 	AddCard #(NAND_TIME, REG_TIME) AddCard
 	(.a,
-	.b,
+	.b ({b[7:4], shift_op}),
 	.csel,
 	.clk,
 	.op (op[14:12]),
 	.res (add_res),
 	.sign,
-	.z);
+	.z,
+	.shift_sel);
+
+	mux21_4 #(NAND_TIME) mux_shift_cmd
+	(.a (op[3:0]),
+	.b (b[3:0]),
+	.sel (shift_sel),
+	.c (shift_op));
 
 	DATA_MUX #(NAND_TIME) DATA_MUX
 	(.mult_sel (cmd[0]),

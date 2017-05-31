@@ -26,13 +26,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	FA_NP
 
-} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux.sv}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module AC_Output_Mux
-
-Top level modules:
-	AC_Output_Mux
-
 } {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and_k.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and_k.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module and_k
@@ -348,6 +341,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	compare
 
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/ari_shift.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/ari_shift.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ari_shift
+
+Top level modules:
+	ari_shift
+
 } {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/HA.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/HA.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module HA
@@ -396,13 +396,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	muxcomb161blk
-
-} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AddCard.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AddCard.sv}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module AddCard
-
-Top level modules:
-	AddCard
 
 } {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Or.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Or.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015

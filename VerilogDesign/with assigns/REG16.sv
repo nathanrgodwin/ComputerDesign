@@ -12,7 +12,7 @@ module REG16
 
 	genvar i;
 	generate
-		for (i = 0; i < 11; i=i+1) begin
+		for (i = 0; i < 10; i=i+1) begin
 			always @ (posedge clk iff en_n[i] == 0) begin
 				#(REG_TIME) registers[i] = d;
 			end
@@ -20,14 +20,14 @@ module REG16
 		end
 	endgenerate
 
-	always @ (posedge clk iff en_n[11] == 0) begin
-		#(REG_TIME) registers[11] = mult_high;
+	always @ (posedge clk iff en_n[10] == 0) begin
+		#(REG_TIME) registers[10] = mult_high;
 	end
-	assign q[11] = registers[11];
+	assign q[10] = registers[10];
 
 	genvar j;
 	generate
-		for (j = 12; j < 16; j=j+1) begin
+		for (j = 11; j < 16; j=j+1) begin
 			always @ (posedge clk iff en_n[j] == 0) begin
 				#(REG_TIME) registers[j] = d;
 			end
@@ -35,7 +35,7 @@ module REG16
 		end
 	endgenerate
 
-	assign ctrl = registers[13];
-	assign memd_top = registers[12];
+	assign ctrl = registers[11];
+	assign memd_top = registers[9];
 
 endmodule // REG16

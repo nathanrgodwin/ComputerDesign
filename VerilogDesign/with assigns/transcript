@@ -844,3 +844,234 @@ force -freeze sim:/ari_shift/left 1'h0 0
 force -freeze sim:/ari_shift/rotate 1'h1 0
 force -freeze sim:/ari_shift/amt 2'h3 0
 run
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+force -freeze sim:/ari_shift/a 8'hac 0
+force -freeze sim:/ari_shift/rotate 1'h1 0
+force -freeze sim:/ari_shift/left 1'h1 0
+noforce sim:/ari_shift/amt
+force -freeze sim:/ari_shift/amt 2'h3 0
+run
+# Compile of ari_shift.sv failed with 1 errors.
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/a7rn_n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rota0_n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rotsh0c0_n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/rotsh0c1_n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sshr7n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sshr7'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sshr6n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sshr6'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/sshr7mid0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/dshr6mid0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/dshr6n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/dshr6'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/dshr7mid0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/dshr7n'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ari_shift/dshr7'. 
+force -freeze sim:/ari_shift/a 8'hac 0
+force -freeze sim:/ari_shift/left 1'h0 0
+force -freeze sim:/ari_shift/rotate 1'h1 0
+force -freeze sim:/ari_shift/amt 2'h3 0
+run
+force -freeze sim:/ari_shift/left 1'h1 0
+run
+# Compile of ari_shift.sv failed with 1 errors.
+# Compile of ari_shift.sv was successful.
+restart
+# Loading work.ari_shift
+force -freeze sim:/ari_shift/a 8'hac 0
+force -freeze sim:/ari_shift/left 1'h1 0
+force -freeze sim:/ari_shift/rotate 1'h1 0
+force -freeze sim:/ari_shift/amt 2'h3 0
+run
+force -freeze sim:/ari_shift/left 1'h0 0
+run
+force -freeze sim:/ari_shift/rotate 1'h0 0
+run
+force -freeze sim:/ari_shift/left 1'h1 0
+run
+# Compile of AddCard.sv was successful.
+# Compile of AC_Output_Mux.sv was successful.
+# Compile of mainboard.sv failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of mainboard.sv was successful.
+vsim -gui work.mainboard
+# vsim 
+# Start time: 17:22:09 on May 30,2017
+# Loading sv_std.std
+# Loading work.mainboard
+# Loading work.PC_JMP_MUX
+# Loading work.PC_ADDER
+# Loading work.PHA
+# Loading work.FA_NP
+# Loading work.CLU16
+# Loading work.REG16
+# Loading work.REG_WR_SELECT
+# Loading work.REG_SEL_BLK
+# Loading work.reg_limit_k
+# Loading work.main_op_interp
+# Loading work.main_op_interp_blk
+# Loading work.and3_mod
+# Loading work.Multiplier
+# Loading work.Booth_Encoder
+# Loading work.Booth_Selector
+# Loading work.Booth_Selector_Blk0
+# Loading work.Xor_mod
+# Loading work.Booth_Selector_Blk
+# Loading work.M_Stage0
+# Loading work.HA
+# Loading work.FA
+# Loading work.HA_1B
+# Loading work.M_Stage1
+# Loading work.M_Stage2
+# Loading work.M_CLA
+# Loading work.PHA_NP
+# Loading work.FA_0B
+# Loading work.PFA
+# Loading work.FA_1B
+# Loading work.M_CLU
+# Loading work.REG_RD_SELECT
+# Loading work.muxcomb161
+# Loading work.AddCard
+# Loading work.AC_And
+# Loading work.AC_Not
+# Loading work.AC_Or
+# Loading work.AC_Xor
+# Loading work.AC_AddSub
+# Loading work.mux21
+# Loading work.AC_CLU
+# Loading work.compare
+# Loading work.And_mod
+# Loading work.ari_shift
+# Loading work.mux21_8
+# Loading work.AC_Output_Mux
+# Loading work.And3_mod
+# Loading work.Nand3_mod
+# ** Error: (vsim-3033) D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv(110): Instantiation of 'mux21_4' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /mainboard File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv
+#         Searched libraries:
+#             D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/work
+# Loading work.DATA_MUX
+# Loading work.memory
+# Loading work.JMP_CTRL
+# Loading work.nand3_mod
+# Loading work.nand4_mod
+# Error loading design
+# Compile of mux21_4.sv was successful.
+vsim -gui work.mainboard
+# vsim 
+# Start time: 17:22:45 on May 30,2017
+# Loading sv_std.std
+# Loading work.mainboard
+# Loading work.PC_JMP_MUX
+# Loading work.PC_ADDER
+# Loading work.PHA
+# Loading work.FA_NP
+# Loading work.CLU16
+# Loading work.REG16
+# Loading work.REG_WR_SELECT
+# Loading work.REG_SEL_BLK
+# Loading work.reg_limit_k
+# Loading work.main_op_interp
+# Loading work.main_op_interp_blk
+# Loading work.and3_mod
+# Loading work.Multiplier
+# Loading work.Booth_Encoder
+# Loading work.Booth_Selector
+# Loading work.Booth_Selector_Blk0
+# Loading work.Xor_mod
+# Loading work.Booth_Selector_Blk
+# Loading work.M_Stage0
+# Loading work.HA
+# Loading work.FA
+# Loading work.HA_1B
+# Loading work.M_Stage1
+# Loading work.M_Stage2
+# Loading work.M_CLA
+# Loading work.PHA_NP
+# Loading work.FA_0B
+# Loading work.PFA
+# Loading work.FA_1B
+# Loading work.M_CLU
+# Loading work.REG_RD_SELECT
+# Loading work.muxcomb161
+# Loading work.AddCard
+# Loading work.AC_And
+# Loading work.AC_Not
+# Loading work.AC_Or
+# Loading work.AC_Xor
+# Loading work.AC_AddSub
+# Loading work.mux21
+# Loading work.AC_CLU
+# Loading work.compare
+# Loading work.And_mod
+# Loading work.ari_shift
+# Loading work.mux21_8
+# Loading work.AC_Output_Mux
+# Loading work.And3_mod
+# Loading work.Nand3_mod
+# Loading work.mux21_4
+# Loading work.DATA_MUX
+# Loading work.memory
+# Loading work.JMP_CTRL
+# Loading work.nand3_mod
+# Loading work.nand4_mod
+# Loading work.muxcomb161blk
+# Loading work.AC_Output_Mux_Blk
+# Loading work.DATA_MUX_BLK
+# Compile of memory.sv was successful.
+restart
+# Loading work.memory
+add wave -position end sim:/mainboard/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 39608
+# 
+#           Attempting to use alternate WLF file "./wlftat2m9x".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftat2m9x
+# 
+force -freeze sim:/mainboard/clk 0 0, 1 {500 ns} -r 1000
+run
+run
+run
+run
+run
+add wave -position 1  sim:/mainboard/pc_reg
+add wave -position 3  sim:/mainboard/op
+add wave -position end  sim:/mainboard/shift_sel
+# could not find interpreter "ScintillaTk"
+add wave -position 4  sim:/mainboard/a
+add wave -position 5  sim:/mainboard/b
+add wave -position end  sim:/mainboard/add_res
+add wave -position end  sim:/mainboard/AddCard/shift_sel
+add wave -position end  sim:/mainboard/AddCard/shift_res
+add wave -position end sim:/mainboard/AddCard/ari_shift/*
+restart
+force -freeze sim:/mainboard/clk 0 0, 1 {500 ns} -r 1000
+run
+add wave -position 28  sim:/mainboard/shift_op
+# Compile of mainboard.sv was successful.
+restart
+# Loading work.mainboard
+noforce sim:/mainboard/clk
+force -freeze sim:/mainboard/clk 0 0, 1 {500 ns} -r 1000
+run
+# Compile of memory.sv was successful.
+restart
+# Loading work.memory
+force -freeze sim:/mainboard/clk 0 0, 1 {500 ns} -r 1000
+run
+run
+run
+run
+run
+run
+run
+run
+run

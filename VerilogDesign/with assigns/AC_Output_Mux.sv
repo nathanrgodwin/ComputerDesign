@@ -3,13 +3,14 @@ module AC_Output_Mux
 	(input [2:0] op,
 	input [7:0] and_in, or_in, not_in, xor_in, sum_in, shift_in,
 	output [7:0] result,
-	output sub_sel, addsub, cmp);
+	output sub_sel, addsub, cmp, shift_sel_out);
 
 	wire [2:0] opn;
 	wire and_sel, not_sel, or_sel, xor_sel, addsub_sel, shift_sel, cmp_sel;
 
 	assign addsub = addsub_sel;
 	assign cmp = cmp_sel;
+	assign shift_sel_out = shift_sel;
 
 	assign #NAND_TIME opn[0] = ~(op[0] & op[0]);
 	assign #NAND_TIME opn[1] = ~(op[1] & op[1]);

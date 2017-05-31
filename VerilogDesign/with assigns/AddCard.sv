@@ -4,7 +4,7 @@ module AddCard
 	input csel, clk,
 	input [2:0] op,
 	output [7:0] res,
-	output sign, z);
+	output sign, z, shift_sel);
 
 	wire [7:0] and_res, or_res, not_res, xor_res, sum_res, shift_res;
 	wire sub_sel, cmp, addsub;
@@ -40,7 +40,12 @@ module AddCard
 	.cmp,
 	.z);
 
-	assign shift_res = 8'b0;
+	ari_shift #(NAND_TIME) ari_shift
+	(.a,
+	.left (b[3]),
+	.rotate(b[2]),
+	.amt(b[1:0]),
+	.c (shift_res));
 
 	AC_Output_Mux #(NAND_TIME) AC_Output_Mux
 	(.op,
@@ -53,6 +58,7 @@ module AddCard
 	.result (res),
 	.cmp,
 	.sub_sel,
+	.shift_sel_out (shift_sel),
 	.addsub);
 
 endmodule // AddCard

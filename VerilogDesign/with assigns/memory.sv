@@ -10,13 +10,11 @@ module memory
 		mem[0] = 16'hf000;
 		mem[1] = 16'hf101;
 		mem[2] = 16'hf210;
-		mem[3] = 16'hf310;
-		mem[4] = 16'hf320;
-		mem[5] = 16'h7002;
-		mem[6] = 16'he503;
-		mem[7] = 16'h4001;
-		mem[8] = 16'he0fb;
-		mem[9] = 16'hffff;
+		mem[3] = 16'h7002;
+		mem[4] = 16'he503;
+		mem[5] = 16'h4001;
+		mem[6] = 16'he0f9;
+		mem[7] = 16'hffff;
 	end
 
 	assign #(MEMORY_TIME)  data = (load==1'b1)?mem[addr]:16'bz;

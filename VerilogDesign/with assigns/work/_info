@@ -135,15 +135,15 @@ R4
 n@a@c_@or
 vAC_Output_Mux
 R0
-Z9 !s110 1496107117
+Z9 !s110 1496190053
 !i10b 1
-!s100 ^of]763Tc7ZfLc0Gaci820
-Ik<Pld8;CSKK@RF;EP7JbU1
+!s100 znB>hHd3g:LG^fW<<PZ352
+IKC;MT:iYCS^jSZ91^8OI^2
 R1
 !s105 AC_Output_Mux_sv_unit
 S1
 R2
-w1492807811
+w1496189734
 8D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux.sv
 FD:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux.sv
 L0 1
@@ -151,7 +151,7 @@ R3
 r1
 !s85 0
 31
-Z10 !s108 1496107117.000000
+Z10 !s108 1496190053.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux.sv|
 !s101 -O0
@@ -160,7 +160,7 @@ R4
 n@a@c_@output_@mux
 vAC_Output_Mux_Blk
 R0
-R9
+Z11 !s110 1496107117
 !i10b 1
 !s100 AiQAZeRL9U;MG5bH]_Lka1
 I[Lf:KJLBTQJARd072aRYo1
@@ -176,7 +176,7 @@ R3
 r1
 !s85 0
 31
-R10
+Z12 !s108 1496107117.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux_Blk.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AC_Output_Mux_Blk.sv|
 !s101 -O0
@@ -210,15 +210,15 @@ R4
 n@a@c_@xor
 vAddCard
 R0
-R7
+R9
 !i10b 1
-!s100 W5FP5oKR]mRkC]N;On7IZ3
-I?F=bb5efEboaai1e7mHRN2
+!s100 Najj?OGlVl>8na_F[IcZ=3
+In?M?4cn6CloSN7z:1USDP2
 R1
 !s105 AddCard_sv_unit
 S1
 R2
-w1492808030
+w1496189741
 8D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AddCard.sv
 FD:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AddCard.sv
 L0 1
@@ -226,7 +226,7 @@ R3
 r1
 !s85 0
 31
-R6
+R10
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AddCard.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/AddCard.sv|
 !s101 -O0
@@ -235,7 +235,7 @@ R4
 n@add@card
 vand16
 R0
-Z11 !s110 1496107127
+Z13 !s110 1496107127
 !i10b 1
 !s100 mKkPgLG=g5T9U:ji4EmYo1
 I`2?JP[fPPZPn5NGGceohX3
@@ -251,64 +251,64 @@ R3
 r1
 !s85 0
 31
-Z12 !s108 1496107127.000000
+Z14 !s108 1496107127.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and16.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and16.sv|
 !s101 -O0
 !i113 1
 R4
-vAnd3_mod
+vand3_mod
 R0
-Z13 !s110 1492711334
+R11
 !i10b 1
-!s100 F=>2aN<DW[CQQDA3SaChC3
-IJcZzQ9YjXKNQ8GImZQj061
+!s100 Fl@nR7MV6EMz5[;2SQLMP0
+IO1ac;ViBm:lHL^dnSDPdK0
 R1
-Z14 !s105 And3_mod_sv_unit
+Z15 !s105 And3_mod_sv_unit
 S1
 R2
-w1492469442
-Z15 8D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And3_mod.sv
-Z16 FD:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And3_mod.sv
+w1492713899
+Z16 8D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And3_mod.sv
+Z17 FD:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And3_mod.sv
 L0 1
 R3
 r1
 !s85 0
 31
-Z17 !s108 1492711334.000000
+R12
 Z18 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And3_mod.sv|
 Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And3_mod.sv|
 !s101 -O0
 !i113 1
 R4
-n@and3_mod
-vand3_mod
+vAnd3_mod
 R0
-R9
+Z20 !s110 1492711334
 !i10b 1
-!s100 Fl@nR7MV6EMz5[;2SQLMP0
-IO1ac;ViBm:lHL^dnSDPdK0
+!s100 F=>2aN<DW[CQQDA3SaChC3
+IJcZzQ9YjXKNQ8GImZQj061
 R1
-R14
+R15
 S1
 R2
-w1492713899
-R15
+w1492469442
 R16
+R17
 L0 1
 R3
 r1
 !s85 0
 31
-R10
+Z21 !s108 1492711334.000000
 R18
 R19
 !s101 -O0
 !i113 1
 R4
+n@and3_mod
 vand5_mod
 R0
-Z20 !s110 1496107126
+Z22 !s110 1496107126
 !i10b 1
 !s100 ?A`1BTc`1`JU=WSKD8oXG1
 IXPZ5WkQ^ZAUMcIhBHSoiU0
@@ -324,7 +324,7 @@ R3
 r1
 !s85 0
 31
-Z21 !s108 1496107126.000000
+Z23 !s108 1496107126.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and5_mod.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and5_mod.sv|
 !s101 -O0
@@ -356,7 +356,7 @@ r1
 R4
 vand_k
 R0
-R20
+R22
 !i10b 1
 !s100 d:L1XfW:F;8_fiikzKeIT0
 IA^n5OJ=MGOnW;F@W^K>j61
@@ -372,7 +372,7 @@ R3
 r1
 !s85 0
 31
-R21
+R23
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and_k.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/and_k.sv|
 !s101 -O0
@@ -380,7 +380,7 @@ R21
 R4
 vAnd_mod
 R0
-Z22 !s110 1496107116
+Z24 !s110 1496107116
 !i10b 1
 !s100 <6X_geFAMaU4T7;b@Q2Wg2
 IDoE_gBMHLD4EFSZ>9ko:D2
@@ -396,7 +396,7 @@ R3
 r1
 !s85 0
 31
-Z23 !s108 1496107116.000000
+Z25 !s108 1496107116.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And_mod.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/And_mod.sv|
 !s101 -O0
@@ -405,15 +405,15 @@ R4
 n@and_mod
 vari_shift
 R0
-!s110 1496142208
+!s110 1496188436
 !i10b 1
-!s100 Mkh6j?4d0U^?Bk]=FMjJa0
-I?9QX_;D9M0hbb7PESCP=F1
+!s100 d6H9kSJXMZ1elaHDE^RVJ0
+IVTSm27TU:SmCg<TWo[;9L2
 R1
 !s105 ari_shift_sv_unit
 S1
 R2
-w1496142204
+w1496188432
 8D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/ari_shift.sv
 FD:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/ari_shift.sv
 L0 1
@@ -421,7 +421,7 @@ R3
 r1
 !s85 0
 31
-!s108 1496142208.000000
+!s108 1496188436.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/ari_shift.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/ari_shift.sv|
 !s101 -O0
@@ -429,7 +429,7 @@ r1
 R4
 vBooth_Encoder
 R0
-Z24 !s110 1496107118
+Z26 !s110 1496107118
 !i10b 1
 !s100 zbKY_MMP6D03IN5lcNoIP0
 IkgGZ:AkiER:HKP9b_9[j>1
@@ -445,7 +445,7 @@ R3
 r1
 !s85 0
 31
-Z25 !s108 1496107118.000000
+Z27 !s108 1496107118.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Encoder.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Encoder.sv|
 !s101 -O0
@@ -454,7 +454,7 @@ R4
 n@booth_@encoder
 vBooth_Selector
 R0
-R24
+R26
 !i10b 1
 !s100 ASNh@Ua57SY2QQLNmbJII1
 Ii=hb>F[UhZ:>N@<;NYoa<0
@@ -470,7 +470,7 @@ R3
 r1
 !s85 0
 31
-R25
+R27
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector.sv|
 !s101 -O0
@@ -479,7 +479,7 @@ R4
 n@booth_@selector
 vBooth_Selector_Blk
 R0
-R24
+R26
 !i10b 1
 !s100 Dofi^E=R>DDEzAOoW3Ldh1
 IRz]Ckel;755=z<jcn:;C@0
@@ -495,7 +495,7 @@ R3
 r1
 !s85 0
 31
-R25
+R27
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector_Blk.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector_Blk.sv|
 !s101 -O0
@@ -504,7 +504,7 @@ R4
 n@booth_@selector_@blk
 vBooth_Selector_Blk0
 R0
-Z26 !s110 1496107119
+Z28 !s110 1496107119
 !i10b 1
 !s100 IU<necXTLk[XTEgni25e:2
 IzL1fNd=LOhhD8z6YLDRXe1
@@ -520,7 +520,7 @@ R3
 r1
 !s85 0
 31
-Z27 !s108 1496107119.000000
+Z29 !s108 1496107119.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector_Blk0.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Booth_Selector_Blk0.sv|
 !s101 -O0
@@ -554,7 +554,7 @@ R4
 n@c@l@u16
 vcompare
 R0
-R9
+R11
 !i10b 1
 !s100 Wm3QJ4FLonaW8^N@>YZT<3
 IJ3UdTQ6=YSX@k]BlBlDZe2
@@ -570,7 +570,7 @@ R3
 r1
 !s85 0
 31
-R10
+R12
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/compare.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/compare.sv|
 !s101 -O0
@@ -578,7 +578,7 @@ R10
 R4
 vDATA_MUX
 R0
-R20
+R22
 !i10b 1
 !s100 @4GUITjC5@FN@GWaTU_RW1
 I^Sh;0lQ4mN11Zg<od[eO53
@@ -594,7 +594,7 @@ R3
 r1
 !s85 0
 31
-R21
+R23
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/DATA_MUX.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/DATA_MUX.sv|
 !s101 -O0
@@ -603,7 +603,7 @@ R4
 n@d@a@t@a_@m@u@x
 vDATA_MUX_BLK
 R0
-R20
+R22
 !i10b 1
 !s100 ^LWa>n^^ggmVKELLRAh8I1
 IozzgD[kUPBgCaHnkGQ_9N2
@@ -619,7 +619,7 @@ R3
 r1
 !s85 0
 31
-R21
+R23
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/DATA_MUX_BLK.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/DATA_MUX_BLK.sv|
 !s101 -O0
@@ -628,7 +628,7 @@ R4
 n@d@a@t@a_@m@u@x_@b@l@k
 vFA
 R0
-R26
+R28
 !i10b 1
 !s100 <o:E19c`Lg49@h1?`RnJg0
 IJciB_a3n26>^W@1cDLQ9h3
@@ -644,7 +644,7 @@ R3
 r1
 !s85 0
 31
-R27
+R29
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA.sv|
 !s101 -O0
@@ -653,7 +653,7 @@ R4
 n@f@a
 vFA_0B
 R0
-Z28 !s110 1496107121
+Z30 !s110 1496107121
 !i10b 1
 !s100 Q;JX8oX1bO2bB50:QzYKh3
 I@O;9FAE2D6[dn_?>nIz7H3
@@ -669,7 +669,7 @@ R3
 r1
 !s85 0
 31
-Z29 !s108 1496107121.000000
+Z31 !s108 1496107121.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_0B.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_0B.sv|
 !s101 -O0
@@ -678,7 +678,7 @@ R4
 n@f@a_0@b
 vFA_1B
 R0
-R28
+R30
 !i10b 1
 !s100 Xf2lnB5K>P=Nn1G?R7If`2
 I_gaCDmCn30RERoUTQeP8Y0
@@ -694,7 +694,7 @@ R3
 r1
 !s85 0
 31
-R29
+R31
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_1B.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_1B.sv|
 !s101 -O0
@@ -703,7 +703,7 @@ R4
 n@f@a_1@b
 vFA_NP
 R0
-Z30 !s110 1496107124
+Z32 !s110 1496107124
 !i10b 1
 !s100 YhAAefTS0NlTVNObGfgiY2
 If9>A>9D4Gl=cYaeD[UQ1[0
@@ -719,7 +719,7 @@ R3
 r1
 !s85 0
 31
-Z31 !s108 1496107124.000000
+Z33 !s108 1496107124.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_NP.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/FA_NP.sv|
 !s101 -O0
@@ -728,7 +728,7 @@ R4
 n@f@a_@n@p
 vHA
 R0
-R26
+R28
 !i10b 1
 !s100 [fnB5O2jPo@^Rc1QJa_I82
 ImHP57hh;>Me;K@O6UAI`[3
@@ -744,7 +744,7 @@ R3
 r1
 !s85 0
 31
-R27
+R29
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/HA.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/HA.sv|
 !s101 -O0
@@ -753,7 +753,7 @@ R4
 n@h@a
 vHA_1B
 R0
-R26
+R28
 !i10b 1
 !s100 W:8A2L6e8;[RNag6;Fo@f3
 IBEP^B?foW1eI@7OiWaT`o2
@@ -769,7 +769,7 @@ R3
 r1
 !s85 0
 31
-R27
+R29
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/HA_1B.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/HA_1B.sv|
 !s101 -O0
@@ -803,7 +803,7 @@ R4
 n@j@m@p_@c@t@r@l
 vM_CLA
 R0
-R28
+R30
 !i10b 1
 !s100 U?EVhaZZ3aZ7=6nK8f5zQ3
 IH9Rn0AOe@8zl3Lb3]U7LP3
@@ -819,7 +819,7 @@ R3
 r1
 !s85 0
 31
-R29
+R31
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_CLA.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_CLA.sv|
 !s101 -O0
@@ -828,7 +828,7 @@ R4
 n@m_@c@l@a
 vM_CLU
 R0
-R28
+R30
 !i10b 1
 !s100 nSa8ENcBI^7TRP;NHAmHQ3
 IDUG64aa>@S64bP;kA@_UA0
@@ -844,7 +844,7 @@ R3
 r1
 !s85 0
 31
-R29
+R31
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_CLU.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_CLU.sv|
 !s101 -O0
@@ -853,7 +853,7 @@ R4
 n@m_@c@l@u
 vM_Stage0
 R0
-Z32 !s110 1496107120
+Z34 !s110 1496107120
 !i10b 1
 !s100 76K;gFZJCCodENVRLjfmE2
 IbPjYaFzh`P>ePG17dAaXS2
@@ -869,7 +869,7 @@ R3
 r1
 !s85 0
 31
-Z33 !s108 1496107120.000000
+Z35 !s108 1496107120.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE0.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE0.sv|
 !s101 -O0
@@ -878,7 +878,7 @@ R4
 n@m_@stage0
 vM_Stage1
 R0
-R32
+R34
 !i10b 1
 !s100 V?cd@8`^Jkab^A<7hHNe_0
 I@TnEH>YFbk^?AO70OSUJi3
@@ -894,7 +894,7 @@ R3
 r1
 !s85 0
 31
-R33
+R35
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE1.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE1.sv|
 !s101 -O0
@@ -903,7 +903,7 @@ R4
 n@m_@stage1
 vM_Stage2
 R0
-R32
+R34
 !i10b 1
 !s100 Yc0<;H4EEBZnjXjDU0gSH2
 I9NVV:21K>VE6:8SJ:]F;o1
@@ -919,7 +919,7 @@ R3
 r1
 !s85 0
 31
-R33
+R35
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/M_STAGE2.sv|
 !s101 -O0
@@ -928,7 +928,7 @@ R4
 n@m_@stage2
 vmain_op_interp
 R0
-Z34 !s110 1496107125
+Z36 !s110 1496107125
 !i10b 1
 !s100 SE1Aja<S9@am5H;:[J0^k2
 IeZQZHN6>F5Ll9_j]YHj5`1
@@ -944,7 +944,7 @@ R3
 r1
 !s85 0
 31
-R31
+R33
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/main_op_interp.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/main_op_interp.sv|
 !s101 -O0
@@ -952,7 +952,7 @@ R31
 R4
 vmain_op_interp_blk
 R0
-R34
+R36
 !i10b 1
 !s100 PjgUdJ56KHIb`W3[PQ<5Q3
 IG0nfB<d7TPHM]a0gcG:`o3
@@ -968,7 +968,7 @@ R3
 r1
 !s85 0
 31
-Z35 !s108 1496107125.000000
+Z37 !s108 1496107125.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/main_op_interp_blk.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/main_op_interp_blk.sv|
 !s101 -O0
@@ -976,15 +976,15 @@ Z35 !s108 1496107125.000000
 R4
 vmainboard
 R0
-!s110 1496118051
+!s110 1496191225
 !i10b 1
-!s100 gWYSNi_3QceXgIzSd:`Ri3
-I2:_VmL4Y5gNkEQzL^3bmj0
+!s100 mk^XXl?=@3UkIOhWY[zb:3
+IX=9YgOFfFa9nLLof4R?[_2
 R1
 !s105 mainboard_sv_unit
 S1
 R2
-w1496118041
+w1496191219
 8D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv
 FD:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv
 L0 1
@@ -992,7 +992,7 @@ R3
 r1
 !s85 0
 31
-!s108 1496118051.000000
+!s108 1496191225.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv|
 !s101 -O0
@@ -1000,15 +1000,15 @@ r1
 R4
 vmemory
 R0
-!s110 1496113514
+!s110 1496191334
 !i10b 1
-!s100 LmX[QVm5D5flDCCgZVh`k3
-I>ccBi9ZIj_D[EAL=H6?Th2
+!s100 ?K9_i[A81hk<2@5fA9>jf2
+Inok[f7Vkg<2;jgZ16@UM11
 R1
 !s105 memory_sv_unit
 S1
 R2
-w1496113503
+w1496191332
 8D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/memory.sv
 FD:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/memory.sv
 L0 1
@@ -1016,7 +1016,7 @@ R3
 r1
 !s85 0
 31
-!s108 1496113514.000000
+!s108 1496191334.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/memory.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/memory.sv|
 !s101 -O0
@@ -1024,7 +1024,7 @@ r1
 R4
 vMultiplier
 R0
-R32
+R34
 !i10b 1
 !s100 VfUJea0zmoUmd;omI1cJa0
 I<`c7QA3QhcXB<kE>aG9g_0
@@ -1040,7 +1040,7 @@ R3
 r1
 !s85 0
 31
-R33
+R35
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Multiplier.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Multiplier.sv|
 !s101 -O0
@@ -1049,7 +1049,7 @@ R4
 n@multiplier
 vmux21
 R0
-R22
+R24
 !i10b 1
 !s100 JZX^0GHFfFZUBNLMczM:?3
 IE`[c1ocjh^>;;Lzo3@hCz3
@@ -1065,7 +1065,7 @@ R3
 r1
 !s85 0
 31
-R23
+R25
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21.sv|
 !s101 -O0
@@ -1073,7 +1073,7 @@ R23
 R4
 vmux21_16
 R0
-Z36 !s110 1496107128
+Z38 !s110 1496107128
 !i10b 1
 !s100 nFZiP36YHj6=^2n2dIbfk2
 I3Cch:Y:mONHB2=<ho6lj>2
@@ -1089,15 +1089,39 @@ R3
 r1
 !s85 0
 31
-Z37 !s108 1496107128.000000
+Z39 !s108 1496107128.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_16.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_16.sv|
 !s101 -O0
 !i113 1
 R4
+vmux21_4
+R0
+!s110 1496190150
+!i10b 1
+!s100 <gWhZeR?Lz>8X2U3?DnST1
+I7G9:Yc]_eRl>8=`lB:gJl1
+R1
+!s105 mux21_4_sv_unit
+S1
+R2
+w1496189856
+8D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_4.sv
+FD:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_4.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1496190150.000000
+!s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_4.sv|
+!s101 -O0
+!i113 1
+R4
 vmux21_8
 R0
-R36
+R38
 !i10b 1
 !s100 l6f7?FJeH5ihE0I_f2]gH2
 IhFzl5MIkh7XF`@edELcYl3
@@ -1113,7 +1137,7 @@ R3
 r1
 !s85 0
 31
-R37
+R39
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_8.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mux21_8.sv|
 !s101 -O0
@@ -1121,7 +1145,7 @@ R37
 R4
 vmuxcomb161
 R0
-R34
+R36
 !i10b 1
 !s100 AV7HA`ddVLKTWh8K<@2jn2
 I?01@6kCcJH>06dM?HQP`02
@@ -1137,7 +1161,7 @@ R3
 r1
 !s85 0
 31
-R35
+R37
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/muxcomb161.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/muxcomb161.sv|
 !s101 -O0
@@ -1145,7 +1169,7 @@ R35
 R4
 vmuxcomb161blk
 R0
-R34
+R36
 !i10b 1
 !s100 Ib[V7kz96M=S<cCUe1<WA2
 IG5^6JeQUWYbg41lQ46SGU0
@@ -1161,39 +1185,15 @@ R3
 r1
 !s85 0
 31
-R35
+R37
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/muxcom161blk.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/muxcom161blk.sv|
 !s101 -O0
 !i113 1
 R4
-vnand3_mod
-R0
-R11
-!i10b 1
-!s100 R==B;P=l?<62J8oaQ_NBG2
-IT>B@ao?YcEgOIZEIJ3hgd2
-R1
-!s105 nand3_mod_sv_unit
-S1
-R2
-w1492714233
-8D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv
-FD:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv
-L0 1
-R3
-r1
-!s85 0
-31
-R12
-!s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv|
-!s101 -O0
-!i113 1
-R4
 vNand3_mod
 R0
-R13
+R20
 !i10b 1
 !s100 >ToKoJZGTR[Yl6a>i0iG10
 IVhVCndTR`LdRgAJn@DWJG3
@@ -1209,16 +1209,40 @@ R3
 r1
 !s85 0
 31
-R17
+R21
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Nand3_mod.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Nand3_mod.sv|
 !s101 -O0
 !i113 1
 R4
 n@nand3_mod
+vnand3_mod
+R0
+R13
+!i10b 1
+!s100 R==B;P=l?<62J8oaQ_NBG2
+IT>B@ao?YcEgOIZEIJ3hgd2
+R1
+!s105 nand3_mod_sv_unit
+S1
+R2
+w1492714233
+8D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv
+FD:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand3_mod.sv|
+!s101 -O0
+!i113 1
+R4
 vnand4_mod
 R0
-R11
+R13
 !i10b 1
 !s100 NG:B>OBaOzibLf[jWYW_W3
 ID;D[fPUA;_Iaf58RoRg6I3
@@ -1234,7 +1258,7 @@ R3
 r1
 !s85 0
 31
-R12
+R14
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand4_mod.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/nand4_mod.sv|
 !s101 -O0
@@ -1290,7 +1314,7 @@ r1
 R4
 vPC_ADDER
 R0
-Z38 !s110 1496107122
+Z40 !s110 1496107122
 !i10b 1
 !s100 80ze442VFDC=mmlGQ<OmH0
 IW?P478l=[NmNXI[A>I5TA1
@@ -1306,7 +1330,7 @@ R3
 r1
 !s85 0
 31
-Z39 !s108 1496107122.000000
+Z41 !s108 1496107122.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PC_ADDER.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PC_ADDER.sv|
 !s101 -O0
@@ -1315,7 +1339,7 @@ R4
 n@p@c_@a@d@d@e@r
 vPC_JMP_MUX
 R0
-R38
+R40
 !i10b 1
 !s100 =mUK@>V01Q^[]H?5PYB`Y0
 IU<imo^iBi9PoaA9ziP>A<2
@@ -1331,7 +1355,7 @@ R3
 r1
 !s85 0
 31
-R39
+R41
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PC_JMP_MUX.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PC_JMP_MUX.sv|
 !s101 -O0
@@ -1340,7 +1364,7 @@ R4
 n@p@c_@j@m@p_@m@u@x
 vPFA
 R0
-R22
+R24
 !i10b 1
 !s100 8BF;V?Fe1FL9kY;L]1`>:1
 IKY1`G7M0fRdn`a3Dg^JzI0
@@ -1356,7 +1380,7 @@ R3
 r1
 !s85 0
 31
-R23
+R25
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PFA.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PFA.sv|
 !s101 -O0
@@ -1365,7 +1389,7 @@ R4
 n@p@f@a
 vPHA
 R0
-R38
+R40
 !i10b 1
 !s100 SOYbXO0eF19[WT@TANMlH1
 I<ORl0Z09T?Q_74C2g>EGC1
@@ -1381,7 +1405,7 @@ R3
 r1
 !s85 0
 31
-R39
+R41
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA.sv|
 !s101 -O0
@@ -1390,7 +1414,7 @@ R4
 n@p@h@a
 vPHA_NP
 R0
-R38
+R40
 !i10b 1
 !s100 Qm0_UfSXM7W1dV2nNO1om3
 I@]f9EG4b;KDeaYZNU2B5H3
@@ -1406,7 +1430,7 @@ R3
 r1
 !s85 0
 31
-R39
+R41
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA_NP.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA_NP.sv|
 !s101 -O0
@@ -1440,7 +1464,7 @@ R4
 n@r@e@g16
 vreg_limit_k
 R0
-R30
+R32
 !i10b 1
 !s100 h0JD8J3Q<X;42MX;li`962
 IfRdIb5^>ciFz5NgbJdn290
@@ -1456,7 +1480,7 @@ R3
 r1
 !s85 0
 31
-R31
+R33
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/reg_limit_k.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/reg_limit_k.sv|
 !s101 -O0
@@ -1464,7 +1488,7 @@ R31
 R4
 vREG_RD_SELECT
 R0
-R34
+R36
 !i10b 1
 !s100 E_ec:6nj_e57^bkh8fGaT1
 IGNMU9_Z7fEZH[P1ohMYfn2
@@ -1480,7 +1504,7 @@ R3
 r1
 !s85 0
 31
-R35
+R37
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_RD_SEL.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_RD_SEL.sv|
 !s101 -O0
@@ -1489,7 +1513,7 @@ R4
 n@r@e@g_@r@d_@s@e@l@e@c@t
 vREG_SEL_BLK
 R0
-Z40 !s110 1496107123
+Z42 !s110 1496107123
 !i10b 1
 !s100 _l;^YUgWAhK3Wj[9bafIG1
 I[9>YkJe8ze51CHHQcP<D52
@@ -1505,7 +1529,7 @@ R3
 r1
 !s85 0
 31
-Z41 !s108 1496107123.000000
+Z43 !s108 1496107123.000000
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_SEL_BLK.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_SEL_BLK.sv|
 !s101 -O0
@@ -1514,7 +1538,7 @@ R4
 n@r@e@g_@s@e@l_@b@l@k
 vREG_WR_SELECT
 R0
-R40
+R42
 !i10b 1
 !s100 M[WUCideJMMQ4<Y5KRP0<3
 I`0QSmJb@a0fh@?Zo:F[Em1
@@ -1530,7 +1554,7 @@ R3
 r1
 !s85 0
 31
-R41
+R43
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_WR_SELECT.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_WR_SELECT.sv|
 !s101 -O0
@@ -1539,7 +1563,7 @@ R4
 n@r@e@g_@w@r_@s@e@l@e@c@t
 vtri_state_16
 R0
-R36
+R38
 !i10b 1
 !s100 Oe9nc_dP0aOiZ9=[XVY[K1
 IE`_34Qc8I]ZO]WHbF]8Uc2
@@ -1555,7 +1579,7 @@ R3
 r1
 !s85 0
 31
-R37
+R39
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/tri_state_16.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/tri_state_16.sv|
 !s101 -O0
@@ -1563,7 +1587,7 @@ R37
 R4
 vXor_mod
 R0
-R22
+R24
 !i10b 1
 !s100 jT8LhgS:WMDY^zPYn<bbd1
 InXU8U4ezSRAXFECDf`NBU2
@@ -1579,7 +1603,7 @@ R3
 r1
 !s85 0
 31
-R23
+R25
 !s107 D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Xor_mod.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Xor_mod.sv|
 !s101 -O0
