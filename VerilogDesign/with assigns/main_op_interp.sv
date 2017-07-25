@@ -10,7 +10,7 @@ module main_op_interp
 	assign #(NAND_TIME) opn[13] = ~(op[13] & op[13]);
 	assign #(NAND_TIME) opn[12] = ~(op[12] & op[12]);
 	assign #(NAND_TIME) data12n = ~(data[12] & data[12]);
-
+	//8 = CMD0 = MULTIPLY
 	main_op_interp_blk #(NAND_TIME) main_op_interp_blk0
 	(.a (op[15]),
 	.b (opn[14]),
@@ -19,6 +19,7 @@ module main_op_interp
 	.sel (cmd[0]),
 	.seln (cmdn[0]));
 
+	//9 = CMD1
 	main_op_interp_blk #(NAND_TIME) main_op_interp_blk1
 	(.a (op[15]),
 	.b (opn[14]),
@@ -27,6 +28,7 @@ module main_op_interp
 	.sel (cmd[1]),
 	.seln (cmdn[1]));
 
+	//A = CMD2
 	main_op_interp_blk #(NAND_TIME) main_op_interp_blk2
 	(.a (op[15]),
 	.b (opn[14]),
@@ -35,6 +37,7 @@ module main_op_interp
 	.sel (cmd[2]),
 	.seln (cmdn[2]));
 
+	//B = CMD3
 	main_op_interp_blk #(NAND_TIME) main_op_interp_blk3
 	(.a (op[15]),
 	.b (opn[14]),
@@ -43,6 +46,7 @@ module main_op_interp
 	.sel (cmd[3]),
 	.seln (cmdn[3]));
 
+	//C = CMD4
 	main_op_interp_blk #(NAND_TIME) main_op_interp_blk4
 	(.a (op[15]),
 	.b (op[14]),
@@ -51,6 +55,7 @@ module main_op_interp
 	.sel (cmd[4]),
 	.seln (cmdn[4]));
 
+	//D = CMD5
 	main_op_interp_blk #(NAND_TIME) main_op_interp_blk5
 	(.a (op[15]),
 	.b (op[14]),
@@ -59,6 +64,7 @@ module main_op_interp
 	.sel (cmd[5]),
 	.seln (cmdn[5]));
 
+	//F = CMD6
 	wire cmd6_0;
 	main_op_interp_blk #(NAND_TIME) main_op_interp_blk6
 	(.a (data[15]),

@@ -5,14 +5,14 @@ module REG16
 	input [15:0] en_n,
 	input clk,
 	output [7:0] ctrl,
-	output [7:0] memd_top,
+	output [7:0] mema_top,
 	output [7:0] q [15:0]);
 
 	reg [7:0] registers [15:0] = {8'h0,8'h0,8'h0,8'h0,8'h0,8'h0,8'h0,8'h0,8'h0,8'h0,8'h0,8'h0,8'h0,8'h0,8'h0,8'h0};
 
 	genvar i;
 	generate
-		for (i = 0; i < 10; i=i+1) begin
+		for (i = 0; i < 13; i=i+1) begin
 			always @ (posedge clk iff en_n[i] == 0) begin
 				#(REG_TIME) registers[i] = d;
 			end
@@ -20,14 +20,14 @@ module REG16
 		end
 	endgenerate
 
-	always @ (posedge clk iff en_n[10] == 0) begin
-		#(REG_TIME) registers[10] = mult_high;
+	always @ (posedge clk iff en_n[13] == 0) begin
+		#(REG_TIME) registers[13] = mult_high;
 	end
-	assign q[10] = registers[10];
+	assign q[13] = registers[13];
 
 	genvar j;
 	generate
-		for (j = 11; j < 16; j=j+1) begin
+		for (j = 14; j < 16; j=j+1) begin
 			always @ (posedge clk iff en_n[j] == 0) begin
 				#(REG_TIME) registers[j] = d;
 			end
@@ -35,7 +35,7 @@ module REG16
 		end
 	endgenerate
 
-	assign ctrl = registers[11];
-	assign memd_top = registers[9];
+	assign ctrl = registers[15];
+	assign mema_top = registers[14];
 
 endmodule // REG16

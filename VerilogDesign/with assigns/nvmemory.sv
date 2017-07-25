@@ -1,4 +1,4 @@
-module memory
+module nvmemory
 	#(time MEMORY_TIME = 54ns)
 	(input [15:0] addr,
 	input clk, load, store,

@@ -9,25 +9,30 @@ module AddCard
 	wire [7:0] and_res, or_res, not_res, xor_res, sum_res, shift_res;
 	wire sub_sel, cmp, addsub;
 
+	//AND OPERATION
 	AC_And #(NAND_TIME) AC_And
 	(.a,
 	.b,	
 	.c (and_res));
 
+	//NOT OPERATION
 	AC_Not #(NAND_TIME) AC_Not
 	(.a,
 	.c (not_res));
 
+	//OR OPERATION
 	AC_Or #(NAND_TIME) AC_Or
 	(.a,
 	.b,
 	.c (or_res));
 
+	//XOR OPERATION
 	AC_Xor #(NAND_TIME) AC_Xor
 	(.a,
 	.b,
 	.c (xor_res));
 
+	//ADD/SUBTRACT/ADDC/SUBC
 	AC_AddSub #(NAND_TIME, REG_TIME) AC_AddSub
 	(.a,
 	.b,
@@ -40,6 +45,7 @@ module AddCard
 	.cmp,
 	.z);
 
+	//ARITHMATIC SHIFT AND ROTATE, LOGICAL POSSIBLE BY MASKING WITH AND BUT DOESN'T HAVE OP CODE ASSOCIATED WITH IT
 	ari_shift #(NAND_TIME) ari_shift
 	(.a,
 	.left (b[3]),
@@ -47,6 +53,7 @@ module AddCard
 	.amt(b[1:0]),
 	.c (shift_res));
 
+	//ADDCARD OUTPUT SELECTOR
 	AC_Output_Mux #(NAND_TIME) AC_Output_Mux
 	(.op,
 	.and_in (and_res),

@@ -83,6 +83,13 @@ module REG_WR_SELECT
 	.d (op[8]),
 	.rseln (rseln[9]));
 
+	REG_SEL_BLK #(NAND_TIME) REG_SEL_BLK9
+	(.a (op[11]),
+	.b (opn[10]),
+	.c (op[9]),
+	.d (opn[8]),
+	.rseln (rseln[10]));
+
 	REG_SEL_BLK #(NAND_TIME) REG_SEL_BLK11
 	(.a (op[11]),
 	.b (opn[10]),
@@ -96,13 +103,6 @@ module REG_WR_SELECT
 	.c (opn[9]),
 	.d (opn[8]),
 	.rseln (rseln[12]));
-
-	REG_SEL_BLK #(NAND_TIME) REG_SEL_BLK13
-	(.a (op[11]),
-	.b (op[10]),
-	.c (opn[9]),
-	.d (op[8]),
-	.rseln (rseln[13]));
 
 	REG_SEL_BLK #(NAND_TIME) REG_SEL_BLK14
 	(.a (op[11]),
