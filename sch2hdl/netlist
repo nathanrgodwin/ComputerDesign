@@ -1,0 +1,3079 @@
+Netlist
+
+Exported from main.sch at 7/28/2017 9:39 PM
+
+EAGLE Version 8.0.0 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Net      Part      Pad      Pin        Sheet
+
+A0       BEL7      10       I1         4
+         BENC0     1        I0         1
+         BENC0     2        I1         1
+         BSEL0     10       I1         3
+         BSEL1     5        I1         3
+         BSEL2     13       I1         3
+         BSEL2     2        I1         3
+         BSEL66    5        I1         11
+         BSEL8     5        I1         4
+         BSEL9     13       I1         4
+         BSEL9     2        I1         4
+
+A1       BENC0     12       I0         1
+         BENC0     5        I1         1
+         BENC1_1   1        I0         1
+         BENC2     10       I1         1
+         BENC2     9        I0         1
+         BSEL10    13       I1         4
+         BSEL10    5        I1         4
+         BSEL11    13       I1         4
+         BSEL11    5        I1         4
+         BSEL12    13       I1         4
+         BSEL12    2        I1         4
+         BSEL13    13       I1         4
+         BSEL13    2        I1         4
+         BSEL3     13       I1         3
+         BSEL3     5        I1         3
+         BSEL4     13       I1         3
+         BSEL4     5        I1         3
+         BSEL5     13       I1         3
+         BSEL5     2        I1         3
+         BSEL6     13       I1         3
+         BSEL6     2        I1         3
+         BSEL68    2        I1         11
+         BSEL68    5        I1         11
+         CLA0      10       I1         19
+         CLA0      2        I1         19
+
+A2       BENC0     13       I1         1
+         BENC1_1   5        I1         1
+         BENC2     12       I0         1
+         BENC2     13       I1         1
+
+A3       BENC2     1        I0         1
+         BENC2     2        I1         1
+         BENC3     10       I1         1
+         BENC4     1        I0         2
+         BENC4     4        I0         2
+         BENC6     1        I0         2
+         BENC6     2        I1         2
+         BSEL17    13       I1         5
+         BSEL17    5        I1         5
+         BSEL18    13       I1         5
+         BSEL18    5        I1         5
+         BSEL19    13       I1         5
+         BSEL19    2        I1         5
+         BSEL20    13       I1         5
+         BSEL20    2        I1         5
+         BSEL24    13       I1         6
+         BSEL24    5        I1         6
+         BSEL25    13       I1         6
+         BSEL25    5        I1         6
+         BSEL26    13       I1         6
+         BSEL26    2        I1         6
+         BSEL27    13       I1         6
+         BSEL27    2        I1         6
+         BSEL69    2        I1         11
+         BSEL69    5        I1         11
+         CLA20     10       I1         22
+         CLA20     2        I1         22
+         CLAP8     10       I1         22
+         CLAP8     9        I0         22
+
+A4       BENC4     10       I1         2
+         BENC4     2        I1         2
+         BENC5     12       I0         2
+         BENC5     13       I1         2
+
+A5       BENC5     4        I0         2
+         BENC5     5        I1         2
+         BENC6     13       I1         2
+         BENC7     4        I0         2
+         BENC7     9        I0         2
+         BENC9     4        I0         2
+         BENC9     5        I1         2
+         BSEL31    13       I1         7
+         BSEL31    5        I1         7
+         BSEL32    13       I1         7
+         BSEL32    5        I1         7
+         BSEL33    13       I1         7
+         BSEL33    2        I1         7
+         BSEL34    13       I1         7
+         BSEL34    2        I1         7
+         BSEL38    13       I1         8
+         BSEL38    5        I1         8
+         BSEL39    13       I1         8
+         BSEL39    5        I1         8
+         BSEL40    13       I1         8
+         BSEL40    2        I1         8
+         BSEL41    13       I1         8
+         BSEL41    2        I1         8
+         BSEL70    2        I1         11
+         BSEL70    5        I1         11
+         M1FA11    10       I1         16
+         M1FA11    2        I1         16
+
+A6       BENC7     10       I1         2
+         BENC8     2        I1         2
+         BENC9     1        I0         2
+         BENC9     2        I1         2
+
+A7       BENC10    5        I1         2
+         BENC8     10       I1         2
+         BENC8     9        I0         2
+         BSEL45    13       I1         9
+         BSEL45    5        I1         9
+         BSEL46    13       I1         9
+         BSEL46    5        I1         9
+         BSEL47    13       I1         9
+         BSEL47    2        I1         9
+         BSEL58    13       I1         9
+         BSEL58    2        I1         9
+         BSEL62    13       I1         10
+         BSEL62    5        I1         10
+         BSEL63    13       I1         10
+         BSEL63    5        I1         10
+         BSEL64    13       I1         10
+         BSEL64    2        I1         10
+         BSEL65    13       I1         10
+         BSEL65    2        I1         10
+         BSEL71    2        I1         11
+         BSEL71    5        I1         11
+         M1FA31    10       I1         15
+         M1FA31    2        I1         15
+
+B0       BSEL23    9        I0         6
+         BSEL37    9        I0         8
+         BSEL61    9        I0         10
+         BSEL66    4        I0         11
+         BSEL66    9        I0         11
+         BSEL67    4        I0         11
+         BSEL67    9        I0         11
+         BSEL9     9        I0         4
+
+B1       BSEL22    12       I0         6
+         BSEL23    12       I0         6
+         BSEL36    12       I0         8
+         BSEL37    12       I0         8
+         BSEL60    12       I0         10
+         BSEL61    12       I0         10
+         BSEL8     12       I0         4
+         BSEL9     12       I0         4
+
+B2       BSEL22    1        I0         6
+         BSEL23    1        I0         6
+         BSEL36    1        I0         8
+         BSEL37    1        I0         8
+         BSEL60    1        I0         10
+         BSEL61    1        I0         10
+         BSEL8     1        I0         4
+         BSEL9     1        I0         4
+
+B3       BEL7      4        I0         4
+         BSEL21    4        I0         6
+         BSEL22    4        I0         6
+         BSEL35    4        I0         8
+         BSEL36    4        I0         8
+         BSEL59    4        I0         10
+         BSEL60    4        I0         10
+         BSEL8     4        I0         4
+
+B4       BEL7      9        I0         4
+         BSEL16    9        I0         5
+         BSEL2     9        I0         3
+         BSEL21    9        I0         6
+         BSEL30    9        I0         7
+         BSEL35    9        I0         8
+         BSEL44    9        I0         9
+         BSEL59    9        I0         10
+
+B5       BSEL1     12       I0         3
+         BSEL15    12       I0         5
+         BSEL16    12       I0         5
+         BSEL2     12       I0         3
+         BSEL29    12       I0         7
+         BSEL30    12       I0         7
+         BSEL43    12       I0         9
+         BSEL44    12       I0         9
+
+B6       BSEL1     1        I0         3
+         BSEL15    1        I0         5
+         BSEL16    1        I0         5
+         BSEL2     1        I0         3
+         BSEL29    1        I0         7
+         BSEL30    1        I0         7
+         BSEL43    1        I0         9
+         BSEL44    1        I0         9
+
+B7       BSEL0     4        I0         3
+         BSEL0     9        I0         3
+         BSEL1     4        I0         3
+         BSEL14    4        I0         5
+         BSEL14    9        I0         5
+         BSEL15    4        I0         5
+         BSEL28    4        I0         7
+         BSEL28    9        I0         7
+         BSEL29    4        I0         7
+         BSEL42    4        I0         9
+         BSEL42    9        I0         9
+         BSEL43    4        I0         9
+
+C1       CLA1      13       I1         19
+         CLA1      2        I1         19
+         CLU0      3        O          23
+         CLU0      4        I0         23
+
+C2       CLA21     10       I1         22
+         CLA21     2        I1         22
+         CLU0      12       I0         23
+         CLU0      8        O          23
+
+C3       CLA31     10       I1         22
+         CLA31     2        I1         22
+         CLU1      3        O          23
+         CLU1      4        I0         23
+
+C4       CLA41     10       I1         22
+         CLA41     2        I1         22
+         CLU1      12       I0         23
+         CLU1      8        O          23
+
+C5       CLA51     10       I1         22
+         CLA51     2        I1         22
+         CLU2      3        O          23
+         CLU2      4        I0         23
+
+C6       CLA6      10       I1         19
+         CLA6      2        I1         19
+         CLU2      12       I0         23
+         CLU2      8        O          23
+
+C7       CLA71     10       I1         21
+         CLA71     2        I1         21
+         CLU3      3        O          23
+         CLU3      4        I0         23
+
+C8       CLA81     10       I1         21
+         CLA81     2        I1         21
+         CLU3      12       I0         23
+         CLU3      8        O          23
+
+C9       CLA91     10       I1         21
+         CLA91     2        I1         21
+         CLU4      3        O          23
+         CLU4      4        I0         23
+
+C10      CLA101    10       I1         21
+         CLA101    2        I1         21
+         CLU4      12       I0         23
+         CLU4      8        O          23
+
+C11      CLA111    10       I1         20
+         CLA111    2        I1         20
+         CLU5      3        O          23
+         CLU5      4        I0         23
+
+C12      CLA121    10       I1         20
+         CLA121    2        I1         20
+         CLU5      12       I0         23
+         CLU5      8        O          23
+
+C13      CLA131    10       I1         20
+         CLA131    2        I1         20
+         CLU6      3        O          23
+         CLU6      4        I0         23
+
+C14      CLA141    10       I1         20
+         CLA141    2        I1         20
+         CLA150    6        O          23
+         CLA150    9        I0         23
+
+C15      CLA150    11       O          23
+         CLA151    10       I1         23
+         CLA151    2        I1         23
+
+D0       BEL7      5        I1         4
+         BENC0     8        O          1
+         BSEL0     5        I1         3
+         BSEL1     13       I1         3
+         BSEL1     2        I1         3
+         BSEL2     10       I1         3
+         BSEL8     13       I1         4
+         BSEL8     2        I1         4
+         BSEL9     10       I1         4
+
+D1       BENC3     11       O          1
+         BSEL14    5        I1         5
+         BSEL15    13       I1         5
+         BSEL15    2        I1         5
+         BSEL16    10       I1         5
+         BSEL21    5        I1         6
+         BSEL22    13       I1         6
+         BSEL22    2        I1         6
+         BSEL23    10       I1         6
+
+D2       BENC7     3        O          2
+         BSEL28    5        I1         7
+         BSEL29    13       I1         7
+         BSEL29    2        I1         7
+         BSEL30    10       I1         7
+         BSEL35    5        I1         8
+         BSEL36    13       I1         8
+         BSEL36    2        I1         8
+         BSEL37    10       I1         8
+
+D3       BENC10    3        O          2
+         BSEL42    5        I1         9
+         BSEL43    13       I1         9
+         BSEL43    2        I1         9
+         BSEL44    10       I1         9
+         BSEL59    5        I1         10
+         BSEL60    13       I1         10
+         BSEL60    2        I1         10
+         BSEL61    10       I1         10
+
+F0       CLA6      1        I0         19
+         CLA6      4        I0         19
+         CLU2      13       I1         23
+         M2FA01    11       O          14
+
+F1       CLA70     1        I0         21
+         CLA70     4        I0         21
+         CLAP5     4        I0         21
+         CLAP5     5        I1         21
+         M2HA1     11       O          18
+
+F2       CLA80     1        I0         21
+         CLA80     4        I0         21
+         CLAP4     10       I1         21
+         CLAP4     9        I0         21
+         M2HA2     11       O          18
+
+F3       CLA90     1        I0         21
+         CLA90     4        I0         21
+         CLAP3     12       I0         21
+         CLAP3     13       I1         21
+         M2HA3     11       O          18
+
+F4       CLA100    1        I0         21
+         CLA100    4        I0         21
+         CLAP3     1        I0         21
+         CLAP3     2        I1         21
+         M2HA4     11       O          18
+
+F5       CLA110    1        I0         20
+         CLA110    4        I0         20
+         CLAP2     4        I0         20
+         CLAP2     5        I1         20
+         M2HA5     11       O          17
+
+F6       CLA120    1        I0         20
+         CLA120    4        I0         20
+         CLAP1     10       I1         20
+         CLAP1     9        I0         20
+         M2HA6     11       O          17
+
+F7       CLA130    1        I0         20
+         CLA130    4        I0         20
+         CLAP0     12       I0         20
+         CLAP0     13       I1         20
+         M2HA7     11       O          17
+
+F8       CLA140    1        I0         20
+         CLA140    4        I0         20
+         CLAP0     1        I0         20
+         CLAP0     2        I1         20
+         M2HA8     11       O          17
+
+G0       CLA70     10       I1         21
+         CLA70     2        I1         21
+         CLAP5     10       I1         21
+         CLAP5     9        I0         21
+         M197C     3        O          14
+
+G1       CLA80     10       I1         21
+         CLA80     2        I1         21
+         CLAP4     12       I0         21
+         CLAP4     13       I1         21
+         M241C     11       O          18
+
+G2       CLA90     10       I1         21
+         CLA90     2        I1         21
+         CLAP4     1        I0         21
+         CLAP4     2        I1         21
+         M241C     8        O          18
+
+G3       CLA100    10       I1         21
+         CLA100    2        I1         21
+         CLAP3     4        I0         21
+         CLAP3     5        I1         21
+         M241C     6        O          18
+
+G4       CLA110    10       I1         20
+         CLA110    2        I1         20
+         CLAP2     10       I1         20
+         CLAP2     9        I0         20
+         M241C     3        O          18
+
+G5       CLA120    10       I1         20
+         CLA120    2        I1         20
+         CLAP1     12       I0         20
+         CLAP1     13       I1         20
+         M285C     11       O          17
+
+G6       CLA130    10       I1         20
+         CLA130    2        I1         20
+         CLAP1     1        I0         20
+         CLAP1     2        I1         20
+         M285C     8        O          17
+
+G7       CLA140    10       I1         20
+         CLA140    2        I1         20
+         CLAP0     4        I0         20
+         CLAP0     5        I1         20
+         M285C     6        O          17
+
+G8       CLA150    1        I0         23
+         CLA150    2        I1         23
+         M285C     3        O          17
+
+GND      BEL7      7        GND        4
+         BENC0     7        GND        1
+         BENC10    7        GND        2
+         BENC1_1   7        GND        1
+         BENC2     7        GND        1
+         BENC3     7        GND        1
+         BENC4     7        GND        2
+         BENC5     7        GND        2
+         BENC6     7        GND        2
+         BENC7     7        GND        2
+         BENC8     7        GND        2
+         BENC9     7        GND        2
+         BSEL0     7        GND        3
+         BSEL1     7        GND        3
+         BSEL10    7        GND        4
+         BSEL11    7        GND        4
+         BSEL12    7        GND        4
+         BSEL13    7        GND        4
+         BSEL14    7        GND        5
+         BSEL15    7        GND        5
+         BSEL16    7        GND        5
+         BSEL17    7        GND        5
+         BSEL18    7        GND        5
+         BSEL19    7        GND        5
+         BSEL2     7        GND        3
+         BSEL20    7        GND        5
+         BSEL21    7        GND        6
+         BSEL22    7        GND        6
+         BSEL23    7        GND        6
+         BSEL24    7        GND        6
+         BSEL25    7        GND        6
+         BSEL26    7        GND        6
+         BSEL27    7        GND        6
+         BSEL28    7        GND        7
+         BSEL29    7        GND        7
+         BSEL3     7        GND        3
+         BSEL30    7        GND        7
+         BSEL31    7        GND        7
+         BSEL32    7        GND        7
+         BSEL33    7        GND        7
+         BSEL34    7        GND        7
+         BSEL35    7        GND        8
+         BSEL36    7        GND        8
+         BSEL37    7        GND        8
+         BSEL38    7        GND        8
+         BSEL39    7        GND        8
+         BSEL4     7        GND        3
+         BSEL40    7        GND        8
+         BSEL41    7        GND        8
+         BSEL42    7        GND        9
+         BSEL43    7        GND        9
+         BSEL44    7        GND        9
+         BSEL45    7        GND        9
+         BSEL46    7        GND        9
+         BSEL47    7        GND        9
+         BSEL5     7        GND        3
+         BSEL58    7        GND        9
+         BSEL59    7        GND        10
+         BSEL6     7        GND        3
+         BSEL60    7        GND        10
+         BSEL61    7        GND        10
+         BSEL62    7        GND        10
+         BSEL63    7        GND        10
+         BSEL64    7        GND        10
+         BSEL65    7        GND        10
+         BSEL66    7        GND        11
+         BSEL67    7        GND        11
+         BSEL68    7        GND        11
+         BSEL69    7        GND        11
+         BSEL70    7        GND        11
+         BSEL71    7        GND        11
+         BSEL8     7        GND        4
+         BSEL9     7        GND        4
+         CLA0      7        GND        19
+         CLA1      7        GND        19
+         CLA100    7        GND        21
+         CLA101    7        GND        21
+         CLA110    7        GND        20
+         CLA111    7        GND        20
+         CLA120    7        GND        20
+         CLA121    7        GND        20
+         CLA130    7        GND        20
+         CLA131    7        GND        20
+         CLA140    7        GND        20
+         CLA141    7        GND        20
+         CLA150    7        GND        23
+         CLA151    7        GND        23
+         CLA20     7        GND        22
+         CLA21     7        GND        22
+         CLA30     7        GND        22
+         CLA31     7        GND        22
+         CLA40     7        GND        22
+         CLA41     7        GND        22
+         CLA50     7        GND        22
+         CLA51     7        GND        22
+         CLA6      7        GND        19
+         CLA70     7        GND        21
+         CLA71     7        GND        21
+         CLA80     7        GND        21
+         CLA81     7        GND        21
+         CLA90     7        GND        21
+         CLA91     7        GND        21
+         CLAP0     7        GND        20
+         CLAP1     7        GND        20
+         CLAP2     7        GND        20
+         CLAP3     7        GND        21
+         CLAP4     7        GND        21
+         CLAP5     7        GND        21
+         CLAP6     7        GND        22
+         CLAP7     7        GND        22
+         CLAP8     7        GND        22
+         CLU0      7        GND        23
+         CLU1      7        GND        23
+         CLU2      7        GND        23
+         CLU3      7        GND        23
+         CLU4      7        GND        23
+         CLU5      7        GND        23
+         CLU6      7        GND        23
+         HA1B0     7        GND        12
+         M041C     7        GND        13
+         M085C     7        GND        12
+         M0FA30    7        GND        13
+         M0FA31    7        GND        13
+         M0FA40    7        GND        13
+         M0FA41    7        GND        13
+         M0FA50    7        GND        12
+         M0FA51    7        GND        12
+         M0FA60    7        GND        12
+         M0FA61    7        GND        12
+         M0FA70    7        GND        12
+         M0FA71    7        GND        12
+         M0FA80    7        GND        12
+         M0FA81    7        GND        12
+         M0HA0     7        GND        16
+         M0HA1     7        GND        13
+         M0HA2     7        GND        13
+         M120C     7        GND        16
+         M163C     7        GND        15
+         M197C     7        GND        14
+         M1FA10    7        GND        16
+         M1FA11    7        GND        16
+         M1FA20    7        GND        16
+         M1FA21    7        GND        16
+         M1FA30    7        GND        15
+         M1FA31    7        GND        15
+         M1FA40    7        GND        15
+         M1FA41    7        GND        15
+         M1FA50    7        GND        15
+         M1FA51    7        GND        15
+         M1FA60    7        GND        15
+         M1FA61    7        GND        15
+         M1FA70    7        GND        14
+         M1FA71    7        GND        14
+         M1FA80    7        GND        14
+         M1FA81    7        GND        14
+         M1FA90    7        GND        14
+         M1FA91    7        GND        14
+         M1HA0     7        GND        16
+         M241C     7        GND        18
+         M285C     7        GND        17
+         M2FA00    7        GND        14
+         M2FA01    7        GND        14
+         M2HA1     7        GND        18
+         M2HA2     7        GND        18
+         M2HA3     7        GND        18
+         M2HA4     7        GND        18
+         M2HA5     7        GND        17
+         M2HA6     7        GND        17
+         M2HA7     7        GND        17
+         M2HA8     7        GND        17
+
+G_N0     CLA0      3        O          19
+         CLA0      5        I1         19
+         CLA0      9        I0         19
+         CLU0      1        I0         23
+         CLU0      2        I1         23
+
+G_N2     CLA20     3        O          22
+         CLA20     5        I1         22
+         CLA20     9        I0         22
+         CLU1      2        I1         23
+
+G_N3     CLA30     3        O          22
+         CLA30     5        I1         22
+         CLA30     9        I0         22
+         CLU1      10       I1         23
+
+G_N4     CLA40     3        O          22
+         CLA40     5        I1         22
+         CLA40     9        I0         22
+         CLU2      2        I1         23
+
+G_N5     CLA50     3        O          22
+         CLA50     5        I1         22
+         CLA50     9        I0         22
+         CLU2      10       I1         23
+
+G_N7     CLA70     3        O          21
+         CLA70     5        I1         21
+         CLA70     9        I0         21
+         CLU3      10       I1         23
+
+G_N8     CLA80     3        O          21
+         CLA80     5        I1         21
+         CLA80     9        I0         21
+         CLU4      1        I0         23
+
+G_N9     CLA90     3        O          21
+         CLA90     5        I1         21
+         CLA90     9        I0         21
+         CLU4      10       I1         23
+
+G_N10    CLA100    3        O          21
+         CLA100    5        I1         21
+         CLA100    9        I0         21
+         CLU5      2        I1         23
+
+G_N11    CLA110    3        O          20
+         CLA110    5        I1         20
+         CLA110    9        I0         20
+         CLU5      10       I1         23
+
+G_N12    CLA120    3        O          20
+         CLA120    5        I1         20
+         CLA120    9        I0         20
+         CLU6      2        I1         23
+
+G_N13    CLA130    3        O          20
+         CLA130    5        I1         20
+         CLA130    9        I0         20
+         CLA150    5        I1         23
+
+G_N14    CLA140    3        O          20
+         CLA140    5        I1         20
+         CLA140    9        I0         20
+         CLA150    13       I1         23
+
+N$1      BENC0     3        O          1
+         BENC0     4        I0         1
+
+N$2      BENC0     10       I1         1
+         BENC0     6        O          1
+         BENC0     9        I0         1
+
+N$3      BENC2     6        O          1
+         BENC3     12       I0         1
+
+N$4      BENC4     3        O          2
+         BENC4     5        I1         2
+         BENC4     9        I0         2
+         BENC5     1        I0         2
+         BENC5     2        I1         2
+
+N$5      BENC1_1   10       I1         1
+         BENC1_1   6        O          1
+
+N$6      BENC1_1   3        O          1
+         BENC1_1   9        I0         1
+
+N$7      BENC4     13       I1         2
+         BENC4     8        O          2
+
+N$8      BENC3     13       I1         1
+         BENC3     8        O          1
+
+N$9      BENC4     12       I0         2
+         BENC4     6        O          2
+
+N$10     BSEL31    2        I1         7
+         BSEL31    6        O          7
+
+N$11     BENC2     3        O          1
+         BENC2     5        I1         1
+
+N$12     BENC1_1   11       O          1
+         BENC2     4        I0         1
+
+N$13     BSEL31    1        I0         7
+         BSEL31    8        O          7
+
+N$14     BENC2     11       O          1
+         BENC3     2        I1         1
+
+N$15     BENC2     8        O          1
+         BENC3     1        I0         1
+
+N$16     BENC3     3        O          1
+         BENC3     4        I0         1
+         BENC3     5        I1         1
+
+N$17     BENC3     6        O          1
+         BENC3     9        I0         1
+
+N$18     BENC6     11       O          2
+         BENC7     2        I1         2
+
+N$19     BENC0     11       O          1
+         BENC1_1   12       I0         1
+         BENC1_1   13       I1         1
+         BENC1_1   2        I1         1
+         BENC1_1   4        I0         1
+
+N$20     BENC5     3        O          2
+         BENC5     9        I0         2
+
+N$21     BENC5     10       I1         2
+         BENC5     6        O          2
+
+N$22     BSEL17    2        I1         5
+         BSEL17    6        O          5
+
+N$23     BENC5     8        O          2
+         BENC7     1        I0         2
+
+N$24     BENC6     10       I1         2
+         BENC6     6        O          2
+         BENC6     9        I0         2
+
+N$25     BENC6     12       I0         2
+         BENC6     8        O          2
+
+N$26     BENC5     11       O          2
+         BENC6     4        I0         2
+
+N$27     BENC6     3        O          2
+         BENC6     5        I1         2
+
+N$28     BSEL17    1        I0         5
+         BSEL17    8        O          5
+
+N$29     BSEL17    10       I1         5
+         BSEL17    11       O          5
+         BSEL17    4        I0         5
+
+N$30     BSEL18    2        I1         5
+         BSEL18    6        O          5
+
+N$31     BSEL18    1        I0         5
+         BSEL18    8        O          5
+
+N$32     BSEL31    10       I1         7
+         BSEL31    11       O          7
+         BSEL31    4        I0         7
+
+N$33     BSEL32    2        I1         7
+         BSEL32    6        O          7
+
+N$34     BSEL18    10       I1         5
+         BSEL18    11       O          5
+         BSEL18    4        I0         5
+
+N$35     BENC7     12       I0         2
+         BENC7     6        O          2
+
+N$36     BENC7     13       I1         2
+         BENC8     3        O          2
+
+N$37     BSEL19    1        I0         5
+         BSEL19    11       O          5
+         BSEL19    5        I1         5
+
+N$38     BSEL19    6        O          5
+         BSEL19    9        I0         5
+
+N$39     BENC7     5        I1         2
+         BENC7     8        O          2
+         BENC8     1        I0         2
+         BENC8     4        I0         2
+         BENC8     5        I1         2
+
+N$40     BSEL19    10       I1         5
+         BSEL19    3        O          5
+
+N$41     BENC8     13       I1         2
+         BENC8     8        O          2
+
+N$42     BENC8     12       I0         2
+         BENC8     6        O          2
+
+N$43     BENC10    1        I0         2
+         BENC8     11       O          2
+
+N$44     BENC10    2        I1         2
+         BENC10    6        O          2
+
+N$45     BSEL14    11       O          5
+         BSEL18    12       I0         5
+         BSEL18    9        I0         5
+
+N$46     BSEL14    13       I1         5
+         BSEL15    3        O          5
+
+N$47     BENC10    4        I0         2
+         BENC9     11       O          2
+
+N$48     BENC9     12       I0         2
+         BENC9     13       I1         2
+         BENC9     8        O          2
+
+N$49     BENC9     10       I1         2
+         BENC9     6        O          2
+
+N$50     BENC9     3        O          2
+         BENC9     9        I0         2
+
+N$51     BSEL14    12       I0         5
+         BSEL15    6        O          5
+
+N$52     BSEL14    1        I0         5
+         BSEL14    8        O          5
+
+N$53     BSEL14    2        I1         5
+         BSEL14    6        O          5
+
+N$54     BSEL15    10       I1         5
+         BSEL15    11       O          5
+
+N$55     BSEL15    9        I0         5
+         BSEL16    3        O          5
+
+N$56     BSEL16    5        I1         5
+         BSEL16    8        O          5
+
+N$57     BSEL16    11       O          5
+         BSEL16    4        I0         5
+
+N$58     BSEL16    6        O          5
+         BSEL20    12       I0         5
+         BSEL20    4        I0         5
+
+N$59     BSEL15    8        O          5
+         BSEL19    12       I0         5
+         BSEL19    4        I0         5
+
+N$60     BSEL14    3        O          5
+         BSEL17    12       I0         5
+         BSEL17    9        I0         5
+
+N$61     BSEL24    2        I1         6
+         BSEL24    6        O          6
+
+N$62     BSEL20    1        I0         5
+         BSEL20    11       O          5
+         BSEL20    5        I1         5
+
+N$63     BSEL20    10       I1         5
+         BSEL20    3        O          5
+
+N$64     BSEL20    6        O          5
+         BSEL20    9        I0         5
+
+N$65     BSEL24    1        I0         6
+         BSEL24    8        O          6
+
+N$66     BSEL24    10       I1         6
+         BSEL24    11       O          6
+         BSEL24    4        I0         6
+
+N$67     BSEL25    2        I1         6
+         BSEL25    6        O          6
+
+N$68     BSEL25    1        I0         6
+         BSEL25    8        O          6
+
+N$69     BSEL25    10       I1         6
+         BSEL25    11       O          6
+         BSEL25    4        I0         6
+
+N$70     BSEL26    1        I0         6
+         BSEL26    11       O          6
+         BSEL26    5        I1         6
+
+N$71     BSEL26    6        O          6
+         BSEL26    9        I0         6
+
+N$72     BSEL26    10       I1         6
+         BSEL26    3        O          6
+
+N$73     BSEL21    11       O          6
+         BSEL25    12       I0         6
+         BSEL25    9        I0         6
+
+N$74     BSEL21    13       I1         6
+         BSEL22    3        O          6
+
+N$75     BSEL21    12       I0         6
+         BSEL22    6        O          6
+
+N$76     BSEL21    1        I0         6
+         BSEL21    8        O          6
+
+N$77     BSEL21    2        I1         6
+         BSEL21    6        O          6
+
+N$78     BSEL22    10       I1         6
+         BSEL22    11       O          6
+
+N$79     BSEL22    9        I0         6
+         BSEL23    3        O          6
+
+N$80     BSEL23    5        I1         6
+         BSEL23    8        O          6
+
+N$81     BSEL23    11       O          6
+         BSEL23    4        I0         6
+
+N$82     BSEL23    6        O          6
+         BSEL27    12       I0         6
+         BSEL27    4        I0         6
+
+N$83     BSEL22    8        O          6
+         BSEL26    12       I0         6
+         BSEL26    4        I0         6
+
+N$84     BSEL21    3        O          6
+         BSEL24    12       I0         6
+         BSEL24    9        I0         6
+
+N$85     BSEL27    1        I0         6
+         BSEL27    11       O          6
+         BSEL27    5        I1         6
+
+N$86     BSEL27    10       I1         6
+         BSEL27    3        O          6
+
+N$87     BSEL27    6        O          6
+         BSEL27    9        I0         6
+
+N$88     BSEL3     2        I1         3
+         BSEL3     6        O          3
+
+N$89     BSEL3     1        I0         3
+         BSEL3     8        O          3
+
+N$90     BSEL3     10       I1         3
+         BSEL3     11       O          3
+         BSEL3     4        I0         3
+
+N$91     BSEL4     2        I1         3
+         BSEL4     6        O          3
+
+N$92     BSEL4     1        I0         3
+         BSEL4     8        O          3
+
+N$93     BSEL4     10       I1         3
+         BSEL4     11       O          3
+         BSEL4     4        I0         3
+
+N$94     BSEL5     1        I0         3
+         BSEL5     11       O          3
+         BSEL5     5        I1         3
+
+N$95     BSEL5     6        O          3
+         BSEL5     9        I0         3
+
+N$96     BSEL5     10       I1         3
+         BSEL5     3        O          3
+
+N$97     BSEL0     11       O          3
+         BSEL4     12       I0         3
+         BSEL4     9        I0         3
+
+N$98     BSEL0     13       I1         3
+         BSEL1     3        O          3
+
+N$99     BSEL0     12       I0         3
+         BSEL1     6        O          3
+
+N$100    BSEL0     1        I0         3
+         BSEL0     8        O          3
+
+N$101    BSEL0     2        I1         3
+         BSEL0     6        O          3
+
+N$102    BSEL1     10       I1         3
+         BSEL1     11       O          3
+
+N$103    BSEL1     9        I0         3
+         BSEL2     3        O          3
+
+N$104    BSEL2     5        I1         3
+         BSEL2     8        O          3
+
+N$105    BSEL2     11       O          3
+         BSEL2     4        I0         3
+
+N$106    BSEL2     6        O          3
+         BSEL6     12       I0         3
+         BSEL6     4        I0         3
+
+N$107    BSEL1     8        O          3
+         BSEL5     12       I0         3
+         BSEL5     4        I0         3
+
+N$108    BSEL0     3        O          3
+         BSEL3     12       I0         3
+         BSEL3     9        I0         3
+
+N$109    BSEL6     1        I0         3
+         BSEL6     11       O          3
+         BSEL6     5        I1         3
+
+N$110    BSEL6     10       I1         3
+         BSEL6     3        O          3
+
+N$111    BSEL6     6        O          3
+         BSEL6     9        I0         3
+
+N$112    BSEL10    2        I1         4
+         BSEL10    6        O          4
+
+N$113    BSEL10    1        I0         4
+         BSEL10    8        O          4
+
+N$114    BSEL10    10       I1         4
+         BSEL10    11       O          4
+         BSEL10    4        I0         4
+
+N$115    BSEL11    2        I1         4
+         BSEL11    6        O          4
+
+N$116    BSEL11    1        I0         4
+         BSEL11    8        O          4
+
+N$117    BSEL11    10       I1         4
+         BSEL11    11       O          4
+         BSEL11    4        I0         4
+
+N$118    BSEL12    1        I0         4
+         BSEL12    11       O          4
+         BSEL12    5        I1         4
+
+N$119    BSEL12    6        O          4
+         BSEL12    9        I0         4
+
+N$120    BSEL12    10       I1         4
+         BSEL12    3        O          4
+
+N$121    BEL7      11       O          4
+         BSEL11    12       I0         4
+         BSEL11    9        I0         4
+
+N$122    BEL7      13       I1         4
+         BSEL8     3        O          4
+
+N$123    BEL7      12       I0         4
+         BSEL8     6        O          4
+
+N$124    BEL7      1        I0         4
+         BEL7      8        O          4
+
+N$125    BEL7      2        I1         4
+         BEL7      6        O          4
+
+N$126    BSEL8     10       I1         4
+         BSEL8     11       O          4
+
+N$127    BSEL8     9        I0         4
+         BSEL9     3        O          4
+
+N$128    BSEL9     5        I1         4
+         BSEL9     8        O          4
+
+N$129    BSEL9     11       O          4
+         BSEL9     4        I0         4
+
+N$130    BSEL13    12       I0         4
+         BSEL13    4        I0         4
+         BSEL9     6        O          4
+
+N$131    BSEL12    12       I0         4
+         BSEL12    4        I0         4
+         BSEL8     8        O          4
+
+N$132    BEL7      3        O          4
+         BSEL10    12       I0         4
+         BSEL10    9        I0         4
+
+N$133    BSEL13    1        I0         4
+         BSEL13    11       O          4
+         BSEL13    5        I1         4
+
+N$134    BSEL13    10       I1         4
+         BSEL13    3        O          4
+
+N$135    BSEL13    6        O          4
+         BSEL13    9        I0         4
+
+N$136    BSEL32    1        I0         7
+         BSEL32    8        O          7
+
+N$137    BSEL32    10       I1         7
+         BSEL32    11       O          7
+         BSEL32    4        I0         7
+
+N$138    BSEL33    1        I0         7
+         BSEL33    11       O          7
+         BSEL33    5        I1         7
+
+N$139    BSEL33    6        O          7
+         BSEL33    9        I0         7
+
+N$140    BSEL33    10       I1         7
+         BSEL33    3        O          7
+
+N$141    BSEL28    11       O          7
+         BSEL32    12       I0         7
+         BSEL32    9        I0         7
+
+N$142    BSEL28    13       I1         7
+         BSEL29    3        O          7
+
+N$143    BSEL28    12       I0         7
+         BSEL29    6        O          7
+
+N$144    BSEL28    1        I0         7
+         BSEL28    8        O          7
+
+N$145    BSEL28    2        I1         7
+         BSEL28    6        O          7
+
+N$146    BSEL29    10       I1         7
+         BSEL29    11       O          7
+
+N$147    BSEL29    9        I0         7
+         BSEL30    3        O          7
+
+N$148    BSEL30    5        I1         7
+         BSEL30    8        O          7
+
+N$149    BSEL30    11       O          7
+         BSEL30    4        I0         7
+
+N$150    BSEL30    6        O          7
+         BSEL34    12       I0         7
+         BSEL34    4        I0         7
+
+N$151    BSEL29    8        O          7
+         BSEL33    12       I0         7
+         BSEL33    4        I0         7
+
+N$152    BSEL28    3        O          7
+         BSEL31    12       I0         7
+         BSEL31    9        I0         7
+
+N$153    BSEL34    1        I0         7
+         BSEL34    11       O          7
+         BSEL34    5        I1         7
+
+N$154    BSEL34    10       I1         7
+         BSEL34    3        O          7
+
+N$155    BSEL34    6        O          7
+         BSEL34    9        I0         7
+
+N$156    BSEL38    2        I1         8
+         BSEL38    6        O          8
+
+N$157    BSEL38    1        I0         8
+         BSEL38    8        O          8
+
+N$158    BSEL38    10       I1         8
+         BSEL38    11       O          8
+         BSEL38    4        I0         8
+
+N$159    BSEL39    2        I1         8
+         BSEL39    6        O          8
+
+N$160    BSEL39    1        I0         8
+         BSEL39    8        O          8
+
+N$161    BSEL39    10       I1         8
+         BSEL39    11       O          8
+         BSEL39    4        I0         8
+
+N$162    BSEL40    1        I0         8
+         BSEL40    11       O          8
+         BSEL40    5        I1         8
+
+N$163    BSEL40    6        O          8
+         BSEL40    9        I0         8
+
+N$164    BSEL40    10       I1         8
+         BSEL40    3        O          8
+
+N$165    BSEL35    11       O          8
+         BSEL39    12       I0         8
+         BSEL39    9        I0         8
+
+N$166    BSEL35    13       I1         8
+         BSEL36    3        O          8
+
+N$167    BSEL35    12       I0         8
+         BSEL36    6        O          8
+
+N$168    BSEL35    1        I0         8
+         BSEL35    8        O          8
+
+N$169    BSEL35    2        I1         8
+         BSEL35    6        O          8
+
+N$170    BSEL36    10       I1         8
+         BSEL36    11       O          8
+
+N$171    BSEL36    9        I0         8
+         BSEL37    3        O          8
+
+N$172    BSEL37    5        I1         8
+         BSEL37    8        O          8
+
+N$173    BSEL37    11       O          8
+         BSEL37    4        I0         8
+
+N$174    BSEL37    6        O          8
+         BSEL41    12       I0         8
+         BSEL41    4        I0         8
+
+N$175    BSEL36    8        O          8
+         BSEL40    12       I0         8
+         BSEL40    4        I0         8
+
+N$176    BSEL35    3        O          8
+         BSEL38    12       I0         8
+         BSEL38    9        I0         8
+
+N$177    BSEL41    1        I0         8
+         BSEL41    11       O          8
+         BSEL41    5        I1         8
+
+N$178    BSEL41    10       I1         8
+         BSEL41    3        O          8
+
+N$179    BSEL41    6        O          8
+         BSEL41    9        I0         8
+
+N$180    BSEL45    2        I1         9
+         BSEL45    6        O          9
+
+N$181    BSEL45    1        I0         9
+         BSEL45    8        O          9
+
+N$182    BSEL45    10       I1         9
+         BSEL45    11       O          9
+         BSEL45    4        I0         9
+
+N$183    BSEL46    2        I1         9
+         BSEL46    6        O          9
+
+N$184    BSEL46    1        I0         9
+         BSEL46    8        O          9
+
+N$185    BSEL46    10       I1         9
+         BSEL46    11       O          9
+         BSEL46    4        I0         9
+
+N$186    BSEL47    1        I0         9
+         BSEL47    11       O          9
+         BSEL47    5        I1         9
+
+N$187    BSEL47    6        O          9
+         BSEL47    9        I0         9
+
+N$188    BSEL47    10       I1         9
+         BSEL47    3        O          9
+
+N$189    BSEL42    11       O          9
+         BSEL46    12       I0         9
+         BSEL46    9        I0         9
+
+N$190    BSEL42    13       I1         9
+         BSEL43    3        O          9
+
+N$191    BSEL42    12       I0         9
+         BSEL43    6        O          9
+
+N$192    BSEL42    1        I0         9
+         BSEL42    8        O          9
+
+N$193    BSEL42    2        I1         9
+         BSEL42    6        O          9
+
+N$194    BSEL43    10       I1         9
+         BSEL43    11       O          9
+
+N$195    BSEL43    9        I0         9
+         BSEL44    3        O          9
+
+N$196    BSEL44    5        I1         9
+         BSEL44    8        O          9
+
+N$197    BSEL44    11       O          9
+         BSEL44    4        I0         9
+
+N$198    BSEL44    6        O          9
+         BSEL58    12       I0         9
+         BSEL58    4        I0         9
+
+N$199    BSEL43    8        O          9
+         BSEL47    12       I0         9
+         BSEL47    4        I0         9
+
+N$200    BSEL42    3        O          9
+         BSEL45    12       I0         9
+         BSEL45    9        I0         9
+
+N$201    BSEL58    1        I0         9
+         BSEL58    11       O          9
+         BSEL58    5        I1         9
+
+N$202    BSEL58    10       I1         9
+         BSEL58    3        O          9
+
+N$203    BSEL58    6        O          9
+         BSEL58    9        I0         9
+
+N$204    BSEL62    2        I1         10
+         BSEL62    6        O          10
+
+N$205    BSEL62    1        I0         10
+         BSEL62    8        O          10
+
+N$206    BSEL62    10       I1         10
+         BSEL62    11       O          10
+         BSEL62    4        I0         10
+
+N$207    BSEL63    2        I1         10
+         BSEL63    6        O          10
+
+N$208    BSEL63    1        I0         10
+         BSEL63    8        O          10
+
+N$209    BSEL63    10       I1         10
+         BSEL63    11       O          10
+         BSEL63    4        I0         10
+
+N$210    BSEL64    1        I0         10
+         BSEL64    11       O          10
+         BSEL64    5        I1         10
+
+N$211    BSEL64    6        O          10
+         BSEL64    9        I0         10
+
+N$212    BSEL64    10       I1         10
+         BSEL64    3        O          10
+
+N$213    BSEL59    11       O          10
+         BSEL63    12       I0         10
+         BSEL63    9        I0         10
+
+N$214    BSEL59    13       I1         10
+         BSEL60    3        O          10
+
+N$215    BSEL59    12       I0         10
+         BSEL60    6        O          10
+
+N$216    BSEL59    1        I0         10
+         BSEL59    8        O          10
+
+N$217    BSEL59    2        I1         10
+         BSEL59    6        O          10
+
+N$218    BSEL60    10       I1         10
+         BSEL60    11       O          10
+
+N$219    BSEL60    9        I0         10
+         BSEL61    3        O          10
+
+N$220    BSEL61    5        I1         10
+         BSEL61    8        O          10
+
+N$221    BSEL61    11       O          10
+         BSEL61    4        I0         10
+
+N$222    BSEL61    6        O          10
+         BSEL65    12       I0         10
+         BSEL65    4        I0         10
+
+N$223    BSEL60    8        O          10
+         BSEL64    12       I0         10
+         BSEL64    4        I0         10
+
+N$224    BSEL59    3        O          10
+         BSEL62    12       I0         10
+         BSEL62    9        I0         10
+
+N$225    BSEL65    1        I0         10
+         BSEL65    11       O          10
+         BSEL65    5        I1         10
+
+N$226    BSEL65    10       I1         10
+         BSEL65    3        O          10
+
+N$227    BSEL65    6        O          10
+         BSEL65    9        I0         10
+
+N$228    BSEL68    13       I1         11
+         BSEL68    6        O          11
+
+N$229    BSEL68    12       I0         11
+         BSEL68    8        O          11
+
+N$230    BSEL68    10       I1         11
+         BSEL68    3        O          11
+         BSEL68    4        I0         11
+
+N$231    BSEL69    10       I1         11
+         BSEL69    3        O          11
+         BSEL69    4        I0         11
+
+N$232    BSEL69    12       I0         11
+         BSEL69    8        O          11
+
+N$233    BSEL69    13       I1         11
+         BSEL69    6        O          11
+
+N$234    BSEL66    11       O          11
+         BSEL69    1        I0         11
+         BSEL69    9        I0         11
+
+N$235    BSEL66    12       I0         11
+         BSEL66    13       I1         11
+         BSEL66    8        O          11
+
+N$236    BSEL67    1        I0         11
+         BSEL67    2        I1         11
+         BSEL67    6        O          11
+
+N$237    BSEL67    12       I0         11
+         BSEL67    13       I1         11
+         BSEL67    8        O          11
+
+N$238    BSEL71    10       I1         11
+         BSEL71    3        O          11
+         BSEL71    4        I0         11
+
+N$239    BSEL70    10       I1         11
+         BSEL70    3        O          11
+         BSEL70    4        I0         11
+
+N$240    BSEL70    13       I1         11
+         BSEL70    6        O          11
+
+N$241    BSEL70    12       I0         11
+         BSEL70    8        O          11
+
+N$242    BSEL71    13       I1         11
+         BSEL71    6        O          11
+
+N$243    BSEL71    12       I0         11
+         BSEL71    8        O          11
+
+N$244    BSEL67    3        O          11
+         BSEL70    1        I0         11
+         BSEL70    9        I0         11
+
+N$245    M085C     2        I1         12
+         M0FA80    3        O          12
+         M0FA80    5        I1         12
+         M0FA80    9        I0         12
+
+N$246    BSEL67    11       O          11
+         BSEL71    1        I0         11
+         BSEL71    9        I0         11
+
+N$247    BSEL66    3        O          11
+         BSEL68    1        I0         11
+         BSEL68    9        I0         11
+
+N$248    BSEL66    1        I0         11
+         BSEL66    2        I1         11
+         BSEL66    6        O          11
+
+N$249    M0FA80    12       I0         12
+         M0FA80    6        O          12
+
+N$250    M0FA80    13       I1         12
+         M0FA80    8        O          12
+
+N$251    M041C     2        I1         13
+         M0FA40    3        O          13
+         M0FA40    5        I1         13
+         M0FA40    9        I0         13
+
+N$252    M0FA40    12       I0         13
+         M0FA40    6        O          13
+
+N$253    M0FA80    11       O          12
+         M0FA81    1        I0         12
+         M0FA81    4        I0         12
+
+N$254    M085C     1        I0         12
+         M0FA81    3        O          12
+         M0FA81    5        I1         12
+         M0FA81    9        I0         12
+
+N$255    M0FA40    13       I1         13
+         M0FA40    8        O          13
+
+N$256    M0FA81    13       I1         12
+         M0FA81    8        O          12
+
+N$257    M0FA81    12       I0         12
+         M0FA81    6        O          12
+
+N$258    M0FA40    11       O          13
+         M0FA41    1        I0         13
+         M0FA41    4        I0         13
+
+N$259    M041C     1        I0         13
+         M0FA41    3        O          13
+         M0FA41    5        I1         13
+         M0FA41    9        I0         13
+
+N$260    M120C     13       I1         16
+         M1FA20    3        O          16
+         M1FA20    5        I1         16
+         M1FA20    9        I0         16
+
+N$261    M0FA41    13       I1         13
+         M0FA41    8        O          13
+
+N$262    M0FA41    12       I0         13
+         M0FA41    6        O          13
+
+N$263    M1HA0     12       I0         16
+         M1HA0     3        O          16
+
+N$264    M1HA0     13       I1         16
+         M1HA0     8        O          16
+
+N$265    M197C     12       I0         14
+         M1FA71    3        O          14
+         M1FA71    5        I1         14
+         M1FA71    9        I0         14
+
+N$266    M1FA71    13       I1         14
+         M1FA71    8        O          14
+
+N$267    M041C     5        I1         13
+         M0FA30    2        I1         13
+         M0FA30    6        O          13
+         M0FA30    9        I0         13
+
+N$268    M085C     5        I1         12
+         M0FA60    3        O          12
+         M0FA60    5        I1         12
+         M0FA60    9        I0         12
+
+N$269    M0FA60    12       I0         12
+         M0FA60    6        O          12
+
+N$270    M0FA60    13       I1         12
+         M0FA60    8        O          12
+
+N$271    M0FA60    11       O          12
+         M0FA61    1        I0         12
+         M0FA61    4        I0         12
+
+N$272    M085C     4        I0         12
+         M0FA61    3        O          12
+         M0FA61    5        I1         12
+         M0FA61    9        I0         12
+
+N$273    M0FA61    12       I0         12
+         M0FA61    6        O          12
+
+N$274    M0FA61    13       I1         12
+         M0FA61    8        O          12
+
+N$275    M0FA30    13       I1         13
+         M0FA30    8        O          13
+
+N$276    M0FA30    12       I0         13
+         M0FA30    3        O          13
+
+N$277    M0FA30    11       O          13
+         M0FA31    1        I0         13
+         M0FA31    4        I0         13
+
+N$278    M120C     4        I0         16
+         M120C     5        I1         16
+         M1HA0     2        I1         16
+         M1HA0     6        O          16
+         M1HA0     9        I0         16
+
+N$279    M041C     4        I0         13
+         M0FA31    2        I1         13
+         M0FA31    6        O          13
+         M0FA31    9        I0         13
+
+N$280    M0FA50    11       O          12
+         M0FA51    1        I0         12
+         M0FA51    4        I0         12
+
+N$281    M085C     9        I0         12
+         M0FA51    3        O          12
+         M0FA51    5        I1         12
+         M0FA51    9        I0         12
+
+N$282    M0FA31    12       I0         13
+         M0FA31    3        O          13
+
+N$283    M0FA50    13       I1         12
+         M0FA50    8        O          12
+
+N$284    M0FA50    12       I0         12
+         M0FA50    6        O          12
+
+N$285    M085C     10       I1         12
+         M0FA50    3        O          12
+         M0FA50    5        I1         12
+         M0FA50    9        I0         12
+
+N$286    M0FA31    13       I1         13
+         M0FA31    8        O          13
+
+N$287    M0HA0     3        O          16
+         M0HA0     5        I1         16
+         M0HA0     9        I0         16
+         M120C     1        I0         16
+         M120C     2        I1         16
+
+N$288    M0FA51    13       I1         12
+         M0FA51    8        O          12
+
+N$289    M0FA51    12       I0         12
+         M0FA51    6        O          12
+
+N$290    M1FA20    13       I1         16
+         M1FA20    8        O          16
+
+N$291    M1FA71    12       I0         14
+         M1FA71    6        O          14
+
+N$292    M1FA70    11       O          14
+         M1FA71    1        I0         14
+         M1FA71    4        I0         14
+
+N$293    M0HA0     13       I1         16
+         M0HA0     8        O          16
+
+N$294    M0FA71    13       I1         12
+         M0FA71    8        O          12
+
+N$295    M0FA71    12       I0         12
+         M0FA71    6        O          12
+
+N$296    M085C     12       I0         12
+         M0FA71    3        O          12
+         M0FA71    5        I1         12
+         M0FA71    9        I0         12
+
+N$297    M0FA70    8        O          12
+         M0FA71    1        I0         12
+         M0FA71    4        I0         12
+
+N$298    M041C     12       I0         13
+         M041C     13       I1         13
+         M0HA1     3        O          13
+         M0HA1     5        I1         13
+         M0HA1     9        I0         13
+
+N$299    M0FA70    10       I1         12
+         M0FA70    11       O          12
+
+N$300    M0FA70    3        O          12
+         M0FA70    9        I0         12
+
+N$301    M085C     13       I1         12
+         M0FA70    12       I0         12
+         M0FA70    2        I1         12
+         M0FA70    6        O          12
+
+N$302    M0HA0     12       I0         16
+         M0HA0     6        O          16
+
+N$303    M163C     12       I0         15
+         M1FA31    3        O          15
+         M1FA31    5        I1         15
+         M1FA31    9        I0         15
+
+N$304    M0HA1     13       I1         13
+         M0HA1     8        O          13
+
+N$305    M0HA1     12       I0         13
+         M0HA1     6        O          13
+
+N$306    M1FA70    13       I1         14
+         M1FA70    8        O          14
+
+N$307    M1FA70    12       I0         14
+         M1FA70    6        O          14
+
+N$308    M197C     13       I1         14
+         M1FA70    3        O          14
+         M1FA70    5        I1         14
+         M1FA70    9        I0         14
+
+N$309    M0HA2     13       I1         13
+         M0HA2     8        O          13
+
+N$310    M0HA2     12       I0         13
+         M0HA2     3        O          13
+
+N$311    M1FA20    12       I0         16
+         M1FA20    6        O          16
+
+N$312    M1FA31    13       I1         15
+         M1FA31    8        O          15
+
+N$313    M041C     10       I1         13
+         M041C     9        I0         13
+         M0HA2     2        I1         13
+         M0HA2     6        O          13
+         M0HA2     9        I0         13
+
+N$314    M1FA31    12       I0         15
+         M1FA31    6        O          15
+
+N$315    M1FA20    11       O          16
+         M1FA21    1        I0         16
+         M1FA21    4        I0         16
+
+N$316    M1FA30    11       O          15
+         M1FA31    1        I0         15
+         M1FA31    4        I0         15
+
+N$317    M120C     12       I0         16
+         M1FA21    3        O          16
+         M1FA21    5        I1         16
+         M1FA21    9        I0         16
+
+N$318    M1FA21    13       I1         16
+         M1FA21    8        O          16
+
+N$319    M1FA21    12       I0         16
+         M1FA21    6        O          16
+
+N$320    M1FA30    13       I1         15
+         M1FA30    8        O          15
+
+N$321    M1FA30    12       I0         15
+         M1FA30    6        O          15
+
+N$322    M163C     13       I1         15
+         M1FA30    3        O          15
+         M1FA30    5        I1         15
+         M1FA30    9        I0         15
+
+N$323    M1FA91    13       I1         14
+         M1FA91    8        O          14
+
+N$324    M120C     9        I0         16
+         M1FA11    3        O          16
+         M1FA11    5        I1         16
+         M1FA11    9        I0         16
+
+N$325    M1FA11    12       I0         16
+         M1FA11    6        O          16
+
+N$326    M1FA11    13       I1         16
+         M1FA11    8        O          16
+
+N$327    M1FA91    12       I0         14
+         M1FA91    6        O          14
+
+N$328    M1FA10    11       O          16
+         M1FA11    1        I0         16
+         M1FA11    4        I0         16
+
+N$329    M197C     4        I0         14
+         M1FA91    3        O          14
+         M1FA91    5        I1         14
+         M1FA91    9        I0         14
+
+N$330    M1FA51    13       I1         15
+         M1FA51    8        O          15
+
+N$331    M120C     10       I1         16
+         M1FA10    3        O          16
+         M1FA10    5        I1         16
+         M1FA10    9        I0         16
+
+N$332    M1FA10    13       I1         16
+         M1FA10    8        O          16
+
+N$333    M1FA10    12       I0         16
+         M1FA10    6        O          16
+
+N$334    M1FA90    11       O          14
+         M1FA91    1        I0         14
+         M1FA91    4        I0         14
+
+N$335    M1FA90    13       I1         14
+         M1FA90    8        O          14
+
+N$336    M1FA90    12       I0         14
+         M1FA90    6        O          14
+
+N$337    M197C     5        I1         14
+         M1FA90    3        O          14
+         M1FA90    5        I1         14
+         M1FA90    9        I0         14
+
+N$338    M1FA51    12       I0         15
+         M1FA51    6        O          15
+
+N$339    M163C     4        I0         15
+         M1FA51    3        O          15
+         M1FA51    5        I1         15
+         M1FA51    9        I0         15
+
+N$340    CLA6      12       I0         19
+         CLA6      6        O          19
+
+N$341    CLA0      12       I0         19
+         CLA0      6        O          19
+
+N$342    M1FA81    13       I1         14
+         M1FA81    8        O          14
+
+N$343    M1FA81    12       I0         14
+         M1FA81    6        O          14
+
+N$344    M197C     9        I0         14
+         M1FA81    3        O          14
+         M1FA81    5        I1         14
+         M1FA81    9        I0         14
+
+N$345    M1FA50    11       O          15
+         M1FA51    1        I0         15
+         M1FA51    4        I0         15
+
+N$346    M1FA80    11       O          14
+         M1FA81    1        I0         14
+         M1FA81    4        I0         14
+
+N$347    M1FA50    13       I1         15
+         M1FA50    8        O          15
+
+N$348    M1FA50    12       I0         15
+         M1FA50    6        O          15
+
+N$349    M1FA80    13       I1         14
+         M1FA80    8        O          14
+
+N$350    M1FA80    12       I0         14
+         M1FA80    6        O          14
+
+N$351    M197C     10       I1         14
+         M1FA80    3        O          14
+         M1FA80    5        I1         14
+         M1FA80    9        I0         14
+
+N$352    M163C     5        I1         15
+         M1FA50    3        O          15
+         M1FA50    5        I1         15
+         M1FA50    9        I0         15
+
+N$353    CLA0      13       I1         19
+         CLA0      8        O          19
+
+N$354    M2FA01    13       I1         14
+         M2FA01    8        O          14
+
+N$355    M2FA01    12       I0         14
+         M2FA01    6        O          14
+
+N$356    M197C     1        I0         14
+         M2FA01    3        O          14
+         M2FA01    5        I1         14
+         M2FA01    9        I0         14
+
+N$357    CLA1      12       I0         19
+         CLA1      3        O          19
+         CLA1      5        I1         19
+
+N$358    M2FA00    11       O          14
+         M2FA01    1        I0         14
+         M2FA01    4        I0         14
+
+N$359    M2FA00    13       I1         14
+         M2FA00    8        O          14
+
+N$360    M2FA00    12       I0         14
+         M2FA00    6        O          14
+
+N$361    M197C     2        I1         14
+         M2FA00    3        O          14
+         M2FA00    5        I1         14
+         M2FA00    9        I0         14
+
+N$362    M1FA41    13       I1         15
+         M1FA41    8        O          15
+
+N$363    M1FA41    12       I0         15
+         M1FA41    6        O          15
+
+N$364    M163C     9        I0         15
+         M1FA41    3        O          15
+         M1FA41    5        I1         15
+         M1FA41    9        I0         15
+
+N$365    M1FA40    11       O          15
+         M1FA41    1        I0         15
+         M1FA41    4        I0         15
+
+N$366    M1FA40    13       I1         15
+         M1FA40    8        O          15
+
+N$367    M1FA40    12       I0         15
+         M1FA40    6        O          15
+
+N$368    M163C     10       I1         15
+         M1FA40    3        O          15
+         M1FA40    5        I1         15
+         M1FA40    9        I0         15
+
+N$369    M1FA61    13       I1         15
+         M1FA61    8        O          15
+
+N$370    M1FA61    12       I0         15
+         M1FA61    6        O          15
+
+N$371    M163C     1        I0         15
+         M1FA61    3        O          15
+         M1FA61    5        I1         15
+         M1FA61    9        I0         15
+
+N$372    M1FA60    11       O          15
+         M1FA61    1        I0         15
+         M1FA61    4        I0         15
+
+N$373    M1FA60    13       I1         15
+         M1FA60    8        O          15
+
+N$374    M1FA60    12       I0         15
+         M1FA60    6        O          15
+
+N$375    M163C     2        I1         15
+         M1FA60    3        O          15
+         M1FA60    5        I1         15
+         M1FA60    9        I0         15
+
+N$376    M285C     1        I0         17
+         M285C     2        I1         17
+         M2HA8     2        I1         17
+         M2HA8     6        O          17
+         M2HA8     9        I0         17
+
+N$377    CLA6      13       I1         19
+         CLA6      8        O          19
+
+N$378    M2HA8     12       I0         17
+         M2HA8     3        O          17
+
+N$379    M2HA8     13       I1         17
+         M2HA8     8        O          17
+
+N$380    M2HA7     12       I0         17
+         M2HA7     3        O          17
+
+N$381    M2HA7     13       I1         17
+         M2HA7     8        O          17
+
+N$382    CLA1      10       I1         19
+         CLA1      11       O          19
+
+N$383    CLA1      6        O          19
+         CLA1      9        I0         19
+
+N$384    CLA6      3        O          19
+         CLA6      5        I1         19
+         CLA6      9        I0         19
+
+N$385    M285C     4        I0         17
+         M285C     5        I1         17
+         M2HA7     2        I1         17
+         M2HA7     6        O          17
+         M2HA7     9        I0         17
+
+N$386    M285C     12       I0         17
+         M285C     13       I1         17
+         M2HA5     2        I1         17
+         M2HA5     6        O          17
+         M2HA5     9        I0         17
+
+N$387    CLA101    13       I1         21
+         CLA101    8        O          21
+
+N$388    CLA101    12       I0         21
+         CLA101    6        O          21
+
+N$389    M2HA5     13       I1         17
+         M2HA5     8        O          17
+
+N$390    M2HA5     12       I0         17
+         M2HA5     3        O          17
+
+N$391    CLA101    3        O          21
+         CLA101    5        I1         21
+         CLA101    9        I0         21
+
+N$392    CLA100    11       O          21
+         CLA101    1        I0         21
+         CLA101    4        I0         21
+
+N$393    M241C     1        I0         18
+         M241C     2        I1         18
+         M2HA4     2        I1         18
+         M2HA4     6        O          18
+         M2HA4     9        I0         18
+
+N$394    M2HA6     13       I1         17
+         M2HA6     8        O          17
+
+N$395    M2HA6     12       I0         17
+         M2HA6     6        O          17
+
+N$396    M285C     10       I1         17
+         M285C     9        I0         17
+         M2HA6     3        O          17
+         M2HA6     5        I1         17
+         M2HA6     9        I0         17
+
+N$397    M2HA4     12       I0         18
+         M2HA4     3        O          18
+
+N$398    M2HA4     13       I1         18
+         M2HA4     8        O          18
+
+N$399    M2HA3     12       I0         18
+         M2HA3     3        O          18
+
+N$400    M2HA3     13       I1         18
+         M2HA3     8        O          18
+
+N$401    M241C     4        I0         18
+         M241C     5        I1         18
+         M2HA3     2        I1         18
+         M2HA3     6        O          18
+         M2HA3     9        I0         18
+
+N$402    M241C     12       I0         18
+         M241C     13       I1         18
+         M2HA1     2        I1         18
+         M2HA1     6        O          18
+         M2HA1     9        I0         18
+
+N$403    M2HA1     13       I1         18
+         M2HA1     8        O          18
+
+N$404    M2HA1     12       I0         18
+         M2HA1     3        O          18
+
+N$405    M2HA2     13       I1         18
+         M2HA2     8        O          18
+
+N$406    M2HA2     12       I0         18
+         M2HA2     6        O          18
+
+N$407    M241C     10       I1         18
+         M241C     9        I0         18
+         M2HA2     3        O          18
+         M2HA2     5        I1         18
+         M2HA2     9        I0         18
+
+N$408    CLA141    13       I1         20
+         CLA141    8        O          20
+
+N$409    CLA141    12       I0         20
+         CLA141    6        O          20
+
+N$410    CLA141    3        O          20
+         CLA141    5        I1         20
+         CLA141    9        I0         20
+
+N$411    CLA100    13       I1         21
+         CLA100    8        O          21
+
+N$412    CLA140    11       O          20
+         CLA141    1        I0         20
+         CLA141    4        I0         20
+
+N$413    CLA140    13       I1         20
+         CLA140    8        O          20
+
+N$414    CLA140    12       I0         20
+         CLA140    6        O          20
+
+N$415    CLA100    12       I0         21
+         CLA100    6        O          21
+
+N$416    CLA90     12       I0         21
+         CLA90     6        O          21
+
+N$417    CLA90     13       I1         21
+         CLA90     8        O          21
+
+N$418    CLA90     11       O          21
+         CLA91     1        I0         21
+         CLA91     4        I0         21
+
+N$419    CLA130    12       I0         20
+         CLA130    6        O          20
+
+N$420    CLA130    13       I1         20
+         CLA130    8        O          20
+
+N$421    CLA130    11       O          20
+         CLA131    1        I0         20
+         CLA131    4        I0         20
+
+N$422    CLA131    3        O          20
+         CLA131    5        I1         20
+         CLA131    9        I0         20
+
+N$423    CLA91     3        O          21
+         CLA91     5        I1         21
+         CLA91     9        I0         21
+
+N$424    CLA131    13       I1         20
+         CLA131    8        O          20
+
+N$425    CLA131    12       I0         20
+         CLA131    6        O          20
+
+N$426    CLA91     13       I1         21
+         CLA91     8        O          21
+
+N$427    CLA91     12       I0         21
+         CLA91     6        O          21
+
+N$428    CLA81     3        O          21
+         CLA81     5        I1         21
+         CLA81     9        I0         21
+
+N$429    CLA121    3        O          20
+         CLA121    5        I1         20
+         CLA121    9        I0         20
+
+N$430    CLA80     11       O          21
+         CLA81     1        I0         21
+         CLA81     4        I0         21
+
+N$431    CLA120    11       O          20
+         CLA121    1        I0         20
+         CLA121    4        I0         20
+
+N$432    CLA121    12       I0         20
+         CLA121    6        O          20
+
+N$433    CLA121    13       I1         20
+         CLA121    8        O          20
+
+N$434    CLA120    12       I0         20
+         CLA120    6        O          20
+
+N$435    CLA120    13       I1         20
+         CLA120    8        O          20
+
+N$436    CLA81     12       I0         21
+         CLA81     6        O          21
+
+N$437    CLA81     13       I1         21
+         CLA81     8        O          21
+
+N$438    CLA80     12       I0         21
+         CLA80     6        O          21
+
+N$439    CLA80     13       I1         21
+         CLA80     8        O          21
+
+N$440    CLA110    13       I1         20
+         CLA110    8        O          20
+
+N$441    CLA110    12       I0         20
+         CLA110    6        O          20
+
+N$442    CLA70     13       I1         21
+         CLA70     8        O          21
+
+N$443    CLA70     12       I0         21
+         CLA70     6        O          21
+
+N$444    CLAP0     3        O          20
+         CLAP0     9        I0         20
+
+N$445    CLA110    11       O          20
+         CLA111    1        I0         20
+         CLA111    4        I0         20
+
+N$446    CLA111    3        O          20
+         CLA111    5        I1         20
+         CLA111    9        I0         20
+
+N$447    CLA70     11       O          21
+         CLA71     1        I0         21
+         CLA71     4        I0         21
+
+N$448    CLA111    13       I1         20
+         CLA111    8        O          20
+
+N$449    CLA111    12       I0         20
+         CLA111    6        O          20
+
+N$450    CLA71     3        O          21
+         CLA71     5        I1         21
+         CLA71     9        I0         21
+
+N$451    CLA71     13       I1         21
+         CLA71     8        O          21
+
+N$452    CLA71     12       I0         21
+         CLA71     6        O          21
+
+N$453    CLAP0     10       I1         20
+         CLAP0     6        O          20
+
+N$454    CLAP3     3        O          21
+         CLAP3     9        I0         21
+
+N$455    CLAP3     10       I1         21
+         CLAP3     6        O          21
+
+N$456    CLAP4     3        O          21
+         CLAP4     5        I1         21
+
+N$457    CLAP1     3        O          20
+         CLAP1     5        I1         20
+
+N$458    CLAP0     11       O          20
+         CLAP1     4        I0         20
+
+N$459    CLAP3     11       O          21
+         CLAP4     4        I0         21
+
+N$460    CLAP4     11       O          21
+         CLAP5     2        I1         21
+
+N$461    CLAP1     11       O          20
+         CLAP2     2        I1         20
+
+N$462    CLAP1     8        O          20
+         CLAP2     1        I0         20
+
+N$463    CLAP4     8        O          21
+         CLAP5     1        I0         21
+
+N$464    CLAP5     13       I1         21
+         CLAP5     8        O          21
+
+N$465    CLAP5     12       I0         21
+         CLAP5     6        O          21
+
+N$466    CLA51     13       I1         22
+         CLA51     8        O          22
+
+N$467    CLAP2     13       I1         20
+         CLAP2     8        O          20
+
+N$468    CLAP2     12       I0         20
+         CLAP2     6        O          20
+
+N$469    CLA51     12       I0         22
+         CLA51     6        O          22
+
+N$470    CLA51     3        O          22
+         CLA51     5        I1         22
+         CLA51     9        I0         22
+
+N$471    CLA50     11       O          22
+         CLA51     1        I0         22
+         CLA51     4        I0         22
+
+N$472    CLA50     13       I1         22
+         CLA50     8        O          22
+
+N$473    CLA50     12       I0         22
+         CLA50     6        O          22
+
+N$474    CLA40     12       I0         22
+         CLA40     6        O          22
+
+N$475    CLA40     13       I1         22
+         CLA40     8        O          22
+
+N$476    CLA40     11       O          22
+         CLA41     1        I0         22
+         CLA41     4        I0         22
+
+N$477    CLA41     3        O          22
+         CLA41     5        I1         22
+         CLA41     9        I0         22
+
+N$478    CLA41     13       I1         22
+         CLA41     8        O          22
+
+N$479    CLA41     12       I0         22
+         CLA41     6        O          22
+
+N$480    CLA31     3        O          22
+         CLA31     5        I1         22
+         CLA31     9        I0         22
+
+N$481    CLA30     11       O          22
+         CLA31     1        I0         22
+         CLA31     4        I0         22
+
+N$482    CLA31     12       I0         22
+         CLA31     6        O          22
+
+N$483    CLA31     13       I1         22
+         CLA31     8        O          22
+
+N$484    CLA30     12       I0         22
+         CLA30     6        O          22
+
+N$485    CLA30     13       I1         22
+         CLA30     8        O          22
+
+N$486    CLA20     13       I1         22
+         CLA20     8        O          22
+
+N$487    CLA20     12       I0         22
+         CLA20     6        O          22
+
+N$488    CLA20     11       O          22
+         CLA21     1        I0         22
+         CLA21     4        I0         22
+
+N$489    CLA21     3        O          22
+         CLA21     5        I1         22
+         CLA21     9        I0         22
+
+N$490    CLA21     13       I1         22
+         CLA21     8        O          22
+
+N$491    CLA21     12       I0         22
+         CLA21     6        O          22
+
+N$492    CLAP6     3        O          22
+         CLAP6     9        I0         22
+
+N$493    CLAP6     10       I1         22
+         CLAP6     6        O          22
+
+N$494    CLAP7     3        O          22
+         CLAP7     5        I1         22
+
+N$495    CLAP6     11       O          22
+         CLAP7     4        I0         22
+
+N$496    CLAP7     11       O          22
+         CLAP8     2        I1         22
+
+N$497    CLAP7     8        O          22
+         CLAP8     1        I0         22
+
+N$498    CLAP8     13       I1         22
+         CLAP8     8        O          22
+
+N$499    CLAP8     12       I0         22
+         CLAP8     6        O          22
+
+N$500    CLA150    3        O          23
+         CLA151    1        I0         23
+         CLA151    4        I0         23
+
+N$501    CLA151    3        O          23
+         CLA151    5        I1         23
+         CLA151    9        I0         23
+
+N$502    CLU1      11       O          23
+         CLU2      1        I0         23
+
+N$504    CLA151    13       I1         23
+         CLA151    8        O          23
+
+N$505    CLA151    12       I0         23
+         CLA151    6        O          23
+
+N$506    CLU0      10       I1         23
+         CLU0      6        O          23
+         CLU0      9        I0         23
+
+N$508    CLU0      11       O          23
+         CLU1      1        I0         23
+
+N$510    CLU1      6        O          23
+         CLU1      9        I0         23
+
+N$512    CLU2      11       O          23
+         CLU3      1        I0         23
+         CLU3      2        I1         23
+
+N$515    CLU2      6        O          23
+         CLU2      9        I0         23
+
+N$517    CLU3      6        O          23
+         CLU3      9        I0         23
+
+N$519    CLU3      11       O          23
+         CLU4      2        I1         23
+
+N$521    CLU4      6        O          23
+         CLU4      9        I0         23
+
+N$523    CLU4      11       O          23
+         CLU5      1        I0         23
+
+N$525    CLU5      6        O          23
+         CLU5      9        I0         23
+
+N$527    CLU5      11       O          23
+         CLU6      1        I0         23
+
+N$528    CLA150    4        I0         23
+         CLU6      6        O          23
+
+N$532    CLA150    12       I0         23
+         CLA150    8        O          23
+
+P2       CLAP8     11       O          22
+         CLU0      13       I1         23
+
+P3       CLAP8     3        O          22
+         CLU1      5        I1         23
+
+P4       CLAP7     6        O          22
+         CLU1      13       I1         23
+
+P5       CLAP6     8        O          22
+         CLU2      5        I1         23
+
+P7       CLAP5     11       O          21
+         CLU3      5        I1         23
+
+P8       CLAP5     3        O          21
+         CLU3      13       I1         23
+
+P9       CLAP4     6        O          21
+         CLU4      5        I1         23
+
+P10      CLAP3     8        O          21
+         CLU4      13       I1         23
+
+P11      CLAP2     11       O          20
+         CLU5      5        I1         23
+
+P12      CLAP2     3        O          20
+         CLU5      13       I1         23
+
+P13      CLAP1     6        O          20
+         CLU6      5        I1         23
+
+P14      CLA150    10       I1         23
+         CLAP0     8        O          20
+
+PP0_0    BSEL68    11       O          11
+         CLA0      1        I0         19
+         CLA0      4        I0         19
+
+PP0_1    BSEL13    8        O          4
+         CLA1      1        I0         19
+         CLA1      4        I0         19
+         CLU0      5        I1         23
+
+PP0_2    BSEL12    8        O          4
+         M0HA0     1        I0         16
+         M0HA0     4        I0         16
+
+PP0_3    BSEL11    3        O          4
+         M1HA0     1        I0         16
+         M1HA0     4        I0         16
+
+PP0_4    BSEL10    3        O          4
+         M0HA1     1        I0         13
+         M0HA1     4        I0         13
+
+PP0_5    BSEL6     8        O          3
+         M0HA2     1        I0         13
+         M0HA2     4        I0         13
+
+PP0_6    BSEL5     8        O          3
+         M0FA30    1        I0         13
+         M0FA30    4        I0         13
+
+PP0_7    BSEL4     3        O          3
+         M0FA40    1        I0         13
+         M0FA40    4        I0         13
+
+PP0_8    BENC10    10       I1         2
+         BENC10    9        I0         2
+         BSEL3     3        O          3
+         M0FA50    1        I0         12
+         M0FA50    4        I0         12
+         M0FA60    1        I0         12
+         M0FA60    4        I0         12
+         M0FA70    1        I0         12
+         M0FA70    4        I0         12
+
+PP0_SE_N BENC10    8        O          2
+         M0FA80    1        I0         12
+         M0FA80    4        I0         12
+
+PP1_0    BSEL69    11       O          11
+         M0HA0     10       I1         16
+         M0HA0     2        I1         16
+
+PP1_1    BSEL27    8        O          6
+         M1HA0     10       I1         16
+         M1HA0     5        I1         16
+
+PP1_2    BSEL26    8        O          6
+         M0HA1     10       I1         13
+         M0HA1     2        I1         13
+
+PP1_3    BSEL25    3        O          6
+         M0HA2     10       I1         13
+         M0HA2     5        I1         13
+
+PP1_4    BSEL24    3        O          6
+         M0FA30    10       I1         13
+         M0FA30    5        I1         13
+
+PP1_5    BSEL20    8        O          5
+         M0FA40    10       I1         13
+         M0FA40    2        I1         13
+
+PP1_6    BSEL19    8        O          5
+         M0FA50    10       I1         12
+         M0FA50    2        I1         12
+
+PP1_7    BSEL18    3        O          5
+         M0FA60    10       I1         12
+         M0FA60    2        I1         12
+
+PP1_8    BENC10    12       I0         2
+         BENC10    13       I1         2
+         BSEL17    3        O          5
+         M0FA70    13       I1         12
+         M0FA70    5        I1         12
+
+PP1_SE_N BENC10    11       O          2
+         M0FA80    10       I1         12
+         M0FA80    2        I1         12
+
+PP2_0    BSEL70    11       O          11
+         M1FA10    10       I1         16
+         M1FA10    2        I1         16
+
+PP2_1    BSEL41    8        O          8
+         M1FA20    10       I1         16
+         M1FA20    2        I1         16
+
+PP2_2    BSEL40    8        O          8
+         M0FA31    10       I1         13
+         M0FA31    5        I1         13
+
+PP2_3    BSEL39    3        O          8
+         M0FA41    10       I1         13
+         M0FA41    2        I1         13
+
+PP2_4    BSEL38    3        O          8
+         M0FA51    10       I1         12
+         M0FA51    2        I1         12
+
+PP2_5    BSEL34    8        O          7
+         M0FA61    10       I1         12
+         M0FA61    2        I1         12
+
+PP2_6    BSEL33    8        O          7
+         M0FA71    10       I1         12
+         M0FA71    2        I1         12
+
+PP2_7    BSEL32    3        O          7
+         M0FA81    10       I1         12
+         M0FA81    2        I1         12
+
+PP2_8    BSEL31    3        O          7
+         HA1B0     1        I0         12
+         HA1B0     10       I1         12
+         HA1B0     2        I1         12
+         HA1B0     9        I0         12
+
+PP2_SE_N HA1B0     3        O          12
+
+PP3_0    BSEL71    11       O          11
+         M1FA30    10       I1         15
+         M1FA30    2        I1         15
+
+PP3_1    BSEL65    8        O          10
+         M1FA40    10       I1         15
+         M1FA40    2        I1         15
+
+PP3_2    BSEL64    8        O          10
+         M1FA50    10       I1         15
+         M1FA50    2        I1         15
+
+PP3_3    BSEL63    3        O          10
+         M1FA60    10       I1         15
+         M1FA60    2        I1         15
+
+PP3_4    BSEL62    3        O          10
+         M1FA70    10       I1         14
+         M1FA70    2        I1         14
+
+PP3_5    BSEL58    8        O          9
+         M1FA80    10       I1         14
+         M1FA80    2        I1         14
+
+PP3_6    BSEL47    8        O          9
+         M1FA90    10       I1         14
+         M1FA90    2        I1         14
+
+PP3_7    BSEL46    3        O          9
+         HA1B0     4        I0         12
+         HA1B0     5        I1         12
+
+PP3_8    BSEL45    3        O          9
+         HA1B0     12       I0         12
+         HA1B0     13       I1         12
+
+PROD0    CLA0      11       O          19
+
+PROD1    CLA1      8        O          19
+
+PROD2    CLA21     11       O          22
+
+PROD3    CLA31     11       O          22
+
+PROD4    CLA41     11       O          22
+
+PROD5    CLA51     11       O          22
+
+PROD6    CLA6      11       O          19
+
+PROD7    CLA71     11       O          21
+
+PROD8    CLA81     11       O          21
+
+PROD9    CLA91     11       O          21
+
+PROD10   CLA101    11       O          21
+
+PROD11   CLA111    11       O          20
+
+PROD12   CLA121    11       O          20
+
+PROD13   CLA131    11       O          20
+
+PROD14   CLA141    11       O          20
+
+PROD15   CLA151    11       O          23
+
+S1       BENC1_1   8        O          1
+         BSEL14    10       I1         5
+         BSEL15    5        I1         5
+         BSEL16    13       I1         5
+         BSEL16    2        I1         5
+         BSEL21    10       I1         6
+         BSEL22    5        I1         6
+         BSEL23    13       I1         6
+         BSEL23    2        I1         6
+         BSEL66    10       I1         11
+
+S2       BENC4     11       O          2
+         BSEL28    10       I1         7
+         BSEL29    5        I1         7
+         BSEL30    13       I1         7
+         BSEL30    2        I1         7
+         BSEL35    10       I1         8
+         BSEL36    5        I1         8
+         BSEL37    13       I1         8
+         BSEL37    2        I1         8
+         BSEL67    5        I1         11
+
+S3       BENC7     11       O          2
+         BSEL42    10       I1         9
+         BSEL43    5        I1         9
+         BSEL44    13       I1         9
+         BSEL44    2        I1         9
+         BSEL59    10       I1         10
+         BSEL60    5        I1         10
+         BSEL61    13       I1         10
+         BSEL61    2        I1         10
+         BSEL67    10       I1         11
+
+VCC      BEL7      14       VCC        4
+         BENC0     14       VCC        1
+         BENC10    14       VCC        2
+         BENC1_1   14       VCC        1
+         BENC2     14       VCC        1
+         BENC3     14       VCC        1
+         BENC4     14       VCC        2
+         BENC5     14       VCC        2
+         BENC6     14       VCC        2
+         BENC7     14       VCC        2
+         BENC8     14       VCC        2
+         BENC9     14       VCC        2
+         BSEL0     14       VCC        3
+         BSEL1     14       VCC        3
+         BSEL10    14       VCC        4
+         BSEL11    14       VCC        4
+         BSEL12    14       VCC        4
+         BSEL13    14       VCC        4
+         BSEL14    14       VCC        5
+         BSEL15    14       VCC        5
+         BSEL16    14       VCC        5
+         BSEL17    14       VCC        5
+         BSEL18    14       VCC        5
+         BSEL19    14       VCC        5
+         BSEL2     14       VCC        3
+         BSEL20    14       VCC        5
+         BSEL21    14       VCC        6
+         BSEL22    14       VCC        6
+         BSEL23    14       VCC        6
+         BSEL24    14       VCC        6
+         BSEL25    14       VCC        6
+         BSEL26    14       VCC        6
+         BSEL27    14       VCC        6
+         BSEL28    14       VCC        7
+         BSEL29    14       VCC        7
+         BSEL3     14       VCC        3
+         BSEL30    14       VCC        7
+         BSEL31    14       VCC        7
+         BSEL32    14       VCC        7
+         BSEL33    14       VCC        7
+         BSEL34    14       VCC        7
+         BSEL35    14       VCC        8
+         BSEL36    14       VCC        8
+         BSEL37    14       VCC        8
+         BSEL38    14       VCC        8
+         BSEL39    14       VCC        8
+         BSEL4     14       VCC        3
+         BSEL40    14       VCC        8
+         BSEL41    14       VCC        8
+         BSEL42    14       VCC        9
+         BSEL43    14       VCC        9
+         BSEL44    14       VCC        9
+         BSEL45    14       VCC        9
+         BSEL46    14       VCC        9
+         BSEL47    14       VCC        9
+         BSEL5     14       VCC        3
+         BSEL58    14       VCC        9
+         BSEL59    14       VCC        10
+         BSEL6     14       VCC        3
+         BSEL60    14       VCC        10
+         BSEL61    14       VCC        10
+         BSEL62    14       VCC        10
+         BSEL63    14       VCC        10
+         BSEL64    14       VCC        10
+         BSEL65    14       VCC        10
+         BSEL66    14       VCC        11
+         BSEL67    14       VCC        11
+         BSEL68    14       VCC        11
+         BSEL69    14       VCC        11
+         BSEL70    14       VCC        11
+         BSEL71    14       VCC        11
+         BSEL8     14       VCC        4
+         BSEL9     14       VCC        4
+         CLA0      14       VCC        19
+         CLA1      14       VCC        19
+         CLA100    14       VCC        21
+         CLA101    14       VCC        21
+         CLA110    14       VCC        20
+         CLA111    14       VCC        20
+         CLA120    14       VCC        20
+         CLA121    14       VCC        20
+         CLA130    14       VCC        20
+         CLA131    14       VCC        20
+         CLA140    14       VCC        20
+         CLA141    14       VCC        20
+         CLA150    14       VCC        23
+         CLA151    14       VCC        23
+         CLA20     14       VCC        22
+         CLA21     14       VCC        22
+         CLA30     14       VCC        22
+         CLA31     14       VCC        22
+         CLA40     14       VCC        22
+         CLA41     14       VCC        22
+         CLA50     14       VCC        22
+         CLA51     14       VCC        22
+         CLA6      14       VCC        19
+         CLA70     14       VCC        21
+         CLA71     14       VCC        21
+         CLA80     14       VCC        21
+         CLA81     14       VCC        21
+         CLA90     14       VCC        21
+         CLA91     14       VCC        21
+         CLAP0     14       VCC        20
+         CLAP1     14       VCC        20
+         CLAP2     14       VCC        20
+         CLAP3     14       VCC        21
+         CLAP4     14       VCC        21
+         CLAP5     14       VCC        21
+         CLAP6     14       VCC        22
+         CLAP7     14       VCC        22
+         CLAP8     14       VCC        22
+         CLU0      14       VCC        23
+         CLU1      14       VCC        23
+         CLU2      14       VCC        23
+         CLU3      14       VCC        23
+         CLU4      14       VCC        23
+         CLU5      14       VCC        23
+         CLU6      14       VCC        23
+         HA1B0     14       VCC        12
+         M041C     14       VCC        13
+         M085C     14       VCC        12
+         M0FA30    14       VCC        13
+         M0FA31    14       VCC        13
+         M0FA40    14       VCC        13
+         M0FA41    14       VCC        13
+         M0FA50    14       VCC        12
+         M0FA51    14       VCC        12
+         M0FA60    14       VCC        12
+         M0FA61    14       VCC        12
+         M0FA70    14       VCC        12
+         M0FA71    14       VCC        12
+         M0FA80    14       VCC        12
+         M0FA81    14       VCC        12
+         M0HA0     14       VCC        16
+         M0HA1     14       VCC        13
+         M0HA2     14       VCC        13
+         M120C     14       VCC        16
+         M163C     14       VCC        15
+         M197C     14       VCC        14
+         M1FA10    14       VCC        16
+         M1FA11    14       VCC        16
+         M1FA20    14       VCC        16
+         M1FA21    14       VCC        16
+         M1FA30    14       VCC        15
+         M1FA31    14       VCC        15
+         M1FA40    14       VCC        15
+         M1FA41    14       VCC        15
+         M1FA50    14       VCC        15
+         M1FA51    14       VCC        15
+         M1FA60    14       VCC        15
+         M1FA61    14       VCC        15
+         M1FA70    14       VCC        14
+         M1FA71    14       VCC        14
+         M1FA80    14       VCC        14
+         M1FA81    14       VCC        14
+         M1FA90    14       VCC        14
+         M1FA91    14       VCC        14
+         M1HA0     14       VCC        16
+         M241C     14       VCC        18
+         M285C     14       VCC        17
+         M2FA00    14       VCC        14
+         M2FA01    14       VCC        14
+         M2HA1     14       VCC        18
+         M2HA2     14       VCC        18
+         M2HA3     14       VCC        18
+         M2HA4     14       VCC        18
+         M2HA5     14       VCC        17
+         M2HA6     14       VCC        17
+         M2HA7     14       VCC        17
+         M2HA8     14       VCC        17
+
+W0       CLA30     1        I0         22
+         CLA30     4        I0         22
+         CLAP7     10       I1         22
+         CLAP7     9        I0         22
+         M1HA0     11       O          16
+
+W1       CLA40     1        I0         22
+         CLA40     4        I0         22
+         CLAP6     12       I0         22
+         CLAP6     13       I1         22
+         M1FA11    11       O          16
+
+W2       CLA50     1        I0         22
+         CLA50     4        I0         22
+         CLAP6     1        I0         22
+         CLAP6     2        I1         22
+         M1FA21    11       O          16
+
+W3       M1FA31    11       O          15
+         M2FA00    1        I0         14
+         M2FA00    4        I0         14
+
+W4       M1FA41    11       O          15
+         M2HA1     1        I0         18
+         M2HA1     4        I0         18
+
+W5       M1FA51    11       O          15
+         M2HA2     1        I0         18
+         M2HA2     4        I0         18
+
+W6       M1FA61    11       O          15
+         M2HA3     1        I0         18
+         M2HA3     4        I0         18
+
+W7       M1FA71    11       O          14
+         M2HA4     1        I0         18
+         M2HA4     4        I0         18
+
+W8       M1FA81    11       O          14
+         M2HA5     1        I0         17
+         M2HA5     4        I0         17
+
+W9       M1FA91    11       O          14
+         M2HA6     1        I0         17
+         M2HA6     4        I0         17
+
+W10      HA1B0     6        O          12
+         M2HA7     1        I0         17
+         M2HA7     4        I0         17
+
+W11      HA1B0     11       O          12
+         M2HA8     1        I0         17
+         M2HA8     4        I0         17
+
+X0       CLA30     10       I1         22
+         CLA30     2        I1         22
+         CLAP7     12       I0         22
+         CLAP7     13       I1         22
+         M120C     3        O          16
+
+X1       M041C     11       O          13
+         M1FA21    10       I1         16
+         M1FA21    2        I1         16
+
+X2       M041C     8        O          13
+         M2FA01    10       I1         14
+         M2FA01    2        I1         14
+
+X3       M041C     6        O          13
+         M1FA41    10       I1         15
+         M1FA41    2        I1         15
+
+X4       M041C     3        O          13
+         M1FA51    10       I1         15
+         M1FA51    2        I1         15
+
+X5       M085C     8        O          12
+         M1FA61    10       I1         15
+         M1FA61    2        I1         15
+
+X6       M085C     6        O          12
+         M1FA71    10       I1         14
+         M1FA71    2        I1         14
+
+X7       M085C     11       O          12
+         M1FA81    10       I1         14
+         M1FA81    2        I1         14
+
+X8       M085C     3        O          12
+         M1FA91    10       I1         14
+         M1FA91    2        I1         14
+
+Y0       CLA20     1        I0         22
+         CLA20     4        I0         22
+         CLAP8     4        I0         22
+         CLAP8     5        I1         22
+         M0HA0     11       O          16
+
+Y1       M0HA1     11       O          13
+         M1FA10    1        I0         16
+         M1FA10    4        I0         16
+
+Y2       M0HA2     11       O          13
+         M1FA20    1        I0         16
+         M1FA20    4        I0         16
+
+Y3       M0FA31    11       O          13
+         M1FA30    1        I0         15
+         M1FA30    4        I0         15
+
+Y4       M0FA41    11       O          13
+         M1FA40    1        I0         15
+         M1FA40    4        I0         15
+
+Y5       M0FA51    11       O          12
+         M1FA50    1        I0         15
+         M1FA50    4        I0         15
+
+Y6       M0FA61    11       O          12
+         M1FA60    1        I0         15
+         M1FA60    4        I0         15
+
+Y7       M0FA71    11       O          12
+         M1FA70    1        I0         14
+         M1FA70    4        I0         14
+
+Y8       M0FA81    11       O          12
+         M1FA80    1        I0         14
+         M1FA80    4        I0         14
+
+Y9       HA1B0     8        O          12
+         M1FA90    1        I0         14
+         M1FA90    4        I0         14
+
+Z0       CLA40     10       I1         22
+         CLA40     2        I1         22
+         CLAP7     1        I0         22
+         CLAP7     2        I1         22
+         M120C     6        O          16
+
+Z1       CLA50     10       I1         22
+         CLA50     2        I1         22
+         CLAP6     4        I0         22
+         CLAP6     5        I1         22
+         M120C     8        O          16
+
+Z2       M120C     11       O          16
+         M2FA00    10       I1         14
+         M2FA00    2        I1         14
+
+Z3       M163C     11       O          15
+         M2HA1     10       I1         18
+         M2HA1     5        I1         18
+
+Z4       M163C     8        O          15
+         M2HA2     10       I1         18
+         M2HA2     2        I1         18
+
+Z5       M163C     6        O          15
+         M2HA3     10       I1         18
+         M2HA3     5        I1         18
+
+Z6       M163C     3        O          15
+         M2HA4     10       I1         18
+         M2HA4     5        I1         18
+
+Z7       M197C     11       O          14
+         M2HA5     10       I1         17
+         M2HA5     5        I1         17
+
+Z8       M197C     8        O          14
+         M2HA6     10       I1         17
+         M2HA6     2        I1         17
+
+Z9       M197C     6        O          14
+         M2HA7     10       I1         17
+         M2HA7     5        I1         17
+
+Z10      M2HA8     10       I1         17
+         M2HA8     5        I1         17
+
