@@ -11,5 +11,6 @@ module OpDataSelect
 	assign #(NAND_TIME) opDataSelector_[0] = ~(selectorBits_[0] & selectorBits_[1]);
 	assign #(NAND_TIME) opDataSelector_[1] = ~(selectorBits[0] & selectorBits_[1]);
 	assign #(NAND_TIME) opDataSelector_[2] = ~(selectorBits_[0] & selectorBits[1]);
+	//assign #(NAND_TIME) opDataSelector_[3] = ~(selectorBits[0] & selectorBits[1]);
 
 endmodule // MemChipSelect

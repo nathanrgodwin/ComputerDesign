@@ -6,7 +6,7 @@ pinfile = open('pins','r');
 partfile = open('parts','r');
 netfile  = open('netlist','r');
 
-topModule = open(topModuleName+'.v','w');
+topModule = open(topModuleName+'.sv','w');
 PIN_HEADER_SIZE = 8;
 PART_HEADER_SIZE = 10;
 NET_HEADER_SIZE = 8;
@@ -114,7 +114,7 @@ for name, component in componentList.items():
 	if (component.model in uniqueParts):
 		#BEGIN PART MODULE CONSTRUCTION
 		uniqueParts.remove(component.model);
-		partModuleFile = open(component.model+'.v','w');
+		partModuleFile = open(component.model+'.sv','w');
 		partModuleFile.write('\'ifndef PMF'+component.model.upper()+'\n');
 		partModuleFile.write('\'define PMF'+component.model.upper()+'\n');
 		partModuleFile.write(MFHEADER%component.model);
@@ -131,7 +131,7 @@ for name, component in componentList.items():
 		partModuleFile.write('\'endif');
 		partModuleFile.close();
 
-	topModule.write('\n\t'+component.name + ' ' + component.model + '(\n')
+	topModule.write('\n\t'+component.model + ' ' + component.name + '(\n')
 	firstPin = True;
 	for pin in component.pin:
 		if (firstPin):

@@ -1,5 +1,5 @@
 module mainboard
-	#(time NAND_TIME = 3.7ns, time REG_TIME = 14ns, time MEM_TIME = 54ns, time BUF_TIME = 5ns)
+	#(time NAND_TIME = 3.7ns, time REG_TIME = 14ns, time MEM_TIME = 54ns, time TRI_TIME = 6ns)
 	(input clk, clk2x);
 
 	wire [15:0] pc; //The program counter address
@@ -20,7 +20,7 @@ module mainboard
 	wire [7:0] cmdn; //Inverted command vector
 
 	reg [15:0] pc_reg = 16'b0; //The registered 16 bit program counter address
-	reg [15:0] op; //The registered op code
+	reg [15:0] op = 0; //The registered op code
 
 	wire [15:0] rsela; //The data from register number op[7:4]
 	wire [15:0] rselb; //The data from register number op[3:0]
@@ -41,11 +41,8 @@ module mainboard
 
 	wire [3:0] shift_op; //The lowest four bits of the op code or the lowest four bits of register b
 
-	reg [7:0] opTop = 8'h0;
 	reg [7:0] opLow = 8'h0;
 	wire [7:0] dataBus;
-	wire [3:0] dataBus_;
-	wire [1:0] opCounter;
 
 	/*
 			PC_JMP_MUX
@@ -54,11 +51,12 @@ module mainboard
 	op: 	input: 	The 8-LSBs of the op code (non-registered)
 	pcb: 	output:	The result of the mux select
 	*/
-	//TODO: FIX DATABUS TO MEMDATA BOTTOM TO ENSURE NO BAD OPERATIONS ON 1/2 OP GRAB
+	//USING A NAND MUX FOR THIS IS A MORE EFFICIENT SOLUTION, I THINK
 	PC_JMP_MUX #(NAND_TIME) PC_JMP_MUX
 	(.jmp_en (jmp_en),
-	.op (dataBus[7:0]),
+	.op (opLow[7:0]),
 	.pcb);
+
 
 	/*
 			PC_ADDER
@@ -72,50 +70,68 @@ module mainboard
 	.pcq (pc_reg),
 	.pc);
 
-	wire opLowSelect, opTopSelect, opDataSelector1;
 	reg [1:0] opCounterLatch = 0;
-	wire loadOrStoreOpMod, loadOrStoreOpMod_, opCounter0Carry;
+	wire opCounter0Carry, opCounter1Carry;
+	wire [1:0] opCounter;
+	wire opCntEq1_, opCntEq1, opCounter1_;
+	wire [2:0] opDataSelector_;
+
+	assign #(NAND_TIME) opCounter1_ = ~(opCounterLatch[1] & opCounterLatch[1]);
+	assign #(NAND_TIME) opCntEq1_ = ~(opCounter1_ & opCounterLatch[0]);
+	assign #(NAND_TIME) opCntEq1 = ~(opCntEq1_ & opCntEq1_);
+
+	wire loadOrStore, loadOrStore_;
 
 	assign #(NAND_TIME) loadOrStore = ~(cmdn[2] & cmdn[3]);
-	assign #(NAND_TIME) loadOrStoreOpMod_ = ~(loadOrStore & opTopSelect);
-	assign #(NAND_TIME) loadOrStoreOpMod = ~(loadOrStoreOpMod_ & loadOrStoreOpMod_);
+	assign #(NAND_TIME) loadOrStore_ = ~(loadOrStore & loadOrStore);
+	assign #(NAND_TIME) loadSkip_ = ~(loadOrStore_ &  opCntEq1);
+	assign #(NAND_TIME) loadSkip = ~(loadSkip_ & loadSkip_);
 
-	//CAN WORK WITH HA_1B
+
 	HA #(NAND_TIME) HA_opCounter0(
 		.a (opCounterLatch[0]),
 		.b (1'b1),
 		.c (opCounter0Carry),
 		.s(opCounter[0])
 	);
-	FA_NP #(NAND_TIME) FA_NP_opCounter1(
+	FA #(NAND_TIME) FA_opCounter1(
 		.a (opCounterLatch[1]),
-		.b (loadOrStoreOpMod),
+		.b (loadSkip),
 		.cin (opCounter0Carry),
+		.c (opCounter1Carry), 
 		.s (opCounter[1])
 	);
 
-	always @ (posedge clk) begin
+	OpDataSelect OpDataSelect
+	(.selectorBits (opCounterLatch),
+	.opDataSelector_);
+
+	wire opDataSelector1, opDataSelector2;
+	assign #(NAND_TIME) opDataSelector2 = ~(opDataSelector_[2] & opDataSelector_[2]);
+	assign #(NAND_TIME) opDataSelector1 = ~(opDataSelector_[1] & opDataSelector_[1]);
+
+	always @ (posedge clk2x) begin
 		#(REG_TIME) opCounterLatch = opCounter;
 	end
 
 	//TODO:fix
-	always @ (posedge clk) begin
+	always @ (posedge clk2x iff opDataSelector2 == 1'b0) begin
 		#(REG_TIME) pc_reg = pc;
 	end
 
 	//REPLACE WITH TWO PART OP GRAB
-	always @ (posedge clk iff opLowSelect == 1'b0) begin
+	always @ (posedge clk2x iff opDataSelector_[0] == 1'b0) begin
 		#(REG_TIME) opLow = dataBus;
 	end
 
-	always @ (posedge clk iff opTopSelect == 1'b0) begin
+	always @ (posedge clk2x iff opDataSelector_[1] == 1'b0) begin
 		#(REG_TIME) op = {dataBus, opLow};
 	end
 
 
 	assign #(NAND_TIME) mult_n = ~(cmd[0] & cmd[0]);
-
 	//REGISTER SET, SPECIAL IO FOR MULTIPLIER TOP, CTRL, MEMA_TOP
+	assign rseln[13] = 0;
 	REG16 #(REG_TIME) REG16
 	(.d (data),
 	.mult_high (prod[15:8]),
@@ -140,7 +156,7 @@ module mainboard
 	//MAIN CARD OP CODE INTERPRET
 	//TODO: REPLACE DATABUS WITH OPTOP
 	main_op_interp #(NAND_TIME) main_op_interp
-	(.data (op[15:12]),
+	(.data (dataBus[7:4]),
 	.op (op[15:12]),
 	.cmd,
 	.cmdn);
@@ -185,11 +201,18 @@ module mainboard
 	.shift_sel);
 
 	//Select between shift commands or b value
-	mux21_4 #(NAND_TIME) mux_shift_cmd
+	tri_state_mux_k #(TRI_TIME, NAND_TIME, 4) tri_mux_shift
+	(.a (op[3:0]),
+	.b (b[3:0]),
+	.oe_ (shift_sel),
+	.mux_out (shift_op));
+
+	//ORIGINAL NAND MUX
+	/*mux21_4 #(NAND_TIME) mux_shift_cmd
 	(.a (op[3:0]),
 	.b (b[3:0]),
 	.sel (shift_sel),
-	.c (shift_op));
+	.c (shift_op));*/
  
 	DATA_MUX #(NAND_TIME) DATA_MUX
 	(.mult_sel (cmd[0]),
@@ -226,10 +249,11 @@ module mainboard
  	assign #(NAND_TIME) cd = ~(cdn & cdn);
  	assign #(NAND_TIME) abcdn = ~(ab & cd);
  	assign #(NAND_TIME) abcd = ~(abcdn & abcdn);
- 	assign #(NAND_TIME) reg_en_mid = ~(abcd & cmdn[2]);
- 	assign #(NAND_TIME) reg_en_n = ~(reg_en_mid & opDataSelector1);
- 	assign #(NAND_TIME) reg_en = ~(reg_en_n & reg_en_n);
+ 	assign #(NAND_TIME) reg_en = ~(abcd & cmdn[2]);
+ 	//assign #(NAND_TIME) reg_en_n = ~(reg_en_mid & opDataSelector1);
+ 	//assign #(NAND_TIME) reg_en = ~(reg_en_n & reg_en_n);
 
+ 	wire [3:0] dataBus_;
  	assign #(NAND_TIME) dataBus_ = ~(dataBus[3:0] & dataBus[3:0]);
 
  	//TODO: CHANGE DATABUS TO dataBus with additional enable on jump to confirm full instruction is loaded
@@ -247,10 +271,39 @@ module mainboard
  		.c (opDataSelector1),
  		.abc (jmp_en)
  	);
- 	assign #(NAND_TIME) jmp_en_n = ~(jmp_en_ctrl & cmd[6]);
- 	assign #(NAND_TIME) jmp_en = ~(jmp_en_n & jmp_en_n);
 
  	//temporary!!!! TODO: REMOVE
+ 	wire mem_addr;
+	tri_state_k #(TRI_TIME, 8) tri_loadstore_memtop
+	.oe_ ({8{oe_}}),
+	.b (mux_out)
+	);
+
+	tri_state_k #(TRI_TIME, 8) tri_loadstore_memtop
+	.oe_ ({8{oe_}}),
+	.b (mux_out)
+	);
+
+	tri_state_k #(TRI_TIME, 8) tri_store_memlow
+	(.a (a),
+	.oe_ ({8{oe_}}),
+	.b (mux_out)
+	);
+
+	tri_state_k #(TRI_TIME, num_tri) tri_load_memlow
+	(.a (b),
+	.oe_ ({num_tri{oe}}),
+	.b (mux_out)
+	);
+
+	tri_state_k #(TRI_TIME, num_tri) tri_pc_memlow
+	(.a (b),
+	.oe_ ({num_tri{oe}}),
+	.b (mux_out)
+	);
+
+
+
  	wire [7:0] mema_low;
  	assign mema_low = pc_reg[7:0];
 

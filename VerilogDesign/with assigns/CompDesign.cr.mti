@@ -117,13 +117,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	muxcomb161
 
-} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module mainboard
-
-Top level modules:
-	mainboard
-
 } {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA_NP.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA_NP.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module PHA_NP
@@ -201,12 +194,26 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	Xor_mod
 
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/tri_state_k.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/tri_state_k.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module tri_state_k
+
+Top level modules:
+	tri_state_k
+
 } {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_SEL_BLK.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_SEL_BLK.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module REG_SEL_BLK
 
 Top level modules:
 	REG_SEL_BLK
+
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/tri_state_mux_k.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/tri_state_mux_k.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module tri_state_mux_k
+
+Top level modules:
+	tri_state_mux_k
 
 } {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/JMP_CTRL.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/JMP_CTRL.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015

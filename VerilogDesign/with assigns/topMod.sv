@@ -7,6 +7,7 @@ module topMod;
 	initial begin
 		clk2x = 1'b0;
 		clk = 1'b0;
+		#500ns
 		forever begin
 			clk2x = ~clk2x;
 			clk = ~clk;

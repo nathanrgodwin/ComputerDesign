@@ -8,7 +8,8 @@ module AC_AddSub
 	wire [7:0] p, g_n, b_actual, sum_temp;
 	wire [8:0] c;
 	reg cin = 0;
-	reg sign_reg, z_reg;
+	reg sign_reg = 0;
+	reg z_reg = 0;
 	wire sign_temp, z_temp;
 	wire addsubn, clkn;
 
