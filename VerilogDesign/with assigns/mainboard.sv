@@ -1,5 +1,5 @@
 module mainboard
-	#(time NAND_TIME = 3.7ns, time REG_TIME = 14ns, time MEM_TIME = 54ns, time TRI_TIME = 6ns)
+	#(time NAND_TIME = 7ns, time REG_TIME = 14ns, time MEM_TIME = 54ns, time TRI_TIME = 6ns)
 	(input clk, clk2x);
 
 	wire [15:0] pc; //The program counter address
@@ -273,71 +273,91 @@ module mainboard
  	);
 
  	//temporary!!!! TODO: REMOVE
- 	wire mem_addr;
-	tri_state_k #(TRI_TIME, 8) tri_loadstore_memtop
-	.oe_ ({8{oe_}}),
-	.b (mux_out)
+ 	wire [15:0] mem_addr;
+	tri_state_k #(TRI_TIME, 8) tri_pc_memtop
+	(.a (pc_reg[15:8]),
+	.oe_ ({8{loadOrStore}}),
+	.b (mem_addr[15:8])
 	);
 
 	tri_state_k #(TRI_TIME, 8) tri_loadstore_memtop
-	.oe_ ({8{oe_}}),
-	.b (mux_out)
+	(.a (mema_top),
+	.oe_ ({8{loadOrStore_}}),
+	.b (mem_addr[15:8])
 	);
 
 	tri_state_k #(TRI_TIME, 8) tri_store_memlow
-	(.a (a),
-	.oe_ ({8{oe_}}),
-	.b (mux_out)
+	(.a (op[11:4]),
+	.oe_ ({8{cmdn[3]}}),
+	.b (mem_addr[7:0])
 	);
 
-	tri_state_k #(TRI_TIME, num_tri) tri_load_memlow
-	(.a (b),
-	.oe_ ({num_tri{oe}}),
-	.b (mux_out)
+	tri_state_k #(TRI_TIME, 8) tri_load_memlow
+	(.a (op[7:0]),
+	.oe_ ({8{cmdn[2]}}),
+	.b (mem_addr[7:0])
 	);
 
-	tri_state_k #(TRI_TIME, num_tri) tri_pc_memlow
-	(.a (b),
-	.oe_ ({num_tri{oe}}),
-	.b (mux_out)
+	tri_state_k #(TRI_TIME, 8) tri_pc_memlow
+	(.a (pc_reg[7:0]),
+	.oe_ ({8{loadOrStore}}),
+	.b (mem_addr[7:0])
 	);
 
-
-
- 	wire [7:0] mema_low;
- 	assign mema_low = pc_reg[7:0];
 
  	logic promOE_, ramOE_1, ramOE_2, flashOE_;
  	logic ramWE_1, ramWE_2, flashWE_;
  	logic address15_;
  	wire [7:0] memorySelectors_;
+ 	wire [7:5] ctrl_reg_;
+ 	wire ctrl_reg0_latch_;
+ 	reg ctrl_reg0_latch = 0;
 
  	//It sucks to have to use all these gates, but it prevents access issues that might arise with a normal one-hot solution
  	MemChipSelect #(NAND_TIME) MemChipSelect(
  		.ctrl_reg (ctrl_reg[7:5]),
+ 		.ctrl_reg_ (ctrl_reg_),
  		.memorySelectors_ (memorySelectors_)
 	);
 
+
+ 	wire pre_ctrl_reg0_;
+ 	wire pre_ctrl_reg0;
+
+ 	assign #(NAND_TIME) pre_ctrl_reg0_ = ~(data[0]&rseln[15]);
+ 	assign #(NAND_TIME) pre_ctrl_reg0 = ~(pre_ctrl_reg0_ & pre_ctrl_reg0_);
+
+ 	always @ (posedge clk iff ctrl_reg0_latch == 1'b0) begin
+ 		#(REG_TIME) ctrl_reg0_latch = pre_ctrl_reg0;
+ 	end
+
+ 	assign #(NAND_TIME) ctrl_reg0_latch_ = ~(ctrl_reg0_latch & ctrl_reg0_latch);
+
+
+	wire [7:0] mem_sel_prom_gated_, mem_sel_prom_gated;
+	assign #(NAND_TIME) mem_sel_prom_gated = ~(~memorySelectors_ & ctrl_reg0_latch);	
+	//assign #(NAND_TIME) mem_sel_prom_gated = ~(mem_sel_prom_gated_ & mem_sel_prom_gated_);
+
  	MEM #(8, MEM_TIME, 1'b1) promChip(
- 		.oe_   (memorySelectors_[0]),
+ 		.oe_   (ctrl_reg0_latch),
 		.we_ (1'b1),
- 		.addr  (mema_low),
+ 		.addr  (pc_reg[7:0]),
  		.data (dataBus)
 	);
 
  	//BOTH RAM TAKE UP ONE CTRL BIT AND ARE DISTINGUISHED BY BIT 15 OF THE ADDRESS
 
  	//~(~mema_top[15] & cmd[2] & memorySelectors_[1])
- 	assign #(NAND_TIME) address15_ = ~(mema_top[7] & mema_top[7]);
+ 	assign #(NAND_TIME) address15_ = ~(mem_addr[15] & mem_addr[15]);
  	nand3_mod #(NAND_TIME) ramOE1Select(
  		.a (address15_),
- 		.b (memorySelectors_[1]),
+ 		.b (mem_sel_prom_gated[0]),
  		.c (cmd[2]),
  		.abcn (ramOE_1)
 	);
  	nand3_mod #(NAND_TIME) ramWE1Select(
  		.a (address15_),
- 		.b (memorySelectors_[1]),
+ 		.b (mem_sel_prom_gated[0]),
  		.c (cmd[3]),
  		.abcn (ramWE_1)
 	);
@@ -345,21 +365,21 @@ module mainboard
 	MEM #(15, MEM_TIME, 1'b0) ramChip1(
 		.oe_ (ramOE_1),
 		.we_ (ramWE_1),
-		.addr ({mema_top[6:0], mema_low}),
+		.addr (mem_addr[14:0]),
 		.data (dataBus)
 	);
 
  	//~(mema_top[15] & cmd[2] & memorySelectors_[1])
  	nand3_mod #(NAND_TIME) ramOE2Select(
  		.a (mema_top[7]),
- 		.b (memorySelectors_[1]),
+ 		.b (mem_sel_prom_gated[0]),
  		.c (cmd[2]),
  		.abcn (ramOE_2)
 	);
 
  	nand3_mod #(NAND_TIME) ramWE2Select(
  		.a (mema_top[7]),
- 		.b (memorySelectors_[1]),
+ 		.b (mem_sel_prom_gated[0]),
  		.c (cmd[3]),
  		.abcn (ramWE_2)
 	);
@@ -367,19 +387,19 @@ module mainboard
 	MEM #(15, MEM_TIME, 1'b0) ramChip2(		
 		.oe_ (ramOE_2),
 		.we_ (ramWE_2),
-		.addr ({mema_top[6:0], mema_low}),
+		.addr (mem_addr[14:0]),
 		.data (dataBus)
 	);
 
 	//TODO: replace flashChip with fast SPI connection to SPI flash for larger memory addressing
 	//This addressing system should still be mostly valid because the SPI interface can hold and move this data.
 	//It will require a counter, a couple registers, and a fast clock. Or a capable pre-existing chip
-	assign #(NAND_TIME) flashOE_ = ~(cmd[2] & memorySelectors_[2]);
-	assign #(NAND_TIME) flashWE_ = ~(cmd[3] & memorySelectors_[2]);
+	assign #(NAND_TIME) flashOE_ = ~(cmd[2] & mem_sel_prom_gated[1]);
+	assign #(NAND_TIME) flashWE_ = ~(cmd[3] & mem_sel_prom_gated[1]);
 	MEM #(16, MEM_TIME, 1'b0) flashChip(
 		.oe_ (flashOE_),
 		.we_ (flashWE_),
-		.addr ({mema_top, mema_low}),
+		.addr (mem_addr),
 		.data (dataBus)
 	);	
 

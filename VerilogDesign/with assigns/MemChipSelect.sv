@@ -1,9 +1,12 @@
 module MemChipSelect
 	#(NAND_TIME = 14ns)
 	(input [7:5] ctrl_reg,
+	output [7:5] ctrl_reg_,
 	output [7:0] memorySelectors_);
 
 	wire [7:5] ctrl_regn;
+	assign ctrl_reg_ = ctrl_regn;
+
 
 	assign #(NAND_TIME) ctrl_regn[7] = ~(ctrl_reg[7]&ctrl_reg[7]);
 	assign #(NAND_TIME) ctrl_regn[6] = ~(ctrl_reg[6]&ctrl_reg[6]);

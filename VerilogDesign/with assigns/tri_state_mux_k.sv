@@ -10,13 +10,13 @@ module tri_state_mux_k
 
 	tri_state_k #(TRI_TIME, num_tri) tri_a
 	(.a (a),
-	.oe_ ({num_tri{oe_}}),
+	.oe_ ({num_tri{oe}}),
 	.b (mux_out)
 	);
 
 	tri_state_k #(TRI_TIME, num_tri) tri_b
 	(.a (b),
-	.oe_ ({num_tri{oe}}),
+	.oe_ ({num_tri{oe_}}),
 	.b (mux_out)
 	);
 
