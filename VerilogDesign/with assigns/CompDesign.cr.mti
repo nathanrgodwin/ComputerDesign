@@ -117,11 +117,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	muxcomb161
 
-} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv} {0 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv}
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module mainboard
-** Error (suppressible): (vlog-12003) D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv(324): Variable 'pre_ctrl_reg0_' written by continuous and procedural assignments. See D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv(327). 
 
+Top level modules:
+	mainboard
 
 } {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA_NP.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/PHA_NP.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -186,13 +187,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	reg_limit_k
 
-} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/MEM.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/MEM.sv}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module MEM
-
-Top level modules:
-	MEM
-
 } {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Xor_mod.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/Xor_mod.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Xor_mod
@@ -207,7 +201,7 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	tri_state_k
 
-} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_SEL_BLK.sv} {1 {vlog -work work -sv -stats=none {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_SEL_BLK.sv}
+} {} {}} {D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/REG_SEL_BLK.sv} {1 {vlog -work work -sv -stats=none {D:\Stuff\Projects\ComputerDesign\VerilogDesign\with assigns\REG_SEL_BLK.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module REG_SEL_BLK
 

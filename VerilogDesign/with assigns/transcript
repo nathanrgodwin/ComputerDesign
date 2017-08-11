@@ -1,4 +1,141 @@
+# Compile of AC_And.sv was successful.
+# Compile of AC_Not.sv was successful.
+# Compile of AddCard.sv was successful.
+# Compile of AC_Or.sv was successful.
+# Compile of AC_CLU.sv was successful.
+# Compile of AC_Xor.sv was successful.
+# Compile of AddSub.sv was successful.
+# Compile of mux21.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of Xor_mod.sv was successful.
+# Compile of And_mod.sv was successful.
+# Compile of compare.sv was successful.
+# Compile of AC_Output_Mux.sv was successful.
+# Compile of AC_Output_Mux_Blk.sv was successful.
+# Compile of And3_mod.sv was successful.
+# Compile of Nand3_mod.sv was successful.
+# Compile of Booth_Encoder.sv was successful.
+# Compile of Booth_Selector.sv was successful.
+# Compile of Booth_Selector_Blk.sv was successful.
+# Compile of Booth_Selector_Blk0.sv was successful.
+# Compile of FA.sv was successful.
+# Compile of HA.sv was successful.
+# Compile of HA_1B.sv was successful.
+# Compile of M_STAGE0.sv was successful.
+# Compile of M_STAGE1.sv was successful.
+# Compile of M_STAGE2.sv was successful.
+# Compile of Multiplier.sv was successful.
+# Compile of FA_0B.sv was successful.
+# Compile of FA_1B.sv was successful.
+# Compile of M_CLA.sv was successful.
+# Compile of M_CLU.sv was successful.
+# Compile of PHA_NP.sv was successful.
+# Compile of PC_ADDER.sv was successful.
+# Compile of PC_JMP_MUX.sv was successful.
+# Compile of PHA.sv was successful.
+# Compile of REG_SEL_BLK.sv was successful.
+# Compile of REG_WR_SELECT.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of CLU16.sv was successful.
+# Compile of FA_NP.sv was successful.
+# Compile of mainboard.sv failed with 1 errors.
+# Compile of reg_limit_k.sv was successful.
+# Compile of main_op_interp.sv was successful.
+# Compile of main_op_interp_blk.sv was successful.
+# Compile of muxcom161blk.sv was successful.
+# Compile of muxcomb161.sv was successful.
+# Compile of REG_RD_SEL.sv was successful.
+# Compile of DATA_MUX.sv was successful.
+# Compile of DATA_MUX_BLK.sv was successful.
+# Compile of and_k.sv was successful.
+# Compile of and5_mod.sv was successful.
+# Compile of and16.sv was successful.
+# Compile of JMP_CTRL.sv was successful.
+# Compile of nand3_mod.sv was successful.
+# Compile of nand4_mod.sv was successful.
+# Compile of mux21_8.sv was successful.
+# Compile of mux21_16.sv was successful.
+# Compile of tri_state_16.sv was successful.
+# Compile of ari_shift.sv was successful.
+# Compile of mux21_4.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MemChipSelect.sv was successful.
+# Compile of MemChipSelectBlock.sv was successful.
+# Compile of nvmemory.sv was successful.
+# Compile of OpDataSelect.sv was successful.
+# Compile of topMod.sv was successful.
+# Compile of tri_state_mux_k.sv was successful.
+# Compile of tri_state_k.sv was successful.
+# 68 compiles, 1 failed with 1 error.
+# Compile of AC_And.sv was successful.
+# Compile of AC_Not.sv was successful.
+# Compile of AddCard.sv was successful.
+# Compile of AC_Or.sv was successful.
+# Compile of AC_CLU.sv was successful.
+# Compile of AC_Xor.sv was successful.
+# Compile of AddSub.sv was successful.
+# Compile of mux21.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of Xor_mod.sv was successful.
+# Compile of And_mod.sv was successful.
+# Compile of compare.sv was successful.
+# Compile of AC_Output_Mux.sv was successful.
+# Compile of AC_Output_Mux_Blk.sv was successful.
+# Compile of And3_mod.sv was successful.
+# Compile of Nand3_mod.sv was successful.
+# Compile of Booth_Encoder.sv was successful.
+# Compile of Booth_Selector.sv was successful.
+# Compile of Booth_Selector_Blk.sv was successful.
+# Compile of Booth_Selector_Blk0.sv was successful.
+# Compile of FA.sv was successful.
+# Compile of HA.sv was successful.
+# Compile of HA_1B.sv was successful.
+# Compile of M_STAGE0.sv was successful.
+# Compile of M_STAGE1.sv was successful.
+# Compile of M_STAGE2.sv was successful.
+# Compile of Multiplier.sv was successful.
+# Compile of FA_0B.sv was successful.
+# Compile of FA_1B.sv was successful.
+# Compile of M_CLA.sv was successful.
+# Compile of M_CLU.sv was successful.
+# Compile of PHA_NP.sv was successful.
+# Compile of PC_ADDER.sv was successful.
+# Compile of PC_JMP_MUX.sv was successful.
+# Compile of PHA.sv was successful.
+# Compile of REG_SEL_BLK.sv was successful.
+# Compile of REG_WR_SELECT.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of CLU16.sv was successful.
+# Compile of FA_NP.sv was successful.
 # Compile of mainboard.sv was successful.
+# Compile of reg_limit_k.sv was successful.
+# Compile of main_op_interp.sv was successful.
+# Compile of main_op_interp_blk.sv was successful.
+# Compile of muxcom161blk.sv was successful.
+# Compile of muxcomb161.sv was successful.
+# Compile of REG_RD_SEL.sv was successful.
+# Compile of DATA_MUX.sv was successful.
+# Compile of DATA_MUX_BLK.sv was successful.
+# Compile of and_k.sv was successful.
+# Compile of and5_mod.sv was successful.
+# Compile of and16.sv was successful.
+# Compile of JMP_CTRL.sv was successful.
+# Compile of nand3_mod.sv was successful.
+# Compile of nand4_mod.sv was successful.
+# Compile of mux21_8.sv was successful.
+# Compile of mux21_16.sv was successful.
+# Compile of tri_state_16.sv was successful.
+# Compile of ari_shift.sv was successful.
+# Compile of mux21_4.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MemChipSelect.sv was successful.
+# Compile of MemChipSelectBlock.sv was successful.
+# Compile of nvmemory.sv was successful.
+# Compile of OpDataSelect.sv was successful.
+# Compile of topMod.sv was successful.
+# Compile of tri_state_mux_k.sv was successful.
+# Compile of tri_state_k.sv was successful.
+# 68 compiles, 0 failed with no errors.
 vsim -gui work.topMod
 # //  ModelSim PE Student Edition 10.4a Apr  7 2015 
 # //
@@ -19,7 +156,9 @@ vsim -gui work.topMod
 # // FOR HIGHER EDUCATION PURPOSES ONLY
 # //
 # vsim -gui 
-# Start time: 17:37:18 on Jul 31,2017
+# Start time: 18:53:43 on Aug 10,2017
+# ** WARNING: ModelSim PE Student Edition license key will expire as of (null).
+#   Please go to http://www.model.com and download the ModelSim PE Student Edition update.
 # Loading sv_std.std
 # Loading work.topMod
 # Loading work.mainboard
@@ -28,6 +167,8 @@ vsim -gui work.topMod
 # Loading work.PHA
 # Loading work.FA_NP
 # Loading work.CLU16
+# Loading work.tri_state_mux_k
+# Loading work.tri_state_k
 # Loading work.HA
 # Loading work.FA
 # Loading work.OpDataSelect
@@ -71,8 +212,6 @@ vsim -gui work.topMod
 # Loading work.AC_Output_Mux
 # Loading work.And3_mod
 # Loading work.Nand3_mod
-# Loading work.tri_state_mux_k
-# Loading work.tri_state_k
 # Loading work.DATA_MUX
 # Loading work.nand3_mod
 # Loading work.JMP_CTRL
@@ -83,136 +222,461 @@ vsim -gui work.topMod
 # Loading work.muxcomb161blk
 # Loading work.AC_Output_Mux_Blk
 # Loading work.DATA_MUX_BLK
-# ** Warning: (vsim-3015) D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv(343): [PCDPC] - Port size (15) does not match connection size (16) for port 'addr'. The port definition is at: D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/MEM.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /topMod/mainboard/ramChip1 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/MEM.sv
-# ** Warning: (vsim-3015) D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv(365): [PCDPC] - Port size (15) does not match connection size (16) for port 'addr'. The port definition is at: D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/MEM.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /topMod/mainboard/ramChip2 File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/MEM.sv
-# Compile of mainboard.sv was successful.
-restart
-# Loading work.mainboard
-restart
-add wave -position end sim:/topMod/*
+# ** Warning: (vsim-3017) D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv(331): [TFMPC] - Too few port connections. Expected 5, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /topMod/mainboard/MemChipSelect File: D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/MemChipSelect.sv
+# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv(331): [TFMPC] - Missing connection for port 'opDataSelect2_'.
+# ** Warning: (vsim-3722) D:/Stuff/Projects/ComputerDesign/VerilogDesign/with assigns/mainboard.sv(331): [TFMPC] - Missing connection for port 'opDataSelect2'.
+add wave -position end sim:/topMod/mainboard/*
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 # 
 #           File in use by: Nathan  Hostname: FRANKENSTEIN  ProcessID: 39608
 # 
-#           Attempting to use alternate WLF file "./wlftec490z".
+#           Attempting to use alternate WLF file "./wlftbrzryi".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlftec490z
+#           Using alternate file: ./wlftbrzryi
 # 
-add wave -position end sim:/topMod/mainboard/*
 run
+# Compile of MemChipSelect.sv was successful.
+restart
+# Loading work.MemChipSelect
 run
-run
-run
-run
+# Compile of mainboard.sv was successful.
+restart
+# Loading work.mainboard
 run
 restart
 run
+add wave -position 2 sim:/topMod/mainboard/pc_jab_sel/*
+# Compile of AC_And.sv was successful.
+# Compile of AC_Not.sv was successful.
+# Compile of AddCard.sv was successful.
+# Compile of AC_Or.sv was successful.
+# Compile of AC_CLU.sv was successful.
+# Compile of AC_Xor.sv was successful.
+# Compile of AddSub.sv was successful.
+# Compile of mux21.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of Xor_mod.sv was successful.
+# Compile of And_mod.sv was successful.
+# Compile of compare.sv was successful.
+# Compile of AC_Output_Mux.sv was successful.
+# Compile of AC_Output_Mux_Blk.sv was successful.
+# Compile of And3_mod.sv was successful.
+# Compile of Nand3_mod.sv was successful.
+# Compile of Booth_Encoder.sv was successful.
+# Compile of Booth_Selector.sv was successful.
+# Compile of Booth_Selector_Blk.sv was successful.
+# Compile of Booth_Selector_Blk0.sv was successful.
+# Compile of FA.sv was successful.
+# Compile of HA.sv was successful.
+# Compile of HA_1B.sv was successful.
+# Compile of M_STAGE0.sv was successful.
+# Compile of M_STAGE1.sv was successful.
+# Compile of M_STAGE2.sv was successful.
+# Compile of Multiplier.sv was successful.
+# Compile of FA_0B.sv was successful.
+# Compile of FA_1B.sv was successful.
+# Compile of M_CLA.sv was successful.
+# Compile of M_CLU.sv was successful.
+# Compile of PHA_NP.sv was successful.
+# Compile of PC_ADDER.sv was successful.
+# Compile of PC_JMP_MUX.sv was successful.
+# Compile of PHA.sv was successful.
+# Compile of REG_SEL_BLK.sv was successful.
+# Compile of REG_WR_SELECT.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of CLU16.sv was successful.
+# Compile of FA_NP.sv was successful.
+# Compile of mainboard.sv was successful.
+# Compile of reg_limit_k.sv was successful.
+# Compile of main_op_interp.sv was successful.
+# Compile of main_op_interp_blk.sv was successful.
+# Compile of muxcom161blk.sv was successful.
+# Compile of muxcomb161.sv was successful.
+# Compile of REG_RD_SEL.sv was successful.
+# Compile of DATA_MUX.sv was successful.
+# Compile of DATA_MUX_BLK.sv was successful.
+# Compile of and_k.sv was successful.
+# Compile of and5_mod.sv was successful.
+# Compile of and16.sv was successful.
+# Compile of JMP_CTRL.sv was successful.
+# Compile of nand3_mod.sv was successful.
+# Compile of nand4_mod.sv was successful.
+# Compile of mux21_8.sv was successful.
+# Compile of mux21_16.sv was successful.
+# Compile of tri_state_16.sv was successful.
+# Compile of ari_shift.sv was successful.
+# Compile of mux21_4.sv was successful.
 # Compile of MEM.sv was successful.
-restart
-# Loading work.MEM
-run
-# Compile of mainboard.sv was successful.
-restart
-# Loading work.mainboard
-# Warning in wave window restart: (vish-4014) No objects found matching '/topMod/mainboard/oe'. 
-run
-add wave -position 27 sim:/topMod/mainboard/AddCard/AC_AddSub/*
-# checkArgs: WlfValueId has no logfile info.
-restart
-run
-# Compile of mainboard.sv was successful.
-restart
-# Loading work.mainboard
-run
-# Compile of mainboard.sv was successful.
+# Compile of MemChipSelect.sv was successful.
+# Compile of MemChipSelectBlock.sv was successful.
+# Compile of nvmemory.sv was successful.
+# Compile of OpDataSelect.sv was successful.
+# Compile of topMod.sv was successful.
 # Compile of tri_state_mux_k.sv was successful.
-# 2 compiles, 0 failed with no errors.
+# Compile of tri_state_k.sv was successful.
+# 68 compiles, 0 failed with no errors.
 restart
+# Loading work.topMod
 # Loading work.mainboard
+# Loading work.PC_JMP_MUX
+# Loading work.PC_ADDER
+# Loading work.PHA
+# Loading work.FA_NP
+# Loading work.CLU16
 # Loading work.tri_state_mux_k
-run
-restart
-run
-# Compile of mainboard.sv was successful.
-restart
-# Loading work.mainboard
-run
-# Compile of mainboard.sv was successful.
-# Compile of MemChipSelect.sv was successful.
-# 2 compiles, 0 failed with no errors.
-restart
-# Loading work.mainboard
+# Loading work.tri_state_k
+# Loading work.HA
+# Loading work.FA
+# Loading work.OpDataSelect
+# Loading work.REG16
+# Loading work.REG_WR_SELECT
+# Loading work.REG_SEL_BLK
+# Loading work.reg_limit_k
+# Loading work.main_op_interp
+# Loading work.main_op_interp_blk
+# Loading work.and3_mod
+# Loading work.Multiplier
+# Loading work.Booth_Encoder
+# Loading work.Booth_Selector
+# Loading work.Booth_Selector_Blk0
+# Loading work.Xor_mod
+# Loading work.Booth_Selector_Blk
+# Loading work.M_Stage0
+# Loading work.HA_1B
+# Loading work.M_Stage1
+# Loading work.M_Stage2
+# Loading work.M_CLA
+# Loading work.PHA_NP
+# Loading work.FA_0B
+# Loading work.PFA
+# Loading work.FA_1B
+# Loading work.M_CLU
+# Loading work.REG_RD_SELECT
+# Loading work.muxcomb161
+# Loading work.AddCard
+# Loading work.AC_And
+# Loading work.AC_Not
+# Loading work.AC_Or
+# Loading work.AC_Xor
+# Loading work.AC_AddSub
+# Loading work.mux21
+# Loading work.AC_CLU
+# Loading work.compare
+# Loading work.And_mod
+# Loading work.ari_shift
+# Loading work.mux21_8
+# Loading work.AC_Output_Mux
+# Loading work.DATA_MUX
+# Loading work.nand3_mod
+# Loading work.JMP_CTRL
+# Loading work.nand4_mod
 # Loading work.MemChipSelect
-run
-# Compile of MEM.sv was successful.
-restart
+# Loading work.MemChipSelectBlock
 # Loading work.MEM
+# Loading work.muxcomb161blk
+# Loading work.AC_Output_Mux_Blk
+# Loading work.DATA_MUX_BLK
+# Warning in wave window restart: (vish-4014) No objects found matching '/topMod/mainboard/jab_sel'. 
 run
-# Compile of MEM.sv was successful.
-restart
-# Loading work.MEM
-run
+add wave -position 7  sim:/topMod/mainboard/pc_pre_jab
 # Compile of mainboard.sv was successful.
-# Compile of MEM.sv was successful.
-# 2 compiles, 0 failed with no errors.
 restart
 # Loading work.mainboard
-# Loading work.MEM
 run
-add wave -position 6  sim:/topMod/mainboard/ctrl_reg_
-add wave -position 7  sim:/topMod/mainboard/ctrl_reg0_latch
-add wave -position 8  sim:/topMod/mainboard/ctrl_reg0_latch_pc_
-add wave -position 9  sim:/topMod/mainboard/ctrl_reg0_latch_pc
-add wave -position 10  sim:/topMod/mainboard/mem_sel_prom_gated_
-add wave -position 11  sim:/topMod/mainboard/mem_sel_prom_gated
+add wave -position 2 sim:/topMod/mainboard/ramChip1/*
+restart
+run
 # Compile of mainboard.sv was successful.
-# Compile of MemChipSelect.sv failed with 1 errors.
-# 2 compiles, 1 failed with 1 error.
-# Compile of MemChipSelect.sv failed with 2 errors.
+restart
+# Loading work.mainboard
+run
+add wave -position 116  sim:/topMod/mainboard/mem_addr
+add wave -position 117  sim:/topMod/mainboard/address15_
+add wave -position 117  sim:/topMod/mainboard/loadOrOp
+# Compile of AC_And.sv was successful.
+# Compile of AC_Not.sv was successful.
+# Compile of AddCard.sv was successful.
+# Compile of AC_Or.sv was successful.
+# Compile of AC_CLU.sv was successful.
+# Compile of AC_Xor.sv was successful.
+# Compile of AddSub.sv was successful.
+# Compile of mux21.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of Xor_mod.sv was successful.
+# Compile of And_mod.sv was successful.
+# Compile of compare.sv was successful.
+# Compile of AC_Output_Mux.sv was successful.
+# Compile of AC_Output_Mux_Blk.sv was successful.
+# Compile of And3_mod.sv was successful.
+# Compile of Nand3_mod.sv was successful.
+# Compile of Booth_Encoder.sv was successful.
+# Compile of Booth_Selector.sv was successful.
+# Compile of Booth_Selector_Blk.sv was successful.
+# Compile of Booth_Selector_Blk0.sv was successful.
+# Compile of FA.sv was successful.
+# Compile of HA.sv was successful.
+# Compile of HA_1B.sv was successful.
+# Compile of M_STAGE0.sv was successful.
+# Compile of M_STAGE1.sv was successful.
+# Compile of M_STAGE2.sv was successful.
+# Compile of Multiplier.sv was successful.
+# Compile of FA_0B.sv was successful.
+# Compile of FA_1B.sv was successful.
+# Compile of M_CLA.sv was successful.
+# Compile of M_CLU.sv was successful.
+# Compile of PHA_NP.sv was successful.
+# Compile of PC_ADDER.sv was successful.
+# Compile of PC_JMP_MUX.sv was successful.
+# Compile of PHA.sv was successful.
+# Compile of REG_SEL_BLK.sv was successful.
+# Compile of REG_WR_SELECT.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of CLU16.sv was successful.
+# Compile of FA_NP.sv was successful.
+# Compile of mainboard.sv was successful.
+# Compile of reg_limit_k.sv was successful.
+# Compile of main_op_interp.sv was successful.
+# Compile of main_op_interp_blk.sv was successful.
+# Compile of muxcom161blk.sv was successful.
+# Compile of muxcomb161.sv was successful.
+# Compile of REG_RD_SEL.sv was successful.
+# Compile of DATA_MUX.sv was successful.
+# Compile of DATA_MUX_BLK.sv was successful.
+# Compile of and_k.sv was successful.
+# Compile of and5_mod.sv was successful.
+# Compile of and16.sv was successful.
+# Compile of JMP_CTRL.sv was successful.
+# Compile of nand3_mod.sv was successful.
+# Compile of nand4_mod.sv was successful.
+# Compile of mux21_8.sv was successful.
+# Compile of mux21_16.sv was successful.
+# Compile of tri_state_16.sv was successful.
+# Compile of ari_shift.sv was successful.
+# Compile of mux21_4.sv was successful.
+# Compile of MEM.sv was successful.
 # Compile of MemChipSelect.sv was successful.
+# Compile of MemChipSelectBlock.sv was successful.
+# Compile of nvmemory.sv was successful.
+# Compile of OpDataSelect.sv was successful.
+# Compile of topMod.sv was successful.
+# Compile of tri_state_mux_k.sv was successful.
+# Compile of tri_state_k.sv was successful.
+# 68 compiles, 0 failed with no errors.
 restart
+# Loading work.topMod
 # Loading work.mainboard
+# Loading work.PC_JMP_MUX
+# Loading work.PC_ADDER
+# Loading work.PHA
+# Loading work.FA_NP
+# Loading work.CLU16
+# Loading work.tri_state_mux_k
+# Loading work.tri_state_k
+# Loading work.HA
+# Loading work.FA
+# Loading work.OpDataSelect
+# Loading work.REG16
+# Loading work.REG_WR_SELECT
+# Loading work.REG_SEL_BLK
+# Loading work.reg_limit_k
+# Loading work.main_op_interp
+# Loading work.main_op_interp_blk
+# Loading work.and3_mod
+# Loading work.Multiplier
+# Loading work.Booth_Encoder
+# Loading work.Booth_Selector
+# Loading work.Booth_Selector_Blk0
+# Loading work.Xor_mod
+# Loading work.Booth_Selector_Blk
+# Loading work.M_Stage0
+# Loading work.HA_1B
+# Loading work.M_Stage1
+# Loading work.M_Stage2
+# Loading work.M_CLA
+# Loading work.PHA_NP
+# Loading work.FA_0B
+# Loading work.PFA
+# Loading work.FA_1B
+# Loading work.M_CLU
+# Loading work.REG_RD_SELECT
+# Loading work.muxcomb161
+# Loading work.AddCard
+# Loading work.AC_And
+# Loading work.AC_Not
+# Loading work.AC_Or
+# Loading work.AC_Xor
+# Loading work.AC_AddSub
+# Loading work.mux21
+# Loading work.AC_CLU
+# Loading work.compare
+# Loading work.And_mod
+# Loading work.ari_shift
+# Loading work.mux21_8
+# Loading work.AC_Output_Mux
+# Loading work.DATA_MUX
+# Loading work.nand3_mod
+# Loading work.JMP_CTRL
+# Loading work.nand4_mod
 # Loading work.MemChipSelect
+# Loading work.MemChipSelectBlock
+# Loading work.MEM
+# Loading work.muxcomb161blk
+# Loading work.AC_Output_Mux_Blk
+# Loading work.DATA_MUX_BLK
 run
+# Compile of AC_And.sv was successful.
+# Compile of AC_Not.sv was successful.
+# Compile of AddCard.sv was successful.
+# Compile of AC_Or.sv was successful.
+# Compile of AC_CLU.sv was successful.
+# Compile of AC_Xor.sv was successful.
+# Compile of AddSub.sv was successful.
+# Compile of mux21.sv was successful.
+# Compile of PFA.sv was successful.
+# Compile of Xor_mod.sv was successful.
+# Compile of And_mod.sv was successful.
+# Compile of compare.sv was successful.
+# Compile of AC_Output_Mux.sv was successful.
+# Compile of AC_Output_Mux_Blk.sv was successful.
+# Compile of And3_mod.sv was successful.
+# Compile of Nand3_mod.sv was successful.
+# Compile of Booth_Encoder.sv was successful.
+# Compile of Booth_Selector.sv was successful.
+# Compile of Booth_Selector_Blk.sv was successful.
+# Compile of Booth_Selector_Blk0.sv was successful.
+# Compile of FA.sv was successful.
+# Compile of HA.sv was successful.
+# Compile of HA_1B.sv was successful.
+# Compile of M_STAGE0.sv was successful.
+# Compile of M_STAGE1.sv was successful.
+# Compile of M_STAGE2.sv was successful.
+# Compile of Multiplier.sv was successful.
+# Compile of FA_0B.sv was successful.
+# Compile of FA_1B.sv was successful.
+# Compile of M_CLA.sv was successful.
+# Compile of M_CLU.sv was successful.
+# Compile of PHA_NP.sv was successful.
+# Compile of PC_ADDER.sv was successful.
+# Compile of PC_JMP_MUX.sv was successful.
+# Compile of PHA.sv was successful.
+# Compile of REG_SEL_BLK.sv was successful.
+# Compile of REG_WR_SELECT.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of CLU16.sv was successful.
+# Compile of FA_NP.sv was successful.
 # Compile of mainboard.sv was successful.
+# Compile of reg_limit_k.sv was successful.
+# Compile of main_op_interp.sv was successful.
+# Compile of main_op_interp_blk.sv was successful.
+# Compile of muxcom161blk.sv was successful.
+# Compile of muxcomb161.sv was successful.
+# Compile of REG_RD_SEL.sv was successful.
+# Compile of DATA_MUX.sv was successful.
+# Compile of DATA_MUX_BLK.sv was successful.
+# Compile of and_k.sv was successful.
+# Compile of and5_mod.sv was successful.
+# Compile of and16.sv was successful.
+# Compile of JMP_CTRL.sv was successful.
+# Compile of nand3_mod.sv was successful.
+# Compile of nand4_mod.sv was successful.
+# Compile of mux21_8.sv was successful.
+# Compile of mux21_16.sv was successful.
+# Compile of tri_state_16.sv was successful.
+# Compile of ari_shift.sv was successful.
+# Compile of mux21_4.sv was successful.
+# Compile of MEM.sv was successful.
+# Compile of MemChipSelect.sv was successful.
+# Compile of MemChipSelectBlock.sv was successful.
+# Compile of nvmemory.sv was successful.
+# Compile of OpDataSelect.sv was successful.
+# Compile of topMod.sv was successful.
+# Compile of tri_state_mux_k.sv was successful.
+# Compile of tri_state_k.sv was successful.
+# 68 compiles, 0 failed with no errors.
 restart
+# Loading work.topMod
 # Loading work.mainboard
-# Warning in wave window restart: (vish-4014) No objects found matching '/topMod/mainboard/ctrl_reg0_latch_pc_'. 
-# Warning in wave window restart: (vish-4014) No objects found matching '/topMod/mainboard/ctrl_reg0_latch_pc'. 
+# Loading work.PC_JMP_MUX
+# Loading work.PC_ADDER
+# Loading work.PHA
+# Loading work.FA_NP
+# Loading work.CLU16
+# Loading work.tri_state_mux_k
+# Loading work.tri_state_k
+# Loading work.HA
+# Loading work.FA
+# Loading work.OpDataSelect
+# Loading work.REG16
+# Loading work.REG_WR_SELECT
+# Loading work.REG_SEL_BLK
+# Loading work.reg_limit_k
+# Loading work.main_op_interp
+# Loading work.main_op_interp_blk
+# Loading work.and3_mod
+# Loading work.Multiplier
+# Loading work.Booth_Encoder
+# Loading work.Booth_Selector
+# Loading work.Booth_Selector_Blk0
+# Loading work.Xor_mod
+# Loading work.Booth_Selector_Blk
+# Loading work.M_Stage0
+# Loading work.HA_1B
+# Loading work.M_Stage1
+# Loading work.M_Stage2
+# Loading work.M_CLA
+# Loading work.PHA_NP
+# Loading work.FA_0B
+# Loading work.PFA
+# Loading work.FA_1B
+# Loading work.M_CLU
+# Loading work.REG_RD_SELECT
+# Loading work.muxcomb161
+# Loading work.AddCard
+# Loading work.AC_And
+# Loading work.AC_Not
+# Loading work.AC_Or
+# Loading work.AC_Xor
+# Loading work.AC_AddSub
+# Loading work.mux21
+# Loading work.AC_CLU
+# Loading work.compare
+# Loading work.And_mod
+# Loading work.ari_shift
+# Loading work.mux21_8
+# Loading work.AC_Output_Mux
+# Loading work.DATA_MUX
+# Loading work.nand3_mod
+# Loading work.JMP_CTRL
+# Loading work.nand4_mod
+# Loading work.MemChipSelect
+# Loading work.MemChipSelectBlock
+# Loading work.MEM
+# Loading work.muxcomb161blk
+# Loading work.AC_Output_Mux_Blk
+# Loading work.DATA_MUX_BLK
 run
-add wave -position 5  sim:/topMod/mainboard/mem_sel_prom_gated
-# Compile of mainboard.sv was successful.
-restart
-# Loading work.mainboard
-run
-# Compile of mainboard.sv was successful.
-restart
-# Loading work.mainboard
-run
-# Compile of mainboard.sv was successful.
-restart
-# Loading work.mainboard
-run
+# Compile of mainboard.sv failed with 1 errors.
 # Compile of mainboard.sv failed with 1 errors.
 # Compile of mainboard.sv was successful.
 restart
 # Loading work.mainboard
 run
-# Compile of mainboard.sv was successful with warnings.
+# Compile of mainboard.sv was successful.
 restart
 # Loading work.mainboard
 run
-# Compile of mainboard.sv was successful with warnings.
+# Compile of mainboard.sv was successful.
+# Compile of mainboard.sv was successful.
 restart
 # Loading work.mainboard
 run
-# could not find interpreter "ScintillaTk"
-add wave -position 2  sim:/topMod/mainboard/pre_ctrl_reg0_
-add wave -position 3  sim:/topMod/mainboard/pre_ctrl_reg0
-# Compile of mainboard.sv failed with 1 errors.
-# Compile of mainboard.sv failed with 1 errors.
-# End time: 00:36:02 on Aug 01,2017, Elapsed time: 6:58:44
-# Errors: 4, Warnings: 4
+# Compile of mainboard.sv was successful.
+restart
+# Loading work.mainboard
+run
+# Compile of MEM.sv was successful.
+restart
+# Loading work.MEM
+run

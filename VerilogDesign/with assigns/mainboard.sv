@@ -44,6 +44,9 @@ module mainboard
 	reg [7:0] opLow = 8'h0;
 	wire [7:0] dataBus;
 
+	wire jab_en;
+	wire [15:0] pc_pre_jab;
+
 	/*
 			PC_JMP_MUX
 
@@ -68,7 +71,13 @@ module mainboard
 	PC_ADDER #(NAND_TIME) PC_ADDER
 	(.pcb ({{8{pcb[7]}}, pcb[7:0]}),
 	.pcq (pc_reg),
-	.pc);
+	.pc (pc_pre_jab));
+
+	tri_state_mux_k #(TRI_TIME, NAND_TIME, 16) pc_jab_sel
+	(.a ({a, b}),
+	.b (pc_pre_jab),
+	.oe_ (jab_en),
+	.mux_out (pc));
 
 	reg [1:0] opCounterLatch = 0;
 	wire opCounter0Carry, opCounter1Carry;
@@ -272,7 +281,13 @@ module mainboard
  		.abc (jmp_en)
  	);
 
- 	//temporary!!!! TODO: REMOVE
+ 	and3_mod #(NAND_TIME) jmp_en_jab(
+ 		.a (jmp_en_ctrl),
+ 		.b (cmd[1]),
+ 		.c (opDataSelector1),
+ 		.abc (jab_en)
+ 	);
+
  	wire [15:0] mem_addr;
 	tri_state_k #(TRI_TIME, 8) tri_pc_memtop
 	(.a (pc_reg[15:8]),
@@ -310,7 +325,6 @@ module mainboard
  	logic address15_;
  	wire [7:0] memorySelectors_;
  	wire [7:5] ctrl_reg_;
- 	wire ctrl_reg0_latch_;
  	reg ctrl_reg0_latch = 0;
 
  	//It sucks to have to use all these gates, but it prevents access issues that might arise with a normal one-hot solution
@@ -323,20 +337,24 @@ module mainboard
 
  	wire pre_ctrl_reg0_;
  	wire pre_ctrl_reg0;
+ 	wire rsel15;
 
- 	assign #(NAND_TIME) pre_ctrl_reg0_ = ~(data[0]&rseln[15]);
+ 	assign #(NAND_TIME) rsel15 = ~(rseln[15] & rseln[15]);
+
+ 	assign #(NAND_TIME) pre_ctrl_reg0_ = ~(data[0]&rsel15);
  	assign #(NAND_TIME) pre_ctrl_reg0 = ~(pre_ctrl_reg0_ & pre_ctrl_reg0_);
 
  	always @ (posedge clk iff ctrl_reg0_latch == 1'b0) begin
  		#(REG_TIME) ctrl_reg0_latch = pre_ctrl_reg0;
  	end
 
- 	assign #(NAND_TIME) ctrl_reg0_latch_ = ~(ctrl_reg0_latch & ctrl_reg0_latch);
+	wire [7:0] mem_sel_prom_gated;
+	wire [7:0] memorySelectors;
+	assign #(NAND_TIME) memorySelectors = ~(memorySelectors_ & memorySelectors_);
+	assign #(NAND_TIME) mem_sel_prom_gated = ~(memorySelectors & ctrl_reg0_latch);	
 
 
-	wire [7:0] mem_sel_prom_gated_, mem_sel_prom_gated;
-	assign #(NAND_TIME) mem_sel_prom_gated = ~(~memorySelectors_ & ctrl_reg0_latch);	
-	//assign #(NAND_TIME) mem_sel_prom_gated = ~(mem_sel_prom_gated_ & mem_sel_prom_gated_);
+
 
  	MEM #(8, MEM_TIME, 1'b1) promChip(
  		.oe_   (ctrl_reg0_latch),
@@ -349,12 +367,18 @@ module mainboard
 
  	//~(~mema_top[15] & cmd[2] & memorySelectors_[1])
  	assign #(NAND_TIME) address15_ = ~(mem_addr[15] & mem_addr[15]);
+ 	wire loadOrOp, loadOrOp_, mem_sel_prom_gated0_;
+ 	assign #(NAND_TIME) loadOrOp = ~(cmdn[2] & opDataSelector2);
+ 	assign #(NAND_TIME) mem_sel_prom_gated0_ = ~(mem_sel_prom_gated[0] & mem_sel_prom_gated[0]);
+
+
  	nand3_mod #(NAND_TIME) ramOE1Select(
  		.a (address15_),
- 		.b (mem_sel_prom_gated[0]),
- 		.c (cmd[2]),
+ 		.b (mem_sel_prom_gated0_),
+ 		.c (loadOrOp),
  		.abcn (ramOE_1)
 	);
+	//assign ramOE_1 = (mem_addr[15] || mem_sel_prom_gated[0] || loadOrOp_);
  	nand3_mod #(NAND_TIME) ramWE1Select(
  		.a (address15_),
  		.b (mem_sel_prom_gated[0]),
