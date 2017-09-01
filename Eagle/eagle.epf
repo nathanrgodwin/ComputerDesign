@@ -348,11 +348,12 @@ UsedLibrary="C:/EAGLE 8.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="C:/EAGLE 8.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="C:/EAGLE 8.0/lbr/zetex.lbr"
 UsedLibrary="C:/EAGLE 8.0/lbr/zilog.lbr"
+UsedLibrary="C:/EAGLE 8.0/lbr/74HC00/74HC00.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-8 -31 1191 568"
-State=2
+Loc="0 0 1679 996"
+State=3
 Number=0
 
 [Desktop]

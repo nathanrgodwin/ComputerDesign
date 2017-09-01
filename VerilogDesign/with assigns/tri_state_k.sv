@@ -7,7 +7,7 @@ module tri_state_k
 	genvar i;
 	generate
 		for (i = 0; i < num_tri; i=i+1) begin
-			bufif0(b[i], a[i], oe_[i]);
+			#(TRI_TIME) bufif0(b[i], a[i], oe_[i]);
 		end // for (i = 0; i < 16; i=i+1)
 	endgenerate
 

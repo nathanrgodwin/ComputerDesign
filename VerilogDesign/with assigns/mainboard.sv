@@ -119,6 +119,8 @@ module mainboard
 	assign #(NAND_TIME) opDataSelector2 = ~(opDataSelector_[2] & opDataSelector_[2]);
 	assign #(NAND_TIME) opDataSelector1 = ~(opDataSelector_[1] & opDataSelector_[1]);
 
+	//begin not yet circuited section
+
 	always @ (posedge clk2x) begin
 		#(REG_TIME) opCounterLatch = opCounter;
 	end
@@ -149,6 +151,8 @@ module mainboard
 	.ctrl (ctrl_reg),
 	.mema_top (mema_top),
 	.q (reg_data));
+
+	//end not yet circuited section
 
 	//SELECT WHICH REGISTER TO WRITE TO
 	REG_WR_SELECT #(NAND_TIME) REG_WR_SELECT
@@ -348,12 +352,22 @@ module mainboard
  		#(REG_TIME) ctrl_reg0_latch = pre_ctrl_reg0;
  	end
 
-	wire [7:0] mem_sel_prom_gated;
+	//wire [7:0] mem_sel_prom_gated, mem_sel_load_gated;
+	wire promOrLoad;
 	wire [7:0] memorySelectors;
+	wire ctrl_reg0_latch_;
+	wire mem_sel_prom_load;
+	wire ramOE1;
+	assign #(NAND_TIME) ctrl_reg0_latch_ = ~(ctrl_reg0_latch & ctrl_reg0_latch);
 	assign #(NAND_TIME) memorySelectors = ~(memorySelectors_ & memorySelectors_);
-	assign #(NAND_TIME) mem_sel_prom_gated = ~(memorySelectors & ctrl_reg0_latch);	
 
+	assign #(NAND_TIME) promOrLoad = ~(cmdn[2] & ctrl_reg0_latch_);
+	assign #(NAND_TIME) mem_sel_prom_load = ~(memorySelectors & promOrLoad); //1 = true
+ 	assign #(NAND_TIME) address15_ = ~(mem_addr[15] & mem_addr[15]);
+	assign #(NAND_TIME) ramOE1 = ~(mem_sel_prom_load & address15_);
+	assign #(NAND_TIME) ramOE_1 = ~(ramOE1 & ramOE1);
 
+	reg [1:0] mem_sel_prom_gated = 2'b11;
 
 
  	MEM #(8, MEM_TIME, 1'b1) promChip(
@@ -363,22 +377,6 @@ module mainboard
  		.data (dataBus)
 	);
 
- 	//BOTH RAM TAKE UP ONE CTRL BIT AND ARE DISTINGUISHED BY BIT 15 OF THE ADDRESS
-
- 	//~(~mema_top[15] & cmd[2] & memorySelectors_[1])
- 	assign #(NAND_TIME) address15_ = ~(mem_addr[15] & mem_addr[15]);
- 	wire loadOrOp, loadOrOp_, mem_sel_prom_gated0_;
- 	assign #(NAND_TIME) loadOrOp = ~(cmdn[2] & opDataSelector2);
- 	assign #(NAND_TIME) mem_sel_prom_gated0_ = ~(mem_sel_prom_gated[0] & mem_sel_prom_gated[0]);
-
-
- 	nand3_mod #(NAND_TIME) ramOE1Select(
- 		.a (address15_),
- 		.b (mem_sel_prom_gated0_),
- 		.c (loadOrOp),
- 		.abcn (ramOE_1)
-	);
-	//assign ramOE_1 = (mem_addr[15] || mem_sel_prom_gated[0] || loadOrOp_);
  	nand3_mod #(NAND_TIME) ramWE1Select(
  		.a (address15_),
  		.b (mem_sel_prom_gated[0]),

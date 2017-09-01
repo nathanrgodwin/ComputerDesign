@@ -8,15 +8,15 @@ module tri_state_mux_k
 	wire oe;
 	assign #(NAND_TIME) oe = ~(oe_ & oe_);
 
-	tri_state_k #(TRI_TIME, num_tri) tri_a
-	(.a (a),
-	.oe_ ({num_tri{oe}}),
-	.b (mux_out)
-	);
-
 	tri_state_k #(TRI_TIME, num_tri) tri_b
 	(.a (b),
 	.oe_ ({num_tri{oe_}}),
+	.b (mux_out)
+	);
+
+	tri_state_k #(TRI_TIME, num_tri) tri_a
+	(.a (a),
+	.oe_ ({num_tri{oe}}),
 	.b (mux_out)
 	);
 
